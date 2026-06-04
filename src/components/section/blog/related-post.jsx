@@ -13,7 +13,7 @@ const RelatedPost = ({
   const [dataLoading, setDataLoading] = useState(true);
   const [blogPost, setBlogPost] = useState([]);
 
-  // Fetch posts, optionally by category slug
+  // Fetch posts, optionally by category slug and csfbgdvf
   const getPost = async (categorySlug = null) => {
     setDataLoading(true);
     try {
