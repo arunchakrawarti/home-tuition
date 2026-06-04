@@ -1,0 +1,76 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://Itsoftword.com/#organization",
+      "name": "Itsoftword",
+      "url": "https://Itsoftword.com",
+      "logo": "https://Itsoftword.com/assets/images/logo.png",
+      "telephone": "+91-7977757864",
+      "email": "info@Itsoftword.com",
+      "sameAs": [
+        "https://www.facebook.com/people/Sg-Webapp-Techniques-Pvt-Ltd/61564439541569/",
+        "https://x.com/Itsoftword",
+        "https://www.linkedin.com/company/sg-webapp-techniques-private-limited",
+        "https://www.instagram.com/Itsoftword/?igsh=MWljbzFocTNmYWw0bQ%3D%3D#"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "No - 12 , 2nd floor",
+        "addressLocality": "Kirti Nagar",
+        "addressRegion": "Delhi",
+        "postalCode": "110015",
+        "addressCountry": "IN"
+      },
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "telephone": "+91-7977757864",
+          "contactType": "customer support",
+          "areaServed": "IN",
+          "availableLanguage": ["English", "Hindi"]
+        }
+      ],
+      "founder": {
+        "@type": "Person",
+        "name": "Founder Name"
+      },
+      "description": "Itsoftword delivers user-centric digital solutions, web and mobile applications, and custom software to help businesses grow.",
+      "knowsAbout": [
+        "web development",
+        "mobile apps",
+        "ui ux",
+        "digital strategy"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://Itsoftword.com/#website",
+      "url": "https://Itsoftword.com",
+      "name": "Itsoftword",
+      "publisher": {
+        "@id": "https://Itsoftword.com/#organization"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://Itsoftword.com/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://Itsoftword.com/#homepage",
+      "url": "https://Itsoftword.com",
+      "name": "Itsoftword — Home",
+      "isPartOf": {
+        "@id": "https://Itsoftword.com/#website"
+      },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://Itsoftword.com/assets/images/hero-banner.jpg"
+      },
+      "description": "Itsoftword provides innovative digital products, app development and development services to help businesses scale online."
+    }
+  ]
+}
