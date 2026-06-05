@@ -66,7 +66,7 @@ export const Header = ({ currentTheme = "", toggleTheme }) => {
       // has_dropdown: true,
       label: "Blog",
       route: "/blog",
-      // dropdown: <BlogDrop />,
+      dropdown: <BlogDrop />,
     },
     // {
     //   // has_dropdown: true,

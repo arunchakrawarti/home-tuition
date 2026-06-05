@@ -13,28 +13,27 @@ import { errorToast, successToast } from "~/utils/toastMessage";
 export const Footer = () => {
   const [formData, setFormData] = useState({ email: "", source: "website" });
   const [loading, setLoading] = useState(false);
-  const services = [
-    "Web Development",
-    "Mobile App Development",
-    "E-commerce Development",
-    "Search Engine Optimization (SEO)",
-    "Social Media Marketing (SMM)",
-    "Pay-Per-Click Advertising (PPC)",
-    "Content Marketing",
-    "Performance Marketing",
-    "Custom Software Development",
-    "UI/UX Design",
-    "Branding & Graphic Design",
-    "Email Marketing",
-    "IT Consulting",
-    "Cloud Services",
-    "CRM & ERP Solutions",
-    "Digital Transformation",
-    "App Marketing",
-    "Cybersecurity Services",
-    "Website Maintenance & Support",
-    "Analytics & Reporting",
-  ];
+const services = [
+  "Home Tuition for School Tuition",
+  "Home Tuition for College",
+  "Home Tuition for Diploma",
+  "Home Tuition for Under Graduation",
+  "Home Tuition for Post Graduation",
+  "Home Tuition for Competitive Exam",
+  "Home Tuition for Language Studies",
+  "Home Tuition for English Speaking",
+  "Home Tuition for Foreign Language",
+  "Home Tuition for Religious Studies",
+  "Home Tuition for Computer/IT",
+  "Home Tuition for Music",
+  "Home Tuition for Dance",
+  "Home Tuition for Photography/Film Making",
+  "Home Tuition for Theatre/Acting",
+  "Home Tuition for Industrial Training",
+  "Home Tuition for Tailoring / Fashion Design",
+  "Home Tuition for Special Education",
+  "Home Tuition for Art & Craft",
+];
 
   const socialLinks = [
     {
