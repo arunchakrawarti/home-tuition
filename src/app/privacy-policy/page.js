@@ -7,215 +7,451 @@ const PrivacyPolicyPage = () => {
         id="single-articale-details"
         className="container flex flex-col gap-5 sm:gap-10"
       >
-        <h3>Privacy Policy</h3>
-        <p>
-          At SG Webapp Techniques Private Limited, accessible from
-          <a href="https://www.Itsoftword.com/">&nbsp;www.Itsoftword.com&nbsp;</a>,
-          one of our main priorities is the privacy of our visitors. This
-          Privacy Policy document contains the types of information that are
-          collected and recorded by SG Webapp Techniques Private Limited and how
-          we use it.
-        </p>
-        <p>
-          If you have additional questions or require more information about our
-          Privacy Policy, do not hesitate to contact us.
-        </p>
-        <p>
-          This Privacy Policy applies only to our online activities and is valid
-          for visitors to our website with regards to the information that they
-          shared and/or collect in SG Webapp Techniques Private Limited. This
-          policy is not applicable to any information collected offline or via
-          channels other than this website.
-        </p>
-        <h3>Consent</h3>
-        <p>
-          By using our website, you hereby consent to our Privacy Policy and
-          agree to its terms.
-        </p>
-        <h3>Information we collect</h3>
-        <p>
-          The personal information that you are asked to provide, and the
-          reasons why you are asked to provide it, will be made clear to you at
-          the point we ask you to provide your personal information.
-        </p>
-        <p>
-          If you contact us directly, we may receive additional information
-          about you such as your name, email address, phone number, the contents
-          of the message and/or attachments you may send us, and any other
-          information you may choose to provide.
-        </p>
-        <p>
-          When you register for an Account, we may ask for your contact
-          information, including items such as name, address, email address, and
-          telephone number.
-        </p>
-        <h3>How we use your information</h3>
-        <p>We use the information we collect in various ways, including to:</p>
-        <ul>
-          <li>Provide, operate, and maintain our website</li>
-          <li>Improve, personalize, and expand our website</li>
-          <li>Understand and analyze how you use our website</li>
-          <li>Develop new products, services, features, and functionality</li>
-          <li>
-            Communicate with you, either directly or through one of our
-            partners, including for customer service, to provide you with
-            updates and other information relating to the website, and for
-            marketing and promotional purposes
-          </li>
-          <li>Send you emails</li>
-          <li>Find and prevent fraud</li>
-        </ul>
-        <h3>Log Files</h3>
-        <p>
-          SG Webapp Techniques Private Limited follows a standard procedure of
-          using log files. These files log visitors when they visit websites.
-          All hosting companies do this and a part of hosting services
-          analytics. The information collected by log files includes internet
-          protocol (IP) addresses, browser type, Internet Service Provider
-          (ISP), date and time stamp, referring/exit pages, and possibly the
-          number of clicks. These are not linked to any information that is
-          personally identifiable. The purpose of the information is for
-          analyzing trends, administering the site, tracking user&apos;s
-          movement on the website, and gathering demographic information.
-        </p>
-        <h3>Cookies and Web Beacons</h3>
-        <p>
-          Like any other website, SG Webapp Techniques Private Limited uses
-          &ldquo;cookies&rdquo;. These cookies are used to store information
-          including visitors preferences, and the pages on the website that the
-          visitor accessed or visited. The information is used to optimize the
-          user&apos;s experience by customizing our web page content based on
-          visitors browser type and/or other information.
-        </p>
-        <h3>Advertising Partners Privacy Policies</h3>
-        <p>
-          You may consult this list to find the Privacy Policy for each of the
-          advertising partners of SG Webapp Techniques Private Limited.
-        </p>
-        <p>
-          Third-party ad servers or ad networks use technologies like cookies,
-          JavaScript, or Web Beacons that are used in their respective
-          advertisements and links that appear on SG Webapp Techniques Private
-          Limited, which are sent directly to users&rsquo; browser. They
-          automatically receive your IP address when this occurs. These
-          technologies are used to measure the effectiveness of their
-          advertising campaigns and/or to personalize the advertising content
-          that you see on websites that you visit.
-        </p>
-        <p>
-          Note that SG Webapp Techniques Private Limited has no access to or
-          control over these cookies that are used by third-party advertisers.
-        </p>
-        <h3>Third-Party Privacy Policies</h3>
-        <p>
-          SG Webapp Techniques Private Limited Privacy Policy does not apply to
-          other advertisers or websites. Thus, we are advising you to consult
-          the respective Privacy Policies of these third-party ad servers for
-          more detailed information. It may include their practices and
-          instructions about how to opt-out of certain options.
-        </p>
-        <p>
-          You can choose to disable cookies through your individual browser
-          options. To know more detailed information about cookie management
-          with specific web browsers, it can be found at the browser&apos;s
-          respective websites.
-        </p>
-        <h3>CCPA Privacy Rights (Do Not Sell My Personal Information)</h3>
-        <p>
-          Under the CCPA, among other rights, California consumers have the
-          right to:
-        </p>
-        <ul>
-          <li>
-            Request that a business that collects a consumer&apos;s personal
-            data disclose the categories and specific pieces of personal data
-            that a business has collected about consumers.
-          </li>
-          <li>
-            Request that a business delete any personal data about the consumer
-            that a business has collected.
-          </li>
-          <li>
-            Request that a business that sells a consumer&apos;s personal data,
-            not sell the consumer&rsquo;s personal data.
-          </li>
-        </ul>
-        <p>
-          If you make a request, we have one month to respond to you. If you
-          would like to exercise any of these rights, please contact us.
-        </p>
-        <h3>GDPR Data Protection Rights</h3>
-        <p>
-          We would like to make sure you are fully aware of all of your data
-          protection rights. Every user is entitled to the following:
-        </p>
-        <ul>
-          <li>
-            The right to access &ndash; You can request copies of your personal
-            data. We may charge you a small fee for this service.
-          </li>
-          <li>
-            The right to rectification &ndash; You have the right to request
-            that we correct any information you believe is inaccurate. You also
-            have the right to request that we complete the information you
-            believe is incomplete.
-          </li>
-          <li>
-            The right to erasure &ndash; You have the right to request that we
-            erase your personal data, under certain conditions.
-          </li>
-          <li>
-            The right to restrict processing &ndash; You have the right to
-            request that we restrict the processing of your personal data, under
-            certain conditions.
-          </li>
-          <li>
-            The right to object to processing &ndash; You have the right to
-            object to our processing of your personal data, under certain
-            conditions.
-          </li>
-          <li>
-            The right to data portability &ndash; You have the right to request
-            that we transfer the data that we have collected to another
-            organization, or directly to you, under certain conditions.
-          </li>
-        </ul>
-        <p>
-          If you make a request, we have one month to respond to you. If you
-          would like to exercise any of these rights, please contact us.
-        </p>
-        <h3>Children&rsquo;s Information</h3>
-        <p>
-          Another part of our priority is adding protection for children while
-          using the internet. We encourage parents and guardians to observe,
-          participate in, and/or monitor and guide their online activity.
-        </p>
-        <p>
-          SG Webapp Techniques Private Limited does not knowingly collect any
-          Personal Identifiable Information from children under the age of 13.
-          If you think that your child provided this kind of information on our
-          website, we strongly encourage you to contact us immediately and we
-          will do our best efforts to promptly remove such information from our
-          records.
-        </p>
-        <h3>Changes to This Privacy Policy</h3>
-        <p>
-          We may update our Privacy Policy from time to time. Thus, we advise
-          you to review this page periodically for any changes. We will notify
-          you of any changes by posting the new Privacy Policy on this page.
-          These changes are effective immediately.
-        </p>
-        <h3>Contact Us</h3>
-        <p>
-          If you have any questions or suggestions about our Privacy Policy, do
-          not hesitate to contact us.
-        </p>
-        <p>
-          Phone:&nbsp;<a href="tel:9987159986">+91-9987159986</a>
-        </p>
-        <p>
-          Email:&nbsp;<a href="mailto:info@Itsoftword.com">info@Itsoftword.com</a>
-        </p>
+        <h3 className="text-3xl font-bold">
+          Privacy Policy – Home Tuition Academy
+        </h3>
+
+        <div>
+          <h3 className="text-2xl font-semibold mb-3">
+            Introduction
+          </h3>
+
+          <p>
+            Welcome to Home Tuition Academy. We are committed to
+            protecting the privacy and confidentiality of students,
+            parents, tutors, trainers, and visitors who use our
+            services.
+          </p>
+
+          <p className="mt-3">
+            This Privacy Policy explains how we collect, use,
+            store, and protect your personal information when
+            you interact with Home Tuition Academy through our
+            website, mobile platforms, telephone calls,
+            WhatsApp communications, online forms, or offline
+            inquiries.
+          </p>
+
+          <p className="mt-3">
+            By using our services, you agree to the terms
+            outlined in this Privacy Policy.
+          </p>
+        </div>
+
+        <div>
+          <h3 className="text-2xl font-semibold mb-3">
+            About Home Tuition Academy
+          </h3>
+
+          <p>
+            Home Tuition Academy has been providing
+            personalized home tuition services since 1989
+            across Mumbai, Navi Mumbai, Thane, and
+            Ghodbunder Road.
+          </p>
+
+          <p className="mt-3">
+            We connect students with qualified tutors for
+            various academic boards, competitive examinations,
+            languages, and skill-development programs.
+          </p>
+        </div>
+
+        <div>
+          <h3 className="text-2xl font-semibold mb-3">
+            Information We Collect
+          </h3>
+
+          <p className="mb-3">
+            We may collect the following information:
+          </p>
+
+          <h4 className="text-xl font-semibold mb-2">
+            Student Information
+          </h4>
+
+          <ul className="list-disc pl-6 flex flex-col gap-2">
+            <li>Student&apos;s name</li>
+            <li>Age and academic standard</li>
+            <li>School/college details</li>
+            <li>
+              Board of education (CBSE, ICSE, IB,
+              IGCSE, SSC, NIOS, etc.)
+            </li>
+            <li>Subject requirements</li>
+            <li>Preferred tuition schedule</li>
+            <li>Academic goals</li>
+          </ul>
+
+          <h4 className="text-xl font-semibold mt-5 mb-2">
+            Parent / Guardian Information
+          </h4>
+
+          <ul className="list-disc pl-6 flex flex-col gap-2">
+            <li>Name</li>
+            <li>Contact number</li>
+            <li>Email address (if provided)</li>
+            <li>Residential locality</li>
+            <li>Communication preferences</li>
+          </ul>
+
+          <h4 className="text-xl font-semibold mt-5 mb-2">
+            Tutor Information
+          </h4>
+
+          <ul className="list-disc pl-6 flex flex-col gap-2">
+            <li>Name</li>
+            <li>Contact details</li>
+            <li>Educational qualifications</li>
+            <li>Teaching experience</li>
+            <li>Professional certifications</li>
+            <li>Residential locality</li>
+            <li>
+              Identity verification documents
+              (where required)
+            </li>
+          </ul>
+
+          <h4 className="text-xl font-semibold mt-5 mb-2">
+            Technical Information
+          </h4>
+
+          <ul className="list-disc pl-6 flex flex-col gap-2">
+            <li>Website usage data</li>
+            <li>IP address</li>
+            <li>Browser information</li>
+            <li>Device information</li>
+            <li>Cookies and analytics data</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 className="text-2xl font-semibold mb-3">
+            How We Use Your Information
+          </h3>
+
+          <p className="mb-3">
+            Home Tuition Academy may use collected
+            information for:
+          </p>
+
+          <ul className="list-disc pl-6 flex flex-col gap-2">
+            <li>
+              Matching students with suitable tutors
+            </li>
+
+            <li>
+              Conducting telephonic discussions and
+              call conferences
+            </li>
+
+            <li>
+              Arranging online or offline demo sessions
+            </li>
+
+            <li>
+              Providing academic consultation services
+            </li>
+
+            <li>
+              Managing inquiries and customer support
+            </li>
+
+            <li>
+              Processing registrations and service
+              requests
+            </li>
+
+            <li>
+              Improving our services and user experience
+            </li>
+
+            <li>
+              Sending important service-related
+              communications
+            </li>
+
+            <li>
+              Maintaining records for administrative
+              and legal purposes
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 className="text-2xl font-semibold mb-3">
+            Information Sharing
+          </h3>
+
+          <p>
+            Home Tuition Academy respects your privacy
+            and does not sell personal information to
+            third parties.
+          </p>
+
+          <p className="mt-3">
+            Information may be shared only:
+          </p>
+
+          <ul className="list-disc pl-6 mt-3 flex flex-col gap-2">
+            <li>
+              Between students/parents and prospective
+              tutors for educational purposes
+            </li>
+
+            <li>
+              With authorized employees and
+              representatives of Home Tuition Academy
+            </li>
+
+            <li>
+              When required by law, court order,
+              or government authority
+            </li>
+
+            <li>
+              To protect the rights, safety, and
+              security of Home Tuition Academy and
+              its users
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 className="text-2xl font-semibold mb-3">
+            Data Security
+          </h3>
+
+          <p>
+            We implement reasonable administrative,
+            technical, and operational measures to
+            protect personal information from:
+          </p>
+
+          <ul className="list-disc pl-6 mt-3 flex flex-col gap-2">
+            <li>Unauthorized access</li>
+            <li>Misuse</li>
+            <li>Disclosure</li>
+            <li>Alteration</li>
+            <li>Loss or destruction</li>
+          </ul>
+
+          <p className="mt-3">
+            While we strive to protect your information,
+            no electronic transmission or storage system
+            can be guaranteed to be completely secure.
+          </p>
+        </div>
+
+        <div>
+          <h3 className="text-2xl font-semibold mb-3">
+            Tutor Verification
+          </h3>
+
+          <p>
+            Home Tuition Academy may conduct preliminary
+            screening and verification of tutors.
+          </p>
+
+          <p className="mt-3">
+            However, parents and students are encouraged
+            to independently assess the suitability of
+            any tutor before engaging services.
+          </p>
+        </div>
+
+        <div>
+          <h3 className="text-2xl font-semibold mb-3">
+            Cookies and Analytics
+          </h3>
+
+          <p>
+            Our website may use cookies and similar
+            technologies to:
+          </p>
+
+          <ul className="list-disc pl-6 mt-3 flex flex-col gap-2">
+            <li>Enhance website functionality</li>
+            <li>Understand visitor behavior</li>
+            <li>Improve user experience</li>
+            <li>Analyze website performance</li>
+          </ul>
+
+          <p className="mt-3">
+            Users may disable cookies through their
+            browser settings, although some website
+            features may be affected.
+          </p>
+        </div>
+
+        <div>
+          <h3 className="text-2xl font-semibold mb-3">
+            Communication Policy
+          </h3>
+
+          <p>
+            By submitting your information, you consent
+            to receive communications from Home Tuition
+            Academy through:
+          </p>
+
+          <ul className="list-disc pl-6 mt-3 flex flex-col gap-2">
+            <li>Phone calls</li>
+            <li>WhatsApp messages</li>
+            <li>SMS</li>
+            <li>Email communications</li>
+            <li>Online meeting platforms</li>
+          </ul>
+
+          <p className="mt-3">
+            These communications may relate to tutor
+            matching, academic consultations, service
+            updates, and support assistance.
+          </p>
+        </div>
+
+        <div>
+          <h3 className="text-2xl font-semibold mb-3">
+            Data Retention
+          </h3>
+
+          <p>
+            We retain personal information only for
+            as long as necessary to:
+          </p>
+
+          <ul className="list-disc pl-6 mt-3 flex flex-col gap-2">
+            <li>Provide educational services</li>
+            <li>Fulfill legal and regulatory obligations</li>
+            <li>Resolve disputes</li>
+            <li>Maintain business records</li>
+          </ul>
+
+          <p className="mt-3">
+            Information that is no longer required
+            may be securely deleted or anonymized.
+          </p>
+        </div>
+
+        <div>
+          <h3 className="text-2xl font-semibold mb-3">
+            Children&apos;s Privacy
+          </h3>
+
+          <p>
+            Home Tuition Academy provides educational
+            services to minors through their parents
+            or legal guardians.
+          </p>
+
+          <p className="mt-3">
+            Information relating to students below
+            18 years of age should be submitted only
+            by a parent or authorized guardian.
+          </p>
+        </div>
+
+        <div>
+          <h3 className="text-2xl font-semibold mb-3">
+            Third-Party Links
+          </h3>
+
+          <p>
+            Our website or communications may contain
+            links to third-party websites.
+          </p>
+
+          <p className="mt-3">
+            Home Tuition Academy is not responsible
+            for the privacy practices, content,
+            or policies of external websites.
+          </p>
+        </div>
+
+        <div>
+          <h3 className="text-2xl font-semibold mb-3">
+            User Rights
+          </h3>
+
+          <p>
+            Users may request:
+          </p>
+
+          <ul className="list-disc pl-6 mt-3 flex flex-col gap-2">
+            <li>
+              Access to their personal information
+            </li>
+
+            <li>
+              Correction of inaccurate information
+            </li>
+
+            <li>
+              Updating contact details
+            </li>
+
+            <li>
+              Removal of information, subject to
+              legal and operational requirements
+            </li>
+          </ul>
+
+          <p className="mt-3">
+            Requests may be submitted through our
+            official contact channels.
+          </p>
+        </div>
+
+        <div>
+          <h3 className="text-2xl font-semibold mb-3">
+            Changes to Privacy Policy
+          </h3>
+
+          <p>
+            Home Tuition Academy reserves the right
+            to modify or update this Privacy Policy
+            at any time.
+          </p>
+
+          <p className="mt-3">
+            Updated versions will become effective
+            upon publication on our website or
+            official platforms.
+          </p>
+        </div>
+
+        <div>
+          <h3 className="text-2xl font-semibold mb-3">
+            Contact Us
+          </h3>
+
+          <p>
+            Home Tuition Academy
+          </p>
+
+          <p className="mt-2">
+            Providing Personalized Home Tuition
+            Services Since 1989
+          </p>
+
+          <p className="mt-2">
+            Service Areas: Mumbai, Navi Mumbai,
+            Thane & Ghodbunder Road
+          </p>
+
+          <p className="mt-4">
+            For privacy-related inquiries, support,
+            or requests regarding personal information,
+            please contact our customer support team
+            through our official communication channels.
+          </p>
+
+          <p className="mt-4 font-semibold">
+            Home Tuition Academy – Committed to
+            Protecting Your Privacy While Delivering
+            Quality Educational Solutions.
+          </p>
+        </div>
       </div>
     </section>
   );

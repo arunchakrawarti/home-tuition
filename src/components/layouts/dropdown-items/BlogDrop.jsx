@@ -96,203 +96,188 @@
 
 
 
+"use client";
+
 import Link from "next/link";
-import React, { useState } from "react";
+
+import React, { useEffect, useState } from "react";
+
+import axios from "axios";
+
 import { LiaLongArrowAltRightSolid } from "react-icons/lia";
 
-const blogCategories = [
-  {
-    title: "Insights & Industry Trends",
-    posts: [
-      {
-        title: "Top Education Trends in 2026",
-        desc: "Explore the latest teaching methods and digital learning trends.",
-      },
-      {
-        title: "Future of Online Home Tuition",
-        desc: "How technology is transforming personal education.",
-      },
-    ],
-  },
-  {
-    title: "Case Studies & Reports",
-    posts: [
-      {
-        title: "Student Success Stories",
-        desc: "Real-life examples of improved academic performance.",
-      },
-      {
-        title: "Teacher Performance Analysis",
-        desc: "Insights into tutoring outcomes and engagement.",
-      },
-    ],
-  },
-  {
-    title: "Tech Tutorials & Best Practices",
-    posts: [
-      {
-        title: "Best Study Techniques",
-        desc: "Simple learning habits to improve retention and focus.",
-      },
-      {
-        title: "Online Learning Setup Guide",
-        desc: "Create the perfect environment for digital classes.",
-      },
-    ],
-  },
-  {
-    title: "Announcements & Updates",
-    posts: [
-      {
-        title: "New Courses Added",
-        desc: "Recently launched tuition and skill development programs.",
-      },
-      {
-        title: "Platform Feature Updates",
-        desc: "Latest improvements and updates in our services.",
-      },
-    ],
-  },
-  {
-    title: "Innovation & Future Vision",
-    posts: [
-      {
-        title: "AI in Education",
-        desc: "How artificial intelligence is reshaping learning.",
-      },
-      {
-        title: "Future Classroom Experience",
-        desc: "A look into next-generation smart education systems.",
-      },
-    ],
-  },
-  {
-    title: "Open Source & Community",
-    posts: [
-      {
-        title: "Community Learning Programs",
-        desc: "Collaborative educational initiatives and workshops.",
-      },
-      {
-        title: "Free Learning Resources",
-        desc: "Useful study material and educational communities.",
-      },
-    ],
-  },
-  {
-    title: "Design Thinking & UX Patterns",
-    posts: [
-      {
-        title: "Student-Friendly Interfaces",
-        desc: "Designing engaging and easy-to-use education platforms.",
-      },
-      {
-        title: "Better User Learning Experience",
-        desc: "Improving accessibility and usability for students.",
-      },
-    ],
-  },
-  {
-    title: "Culture & Team Learnings",
-    posts: [
-      {
-        title: "Teacher Collaboration Stories",
-        desc: "How tutors share knowledge and improve together.",
-      },
-      {
-        title: "Behind the Education Team",
-        desc: "Meet the people building impactful learning systems.",
-      },
-    ],
-  },
-];
+import { limitTextLength } from "~/utils/limitText";
+
+import { replaceTemplateVars } from "~/utils/replaceTemplateVars";
 
 const BlogDrop = () => {
+  const [loading, setLoading] = useState(false);
+
   const [activeIndex, setActiveIndex] = useState(0);
 
+  // DYNAMIC CATEGORY + BLOGS
+  const [blogCategories, setBlogCategories] = useState([]);
+
+  // FETCH DATA
+  const fetchBlogs = async () => {
+    try {
+      setLoading(true);
+
+      // GET ALL CATEGORIES
+      const categoryResponse = await axios.get(
+        `${process.env.BACKEND_API_BASE_URL}/api/public/category`,
+      );
+
+      const categories = categoryResponse?.data?.data || [];
+
+      // GET BLOGS CATEGORY WISE
+      const categoriesWithBlogs = await Promise.all(
+        categories.map(async (category) => {
+          try {
+            const blogResponse = await axios.get(
+              `${process.env.BACKEND_API_BASE_URL}/api/public/blog`,
+              {
+                params: {
+                  category: category.slug,
+                  limit: 4,
+                },
+              },
+            );
+
+            return {
+              ...category,
+
+              title: category?.name,
+
+              posts: blogResponse?.data?.data || [],
+            };
+          } catch (error) {
+            console.error(`Blog fetch error ${category.slug}`, error);
+
+            return {
+              ...category,
+              title: category?.name,
+              posts: [],
+            };
+          }
+        }),
+      );
+
+      setBlogCategories(categoriesWithBlogs);
+    } catch (error) {
+      console.error("Category fetch error", error);
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  useEffect(() => {
+    fetchBlogs();
+  }, []);
+
   return (
-    <div className="flex justify-end">
-      <div className="w-full max-w-[950px] h-[450px] overflow-hidden bg-white rounded-lg md:shadow-xl flex flex-col md:flex-row border-t border-blight">
+    <div className="w-full h-[400px] overflow-y-auto bg-white rounded-lg md:shadow-xl flex flex-col md:flex-row border-t border-blight">
+      {/* LEFT SIDE */}
 
-        {/* Left Side */}
-        <div className="w-full md:w-4/12 border-b md:border-b-0 md:border-r border-grayLight py-4 md:py-8 md:px-4 overflow-y-auto">
+      <div className="w-full md:w-3/12 border-b md:border-b-0 md:border-r border-grayLight py-4 md:py-8 md:px-6">
+        <h2 className="text-lg font-semibold mb-4 text-primary hidden md:block">
+          Blog Categories
+        </h2>
 
-          <h2 className="text-lg font-semibold mb-4 text-primary hidden md:block px-2">
-            Blog Categories
-          </h2>
+        <ul className="flex flex-col">
+          {blogCategories.map((item, idx) => (
+            <li
+              key={item?._id || idx}
+              onMouseEnter={() => setActiveIndex(idx)}
+              onClick={() => setActiveIndex(idx)}
+              className={`cursor-pointer text-sm font-medium px-3 md:text-sm md:px-4 py-2.5 flex justify-between items-center transition ${
+                activeIndex === idx
+                  ? "bg-primary text-white"
+                  : "hover:bg-gray-100"
+              }`}
+            >
+              <span>{item?.title}</span>
 
-          <ul className="flex flex-col">
-            {blogCategories.map((item, idx) => (
-              <li
-                key={idx}
-                onMouseEnter={() => setActiveIndex(idx)}
-                onClick={() => setActiveIndex(idx)}
-                className={`cursor-pointer text-sm font-medium px-3 md:px-4 py-2.5 flex justify-between items-center transition ${
-                  activeIndex === idx
-                    ? "bg-primary text-white"
-                    : "hover:bg-gray-100"
-                }`}
+              <svg
+                className="w-3 h-3"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth={2}
+                viewBox="0 0 24 24"
               >
-                {item.title}
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M9 5l7 7-7 7"
+                />
+              </svg>
+            </li>
+          ))}
+        </ul>
+      </div>
 
-                <svg
-                  className="w-3 h-3"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth={2}
-                  viewBox="0 0 24 24"
+      {/* RIGHT SIDE */}
+
+      <div className="w-full md:w-9/12 py-4 md:py-8 px-1 md:px-6">
+        <h3 className="text-lg md:text-lg font-bold text-dark mb-4 md:mb-6 flex items-center gap-1">
+          {blogCategories[activeIndex]?.title}
+
+          <span className="text-primary text-xl font-light">
+            <LiaLongArrowAltRightSolid />
+          </span>
+        </h3>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          {blogCategories[activeIndex]?.posts?.length > 0 ? (
+            blogCategories[activeIndex]?.posts?.map((blog, i) => {
+              const heading = replaceTemplateVars(blog?.title || "", {
+                pre: "",
+                loc: "",
+                post: "",
+              });
+
+              const description = replaceTemplateVars(
+                blog?.shortDescription || blog?.description || "",
+                {
+                  pre: "",
+                  loc: "",
+                  post: "",
+                },
+              );
+
+              return (
+                <div
+                  key={blog?._id || i}
+                  className="rounded p-4 hover:bg-grayLightest transition"
                 >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M9 5l7 7-7 7"
-                  />
-                </svg>
-              </li>
-            ))}
-          </ul>
-        </div>
+                  <div className="w-full">
+                    <h4 className="first-letter:capitalize font-semibold text-sm md:text-sm text-gray-800 mb-2">
+                      {limitTextLength(heading, 50)}
+                    </h4>
 
-        {/* Right Side */}
-        <div className="w-full md:w-8/12 py-4 md:py-8 px-4 md:px-6 overflow-y-auto">
+                    <p className="first-letter:capitalize text-gray-600 text-sm md:text-sm mb-3">
+                      {limitTextLength(description, 100)}
+                    </p>
 
-          <h3 className="text-lg md:text-lg font-bold text-dark mb-4 md:mb-6 flex items-center gap-1">
-            {blogCategories[activeIndex].title}
-
-            <span className="text-primary text-xl font-light">
-              <LiaLongArrowAltRightSolid />
-            </span>
-          </h3>
-
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-
-            {blogCategories[activeIndex].posts.map((post, index) => (
-              <div
-                key={index}
-                className="rounded p-4 hover:bg-grayLightest transition"
-              >
-                <div>
-                  <h4 className="font-semibold text-sm text-gray-800 mb-1">
-                    {post.title}
-                  </h4>
-
-                  <p className="text-gray-600 text-sm">
-                    {post.desc}
-                  </p>
-
-                  <Link
-                    href="/blog"
-                    className="text-primary hover:underline font-semibold text-sm mt-2 inline-block"
-                  >
-                    Explore Now
-                  </Link>
+                    <Link
+                      href={`/blog/${blog?.slug}`}
+                      className="text-primary hover:underline font-semibold text-sm md:text-sm inline-flex items-center gap-1"
+                    >
+                      Explore Now
+                      <span>
+                        <LiaLongArrowAltRightSolid />
+                      </span>
+                    </Link>
+                  </div>
                 </div>
-              </div>
-            ))}
-
-          </div>
+              );
+            })
+          ) : (
+            <div className="col-span-2 text-center text-gray-500 py-10">
+              {loading ? "Loading blogs..." : "No Blogs Found"}
+            </div>
+          )}
         </div>
-
       </div>
     </div>
   );

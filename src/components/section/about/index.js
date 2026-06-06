@@ -154,19 +154,15 @@ const AboutMain = () => {
   const facts = [
     {
       count: "9+",
-      text: "Yrs in business ",
+      text: "Years in home tuition ",
     },
     {
-      count: "20000+",
+      count: "25000+",
       text: "Expert Teachers",
     },
     {
-      count: "7400+",
-      text: "Satisfied clients ",
-    },
-    {
-      count: "6000+",
-      text: "Successful",
+      count: "6500+",
+      text: "Satisfied Students",
     },
   ];
 
@@ -269,16 +265,17 @@ const AboutMain = () => {
       avatar: "",
       rating: 4,
       review:
-        "Itsoftword delivered beyond expectations! Their team built a sleek, user-friendly app with seamless functionality. Communication was smooth, deadlines were met, and their post-launch support is excellent. Highly recommend their expertise for anyone looking for top-tier app development services.",
+        "Education has the power to change lives. Our commitment is to connect every student with the right tutor and the right opportunities for success."
+,
     },
 
     {
       name: "Santosh Chalke",
-      designation: "Manager",
+      designation: "Senior Manager",
       avatar: "",
       rating: 5,
       review:
-        "Working with Itsoftword was a game-changer. Their innovative approach and attention to detail transformed our idea into a high-performing app. Professional, responsive, and skilled—definitely our go-to for future tech projects. Five stars!",
+        "Personalized learning and dedicated support are at the heart of everything we do. Every student deserves guidance tailored to their unique goals.",
     },
     {
       name: "Amit Girdharval",
@@ -286,7 +283,7 @@ const AboutMain = () => {
       avatar: "",
       rating: 3,
       review:
-        "Itsoftword’s developers are exceptional. They understood our vision, offered smart solutions, and delivered a scalable app ahead of schedule. Their competitive pricing and dedication make them a standout choice. Thrilled with the results!",
+        "Technology should make learning more accessible. We build solutions that simplify tutor discovery and create a seamless educational experience.",
     },
   ];
 
@@ -391,7 +388,7 @@ Whether you prefer home tuition or online private sessions, our platform ensures
 
           <div className="w-full flex flex-col gap-5 sm:gap-8 lg:gap-10 p-7 sm:p-10 bg-primaryLightest rounded-xl">
             <h2 className="heading-sm text-grayDark">
-              Tech Intelligence That Fosters Sustained Growth
+              Expert Guidance That Accelerates Student Success
             </h2>
 
             <div className="flex flex-col gap-3">

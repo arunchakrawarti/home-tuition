@@ -36,12 +36,12 @@ const WorkPlace = () => {
 
           <p className="description text-sm sm:text-md xl:text-base">{body}</p>
 
-          <Link
+          {/* <Link
             href={action?.route}
             className="primary-btn-sm w-fit mx-auto xl:mx-0 mt-3"
           >
             {action?.label}
-          </Link>
+          </Link> */}
         </div>
       </div>
 

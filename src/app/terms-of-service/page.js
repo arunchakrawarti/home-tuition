@@ -7,273 +7,438 @@ const TermPage = () => {
         id="single-articale-details"
         className="container flex flex-col gap-5 sm:gap-10"
       >
-        <p>This Terms And Conditions was last updated on August 12, 2024.</p>
-        <h3>Terms And Conditions</h3>
-        <p>Welcome to SG WEBAPP TECHNIQUES PVT LTD!</p>
         <p>
-          These terms and conditions outline the rules and regulations for the
-          use of SG WEBAPP TECHNIQUES PRIVATE LIMITED&apos;s Website, located at
+          This Terms and Conditions was last updated on June 2026.
+        </p>
+
+        <h3>Terms and Conditions – Home Tuition Academy</h3>
+
+        <p>
+          Welcome to Home Tuition Academy. These Terms and Conditions govern
+          the use of our services, website, mobile platforms, telephonic
+          assistance, online consultations, tutor placement services, and all
+          related educational support activities.
+        </p>
+
+        <p>
+          By engaging with Home Tuition Academy, students, parents,
+          guardians, tutors, trainers, and users agree to comply with these
+          Terms and Conditions.
+        </p>
+
+        <h3>1. Introduction</h3>
+
+        <p>
+          These Terms and Conditions apply to all users accessing or using
+          Home Tuition Academy services.
+        </p>
+
+        <h3>2. About Home Tuition Academy</h3>
+
+        <p>
+          Home Tuition Academy has been providing personalized home tuition
+          services since 1989 across Mumbai, Navi Mumbai, Thane, and
+          Ghodbunder Road.
+        </p>
+
+        <p>
+          Our role is to facilitate and coordinate the matching of students
+          with suitable tutors based on academic requirements, board,
+          subject, location, schedule, and budget preferences.
+        </p>
+
+        <h3>3. Service Scope</h3>
+
+        <p>
+          Home Tuition Academy provides assistance for:
+        </p>
+
+        <ul>
+          <li>Home tuition services</li>
+          <li>Online tuition services</li>
+          <li>School academic support</li>
+          <li>College and university tuition</li>
+          <li>Competitive examination preparation</li>
+          <li>English speaking courses</li>
+          <li>Foreign language training</li>
+          <li>Skill-based learning programs</li>
+          <li>Academic consultation and guidance</li>
+        </ul>
+
+        <p>
+          Tutor availability is subject to location, subject requirements,
+          and scheduling feasibility.
+        </p>
+
+        <h3>4. Student and Parent Responsibilities</h3>
+
+        <p>
+          Students and parents agree to:
+        </p>
+
+        <ul>
+          <li>
+            Provide accurate information regarding academic requirements.
+          </li>
+
+          <li>
+            Communicate honestly regarding schedules and expectations.
+          </li>
+
+          <li>
+            Treat tutors respectfully and professionally.
+          </li>
+
+          <li>
+            Ensure a safe and appropriate learning environment.
+          </li>
+
+          <li>
+            Make payments as agreed and within the prescribed timeline.
+          </li>
+
+          <li>
+            Inform Home Tuition Academy of any concerns regarding assigned
+            tutors.
+          </li>
+        </ul>
+
+        <p>
+          Any misleading information provided by a student or parent may
+          result in suspension or termination of services.
+        </p>
+
+        <h3>5. Tutor Responsibilities</h3>
+
+        <p>
+          Tutors associated with Home Tuition Academy are expected to:
+        </p>
+
+        <ul>
+          <li>
+            Maintain professionalism and ethical conduct.
+          </li>
+
+          <li>
+            Deliver lessons sincerely and punctually.
+          </li>
+
+          <li>
+            Respect student confidentiality.
+          </li>
+
+          <li>
+            Follow mutually agreed schedules.
+          </li>
+
+          <li>
+            Avoid any form of misconduct, discrimination, harassment, or
+            inappropriate behavior.
+          </li>
+        </ul>
+
+        <p>
+          Home Tuition Academy reserves the right to discontinue association
+          with tutors who violate professional standards.
+        </p>
+
+        <h3>6. Tutor Selection Process</h3>
+
+        <p>
+          Home Tuition Academy endeavors to provide suitable tutor
+          recommendations based on available information and requirements.
+        </p>
+
+        <p>
+          However:
+        </p>
+
+        <ul>
+          <li>
+            Academic results cannot be guaranteed.
+          </li>
+
+          <li>
+            Personal compatibility between student and tutor cannot be
+            guaranteed.
+          </li>
+
+          <li>
+            Tutor availability may change due to unforeseen circumstances.
+          </li>
+        </ul>
+
+        <p>
+          The final decision regarding tutor selection remains with the
+          student or parent.
+        </p>
+
+        <h3>7. Demo Classes</h3>
+
+        <p>
+          Where applicable:
+        </p>
+
+        <ul>
+          <li>
+            Demo classes may be arranged at the discretion of Home Tuition
+            Academy.
+          </li>
+
+          <li>
+            Demo policies may vary depending on the tutor, subject, and
+            location.
+          </li>
+
+          <li>
+            Completion of a demo class does not guarantee tutor engagement.
+          </li>
+        </ul>
+
+        <h3>8. Fees and Payments</h3>
+
+        <p>
+          Service fees, registration charges, tuition fees, or placement
+          fees must be paid as communicated by Home Tuition Academy.
+        </p>
+
+        <ul>
+          <li>
+            Payments must be made through approved payment methods.
+          </li>
+
+          <li>
+            Delayed payments may result in suspension of services.
+          </li>
+
+          <li>
+            Home Tuition Academy reserves the right to revise fees without
+            prior notice for future engagements.
+          </li>
+        </ul>
+
+        <h3>9. Refund Policy</h3>
+
+        <p>
+          Refund requests shall be reviewed on a case-by-case basis.
+        </p>
+
+        <p>
+          Important points:
+        </p>
+
+        <ul>
+          <li>
+            Refunds are not automatic and remain subject to management
+            approval.
+          </li>
+
+          <li>
+            Administrative, operational, and service charges may be deducted
+            where applicable.
+          </li>
+
+          <li>
+            Once a refund settlement is accepted by the student or parent,
+            no further financial claim shall be entertained.
+          </li>
+
+          <li>
+            Approved refunds shall be processed within a reasonable period.
+          </li>
+
+          <li>
+            The management&apos;s decision regarding refund matters shall be
+            final.
+          </li>
+        </ul>
+
+        <h3>10. Replacement Policy</h3>
+
+        <p>
+          Home Tuition Academy may attempt to provide a replacement tutor
+          under reasonable circumstances, including:
+        </p>
+
+        <ul>
+          <li>Tutor unavailability</li>
+          <li>Relocation</li>
+          <li>Schedule conflicts</li>
+          <li>Subject mismatch</li>
+        </ul>
+
+        <p>
+          Replacement availability depends on tutor resources within the
+          concerned area.
+        </p>
+
+        <h3>11. Academic Performance Disclaimer</h3>
+
+        <p>
+          While Home Tuition Academy strives to connect students with
+          qualified educators:
+        </p>
+
+        <ul>
+          <li>
+            Examination success cannot be guaranteed.
+          </li>
+
+          <li>
+            Grade improvement cannot be guaranteed.
+          </li>
+
+          <li>
+            Academic outcomes depend upon student effort, attendance,
+            participation, and various external factors.
+          </li>
+        </ul>
+
+        <h3>12. Limitation of Liability</h3>
+
+        <p>
+          Home Tuition Academy acts primarily as a facilitator connecting
+          students and tutors.
+        </p>
+
+        <p>
+          Home Tuition Academy shall not be held liable for:
+        </p>
+
+        <ul>
+          <li>Academic performance outcomes</li>
+          <li>
+            Personal disputes between students and tutors
+          </li>
+          <li>
+            Losses arising from inaccurate information provided by users
+          </li>
+          <li>
+            Delays caused by circumstances beyond reasonable control
+          </li>
+          <li>
+            Technical issues affecting online learning sessions
+          </li>
+        </ul>
+
+        <h3>13. Code of Conduct</h3>
+
+        <p>
+          Users shall not:
+        </p>
+
+        <ul>
+          <li>
+            Engage in abusive or threatening behavior.
+          </li>
+
+          <li>
+            Provide false information.
+          </li>
+
+          <li>
+            Defame Home Tuition Academy, its staff, tutors, or associated
+            parties.
+          </li>
+
+          <li>
+            Use services for unlawful purposes.
+          </li>
+
+          <li>
+            Attempt to interfere with platform operations.
+          </li>
+        </ul>
+
+        <p>
+          Violation may result in immediate termination of services.
+        </p>
+
+        <h3>14. Intellectual Property</h3>
+
+        <p>
+          All content, branding, logos, marketing materials, website
+          content, and educational resources belonging to Home Tuition
+          Academy remain the exclusive property of Home Tuition Academy.
+        </p>
+
+        <p>
+          Unauthorized copying, reproduction, distribution, or commercial
+          use is strictly prohibited.
+        </p>
+
+        <h3>15. Privacy</h3>
+
+        <p>
+          Use of Home Tuition Academy services is also governed by our
+          Privacy Policy. Users are encouraged to review the Privacy Policy
+          to understand how personal information is collected and managed.
+        </p>
+
+        <h3>16. Force Majeure</h3>
+
+        <p>
+          Home Tuition Academy shall not be responsible for delays or
+          failure in service resulting from events beyond reasonable control,
+          including:
+        </p>
+
+        <ul>
+          <li>Natural disasters</li>
+          <li>Government restrictions</li>
+          <li>Internet disruptions</li>
+          <li>Public emergencies</li>
+          <li>Labor disputes</li>
+          <li>Pandemic situations</li>
+        </ul>
+
+        <h3>17. Modification of Terms</h3>
+
+        <p>
+          Home Tuition Academy reserves the right to update, amend, or
+          modify these Terms and Conditions at any time.
+        </p>
+
+        <p>
+          Continued use of services after modifications constitutes
+          acceptance of the revised terms.
+        </p>
+
+        <h3>18. Governing Law and Jurisdiction</h3>
+
+        <p>
+          These Terms and Conditions shall be governed by and interpreted in
+          accordance with the laws of India.
+        </p>
+
+        <p>
+          Any dispute arising out of or relating to these Terms and
+          Conditions shall be subject to the exclusive jurisdiction of the
+          courts located in Mumbai, Maharashtra.
+        </p>
+
+        <h3>19. Contact Information</h3>
+
+        <p>
+          Home Tuition Academy
           <br />
-          <a href="https://www.Itsoftword.com/" target="_blank">
-            www.Itsoftword.com
-          </a>
-        </p>
-        <p>
-          By accessing this website we assume you accept these terms and
-          conditions. Do not continue to use IT Solution and Service if you do
-          not agree to take all of the terms and conditions stated on this
-          TermPage.
-        </p>
-        <p>
-          The following terminology applies to these Terms and Conditions,
-          Privacy Statement and Disclaimer Notice and all Agreements:
-          &ldquo;Client&rdquo;, &ldquo;You&rdquo; and &ldquo;Your&rdquo; refers
-          to you, the person logging on to this website and compliant with the
-          Company&apos;s terms and conditions. &apos;The Company&apos;,
-          &apos;Ourselves&apos;, &ldquo;We&rdquo;, &ldquo;Our&rdquo; and
-          &ldquo;Us&rdquo;, refers to our Company. &ldquo;Party&rdquo;,
-          &ldquo;Parties&rdquo;, or &ldquo;Us&rdquo;, refers to both the Client
-          and ourselves. All terms refer to the offer, acceptance, and
-          consideration of payment necessary to undertake the process of our
-          assistance to the Client in the most appropriate manner for the
-          express purpose of meeting the Client&apos;s needs in respect of the
-          provision of the Company&apos;s stated services, in accordance with
-          and subject to, prevailing law. Any use of the above terminology or
-          other words in the singular, plural, capitalization and/or he/she or
-          they, are taken as interchangeable and therefore as referring to the
-          same.
-        </p>
-        <h3>Cookies</h3>
-        <p>
-          We employ the use of cookies. By accessing SG Webapp Techniques
-          Private Limited, you agreed to use cookies in agreement with the SG
-          Webapp Techniques Private LIMITED&apos;s Privacy Policy.
-        </p>
-        <p>
-          Most interactive websites use cookies to let us retrieve the
-          user&apos;s details for each visit. Cookies are used by our website to
-          enable the functionality of certain areas to make it easier for people
-          visiting our website. Some of our affiliate/advertising partners may
-          also use cookies.
-        </p>
-        <h3>License</h3>
-        <p>
-          Unless otherwise stated, SG Webapp Techniques Private Limited and/or
-          its licensors own the intellectual property rights for all material on
-          IT Solution and Services. All intellectual property rights are
-          reserved. You may access this from SG Webapp Techniques Private
-          Limited for your own personal use subjected to restrictions set in
-          these terms and conditions.
-        </p>
-        <p>You must not:</p>
-        <ul>
-          <li>Republish material from SG Webapp Techniques Private Limited</li>
-          <li>
-            Sell, rent or sub-license material from SG Webapp Techniques Private
-            Limited
-          </li>
-          <li>
-            Reproduce, duplicate or copy material from SG Webapp Techniques
-            Private Limited
-          </li>
-          <li>
-            Redistribute content from SG Webapp Techniques Private Limited
-          </li>
-        </ul>
-        <p>
-          Parts of this website offer an opportunity for users to post and
-          exchange opinions and information in certain areas of the website. SG
-          WEBAPP TECHNIQUES PRIVATE LIMITED does not filter, edit, publish or
-          review Comments prior to their presence on the website. Comments do
-          not reflect the views and opinions of SG WEBAPP TECHNIQUES PRIVATE
-          LIMITED, its agents and/or affiliates. Comments reflect the views and
-          opinions of the person who posts their views and opinions. To the
-          extent permitted by applicable laws, SG WEBAPP TECHNIQUES PRIVATE
-          LIMITED shall not be liable for the Comments or for any liability,
-          damages or expenses caused and/or suffered as a result of any use of
-          and/or posting of and/or appearance of the Comments on this website.
-        </p>
-        <p>
-          SG WEBAPP TECHNIQUES PRIVATE LIMITED reserves the right to monitor all
-          Comments and to remove any Comments which can be considered
-          inappropriate, offensive or cause breach of these Terms and
-          Conditions.
-        </p>
-        <p>You warrant and represent that:</p>
-        <ul>
-          <li>
-            You are entitled to post the Comments on our website and have all
-            necessary licenses and consents to do so;
-          </li>
-          <li>
-            The Comments do not invade any intellectual property right,
-            including without limitation copyright, patent or trademark of any
-            third party;
-          </li>
-          <li>
-            The Comments do not contain any defamatory, libelous, offensive,
-            indecent or otherwise unlawful material which is an invasion of
-            privacy;
-          </li>
-          <li>
-            The Comments will not be used to solicit or promote business or
-            custom or present commercial activities or unlawful activity.
-          </li>
-        </ul>
-        <p>
-          You hereby grant SG WEBAPP TECHNIQUES PRIVATE LIMITED a non-exclusive
-          license to use, reproduce, edit and authorize others to use, reproduce
-          and edit any of your Comments in any and all forms, formats or media.
-        </p>
-        <h3>Hyperlinking to our Content</h3>
-        <p>
-          The following organizations may link to our Website without prior
-          written approval:
-        </p>
-        <ul>
-          <li>Government agencies;</li>
-          <li>Search engines;</li>
-          <li>News organizations;</li>
-          <li>
-            Online directory distributors may link to our Website in the same
-            manner as they hyperlink to the Websites of other listed businesses;
-            and
-          </li>
-          <li>
-            System-wide Accredited Businesses except soliciting non-profit
-            organizations, charity shopping malls, and charity fundraising
-            groups which may not hyperlink to our Website.
-          </li>
-        </ul>
-        <p>
-          These organizations may link to our home page, to publications or to
-          other Website information so long as the link: (a) is not in any way
-          deceptive; (b) does not falsely imply sponsorship, endorsement or
-          approval of the linking party and its products and/or services; and
-          (c) fits within the context of the linking party&apos;s site.
-        </p>
-        <p>
-          We may consider and approve other link requests from the following
-          types of organizations:
-        </p>
-        <ul>
-          <li>Commonly-known consumer and/or business information sources;</li>
-          <li>Dot.com community sites;</li>
-          <li>Associations or other groups representing charities;</li>
-          <li>Online directory distributors;</li>
-          <li>Internet portals;</li>
-          <li>Accounting, law, and consulting firms; and</li>
-          <li>Educational institutions and trade associations.</li>
-        </ul>
-        <p>
-          We will approve link requests from these organizations if we decide
-          that: (a) the link would not make us look unfavorably to ourselves or
-          to our accredited businesses; (b) the organization does not have any
-          negative records with us; (c) the benefit to us from the visibility of
-          the hyperlink compensates the absence of SG WEBAPP TECHNIQUES PRIVATE
-          LIMITED; and (d) the link is in the context of general resource
-          information.
-        </p>
-        <p>
-          These organizations may link to our home page so long as the link: (a)
-          is not in any way deceptive; (b) does not falsely imply sponsorship,
-          endorsement or approval of the linking party and its products or
-          services; and (c) fits within the context of the linking party&apos;s
-          site.
-        </p>
-        <p>
-          If you are one of the organizations listed in paragraph 2 above and
-          are interested in linking to our website, you must inform us by
-          sending an e-mail to SG WEBAPP TECHNIQUES PRIVATE LIMITED. Please
-          include your name, your organization name, contact information as well
-          as the URL of your site, a list of any URLs from which you intend to
-          link to our Website, and a list of the URLs on our site to which you
-          would like to link. Wait 2-3 weeks for a response.
-        </p>
-        <p>Approved organizations may hyperlink to our Website as follows:</p>
-        <ul>
-          <li>By use of our corporate name; or</li>
-          <li>By use of the uniform resource locator being linked to; or</li>
-          <li>
-            By use of any other description of our Website being linked to that
-            makes sense within the context and format of content on the linking
-            party&apos;s site.
-          </li>
-        </ul>
-        <p>
-          No use of SG WEBAPP TECHNIQUES PRIVATE LIMITED&apos;s logo or other
-          artwork will be allowed for linking absent a trademark license
-          agreement.
-        </p>
-        <h3>iFrames</h3>
-        <p>
-          Without prior approval and written permission, you may not create
-          frames around our Webpages that alter in any way the visual
-          presentation or appearance of our Website.
-        </p>
-        <h3>Content Liability</h3>
-        <p>
-          We shall not be hold responsible for any content that appears on your
-          Website. You agree to protect and defend us against all claims that is
-          rising on your Website. No link(s) should appear on any Website that
-          may be interpreted as libelous, obscene or criminal, or which
-          infringes, otherwise violates, or advocates the infringement or other
-          violation of, any third party rights.
-        </p>
-        <h3>Reservation of Rights</h3>
-        <p>
-          We reserve the right to request that you remove all links or any
-          particular link to our Website. You approve to immediately remove all
-          links to our Website upon request. We also reserve the right to amen
-          these terms and conditions and it&apos;s linking policy at any time.
-          By continuously linking to our Website, you agree to be bound to and
-          follow these linking terms and conditions.
-        </p>
-        <h3>Removal of links from our website</h3>
-        <p>
-          If you find any link on our Website that is offensive for any reason,
-          you are free to contact and inform us any moment. We will consider
-          requests to remove links but we are not obligated to or so or to
-          respond to you directly.
+          Personalized Home Tuition Services Since 1989
           <br />
-          We do not ensure that the information on this website is correct, we
-          do not warrant its completeness or accuracy; nor do we promise to
-          ensure that the website remains available or that the material on the
-          website is kept up to date.
+          Service Areas: Mumbai, Navi Mumbai, Thane &amp; Ghodbunder Road
         </p>
-        <h3>Disclaimer</h3>
+
         <p>
-          To the maximum extent permitted by applicable law, we exclude all
-          representations, warranties and conditions relating to our website and
-          the use of this website. Nothing in this disclaimer will:
+          For questions regarding these Terms and Conditions, users may
+          contact Home Tuition Academy through its official communication
+          channels.
         </p>
-        <ul>
-          <li>
-            Limit or exclude our or your liability for death or personal injury;
-          </li>
-          <li>
-            Limit or exclude our or your liability for fraud or fraudulent
-            misrepresentation;
-          </li>
-          <li>
-            Limit any of our or your liabilities in any way that is not
-            permitted under applicable law; or
-          </li>
-          <li>
-            Exclude any of our or your liabilities that may not be excluded
-            under applicable law.
-          </li>
-        </ul>
+
+        <h3>Declaration</h3>
+
         <p>
-          The limitations and prohibitions of liability set in this Section and
-          elsewhere in this disclaimer: (a) are subject to the preceding
-          paragraph; and (b) govern all liabilities arising under the
-          disclaimer, including liabilities arising in contract, in tort and for
-          breach of statutory duty.
-          <br />
-          As long as the website and the information and services on the website
-          are provided free of charge, we will not be liable for any loss or
-          damage of any nature.
+          By using the services of Home Tuition Academy, the user
+          acknowledges that they have read, understood, and agreed to abide
+          by these Terms and Conditions in their entirety.
         </p>
       </div>
     </section>

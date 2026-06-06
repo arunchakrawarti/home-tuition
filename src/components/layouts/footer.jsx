@@ -14,25 +14,26 @@ export const Footer = () => {
   const [formData, setFormData] = useState({ email: "", source: "website" });
   const [loading, setLoading] = useState(false);
 const services = [
-  "Home Tuition for School Tuition",
-  "Home Tuition for College",
-  "Home Tuition for Diploma",
-  "Home Tuition for Under Graduation",
-  "Home Tuition for Post Graduation",
-  "Home Tuition for Competitive Exam",
-  "Home Tuition for Language Studies",
-  "Home Tuition for English Speaking",
-  "Home Tuition for Foreign Language",
-  "Home Tuition for Religious Studies",
-  "Home Tuition for Computer/IT",
-  "Home Tuition for Music",
-  "Home Tuition for Dance",
-  "Home Tuition for Photography/Film Making",
-  "Home Tuition for Theatre/Acting",
-  "Home Tuition for Industrial Training",
-  "Home Tuition for Tailoring / Fashion Design",
-  "Home Tuition for Special Education",
-  "Home Tuition for Art & Craft",
+  "School Tuition",
+  "College",
+  "Diploma",
+  "Under Graduation",
+  "Post Graduation",
+  "Competitive Exam",
+  "Language Studies",
+  "English Speaking",
+  "Foreign Language",
+  "Religious Studies",
+  "Computer/IT",
+  "Music",
+  "Dance",
+  "Photography/Film Making",
+  "Theatre/Acting",
+  "Industrial Training",
+  "Tailoring / Fashion Design",
+  "Special Education",
+  "Art & Craft",
+  "Regional Language",
 ];
 
   const socialLinks = [
@@ -187,8 +188,7 @@ const services = [
 
           <div className="flex flex-col gap-4">
             <p className="text-md text-gray-500 ">
-              At Itsoftword Techniques, we believe that IT should be an enabler,
-              not a hindrance.
+              At Home Tuition Academy, we believe that every student deserves the right teacher. Our mission is to make personalized learning accessible, effective, and convenient for every learner.
             </p>
 
             <div className="flex flex-col gap-2">
@@ -211,7 +211,7 @@ const services = [
                   </svg>
                 </span>
                 <span className="text-[13px] text-gray-600">
-                  | +91 78275 32946
+                  | +91 7715889123
                 </span>
               </Link>
               <Link
@@ -234,7 +234,7 @@ const services = [
                   </svg>
                 </span>
                 <span className="text-[13px] text-gray-600">
-                  | info@Itsoftword.com
+                  | hometuitionsnearme@gmail.com
                 </span>
               </Link>
               <Link

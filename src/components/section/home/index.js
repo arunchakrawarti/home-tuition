@@ -19,7 +19,7 @@ const HomeMain = ({ featuredServices }) => {
     <main>
       <Hero />
 
-      <HeroTechnologies />
+      {/* <HeroTechnologies /> */}
 
       <HomeServiceArea featuredServices={featuredServices} />
 

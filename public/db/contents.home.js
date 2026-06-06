@@ -808,7 +808,7 @@ Serving Mumbai, Navi Mumbai, Thane, and Ghodbunder Road
     heading: "What Say Our Students",
     description:
       "Finding a reliable tutor was difficult until I joined Home Tuition Academy. The classes are flexible, comfortable, and personalized according to my learning speed. I highly recommend their services to students",
-    features: ["A True Partner", "A Catalyst for Growth", "Scalable Solutions"],
+    // features: ["A True Partner", "A Catalyst for Growth", "Scalable Solutions"],
     reviews: [
       {
         review:
@@ -868,29 +868,19 @@ Serving Mumbai, Navi Mumbai, Thane, and Ghodbunder Road
     },
 
     card: {
-      title: "People-Centric Software Development Processes",
+      title: "Personalized Home Tuition for Every Student",
       description: (
         <>
-          Our development approach is people-centric and customized to fit each
-          client’s unique needs. Known for our strong project management
-          expertise, we excel in both turning around challenged projects and
-          building robust solutions from scratch. We assign self-driven, skilled
-          developers who bring real business value.
-          <br />
-          Recognizing that no two projects are the same, we match talent based
-          on specific requirements—ensuring the right expertise for the right
-          task. Our clients value our clear and efficient communication, led by
-          a dedicated Project Manager who oversees task execution and acts as
-          the single point of contact between your team and ours.
+          Our learning approach is student-centric and designed to match individual learning needs. We connect students with qualified tutors based on class, board, subjects, and learning goals. Through one-to-one attention, flexible schedules, and customized teaching methods, we help students build confidence and achieve better academic results.
         </>
       ),
       action: {
         label: (
           <>
             <span className="text-white">
-              Tailored solutions at every step! Achieve Your Goals,
+              Expert Tutors. Better Learning. Better Results. Book a Free,
             </span>{" "}
-            Connect Today.
+            Demo Today..
           </>
         ),
         route: "/contact-us",
