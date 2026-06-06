@@ -54,7 +54,7 @@ export const Header = ({ currentTheme = "", toggleTheme }) => {
     // },
     {
       has_dropdown: true,
-      label: "Why Itsoftword",
+      label: "Why Hometuition",
       route: "#",
       dropdown: <WhySgweppDrop />,
     },
