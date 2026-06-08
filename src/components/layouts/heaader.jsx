@@ -158,7 +158,7 @@ export const Header = ({ currentTheme = "", toggleTheme }) => {
                 src="/assets/hometuitionlogo.png"
                 height={120}
                 width={190}
-                className="w-[120px] sm:w-[170px]"
+                className="w-[120px] sm:w-[200px]"
               />
             </Link>
 
@@ -182,7 +182,7 @@ export const Header = ({ currentTheme = "", toggleTheme }) => {
                       className="group relative cursor-pointer px-4 py-6 text-[14px] font-semibold text-dark hover:text-primary transition-all duration-300 ease-in-out"
                     >
                       <Link href={route} className="flex items-center gap-1">
-                        <span className="text-xs">{label}</span>
+                        <span className="text-md font-extrabold">{label}</span>
                         <span
                           className={`transition-transform duration-300 ${
                             isActiveDropdown ? "rotate-180" : "rotate-0"

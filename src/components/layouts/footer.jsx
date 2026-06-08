@@ -182,7 +182,7 @@ export const Footer = () => {
             alt="header-logo"
             src="/assets/hometuitionlogo.png"
             height={110}
-            width={170}
+            width={200}
             className="object-contain"
           />
 
