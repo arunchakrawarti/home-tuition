@@ -163,7 +163,12 @@ const ContactForm = () => {
         </div>
         <div className="z-10 relative h-full max-md:min-h-[350px]">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d554.4885508197515!2d77.14198983261683!3d28.655555856316298!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d038a9d4ab707%3A0x2c95e1d7417f0177!2sSG%20Webapp%20Techniques%20%7C%20Web%20and%20App%20Development%20Company%20in%20Delhi!5e1!3m2!1sen!2sin!4v1758019936761!5m2!1sen!2sin"
+            src="https://www.google.com/maps?q=Office+B-8/1,+Mangal+Kunj,+Borivali+West,+Mumbai,+Maharashtra+400092&output=embed"
+            width="100%"
+            height="100%"
+            loading="lazy"
+            allowFullScreen
+            referrerPolicy="no-referrer-when-downgrade"
             className="left-0 top-0 h-full w-full rounded-t-lg lg:rounded-tr-none lg:rounded-bl-lg"
           ></iframe>
         </div>
