@@ -146,7 +146,7 @@ const TalentDevelopment = () => {
         ),
         title: "Knowledge",
         description:
-          "We believe in delivering the best with every project. We take pride in our  Itsoftword Starmark’ in every solution we develop. From the quality of our communication, business decisions and services – we aim to deliver the highest standards empowered by our deep knowledge and understanding of technology.",
+          "We believe in delivering the best with every project. We take pride in our  home tuitionStarmark’ in every solution we develop. From the quality of our communication, business decisions and services – we aim to deliver the highest standards empowered by our deep knowledge and understanding of technology.",
       },
       {
         icon: (
@@ -216,172 +216,183 @@ const TalentDevelopment = () => {
   });
 
   const learningMethodologySections = [
-  {
-    title: "Student-Centered Learning Approach",
-    image: "/assets/vision-mission/Championing Good Governance for a Sustainable Tech-Driven Future.webp",
-    description:
-      "Our teaching methodology focuses on creating a personalized learning experience that helps students build strong concepts, confidence, and continuous academic growth.",
-    points: [
-      "Individual Learning Needs",
-      "Personalized Attention",
-      "Concept Clarity",
-      "Practical Understanding",
-      "Confidence Building",
-      "Regular Practice & Revision",
-      "Continuous Academic Improvement",
-    ],
-  },
+    {
+      title: "Student-Centered Learning Approach",
+      image:
+        "/assets/vision-mission/Championing Good Governance for a Sustainable Tech-Driven Future.webp",
+      description:
+        "Our teaching methodology focuses on creating a personalized learning experience that helps students build strong concepts, confidence, and continuous academic growth.",
+      points: [
+        "Individual Learning Needs",
+        "Personalized Attention",
+        "Concept Clarity",
+        "Practical Understanding",
+        "Confidence Building",
+        "Regular Practice & Revision",
+        "Continuous Academic Improvement",
+      ],
+    },
 
-  {
-    title: "Personalized Teacher Matching Process",
-    image: "/assets/vision-mission/Championing Good Governance for a Sustainable Tech-Driven Future.webp",
-    description:
-      "We carefully match students with suitable tutors and trainers according to their academic requirements, learning preferences, and educational goals.",
-    points: [
-      "Class & Academic Level",
-      "Board & Curriculum",
-      "Subject Requirements",
-      "Learning Style & Comfort",
-      "Preferred Timings",
-      "Nearby Locality",
-      "Budget & Learning Goals",
-    ],
-  },
+    {
+      title: "Personalized Teacher Matching Process",
+      image:
+        "/assets/vision-mission/Championing Good Governance for a Sustainable Tech-Driven Future.webp",
+      description:
+        "We carefully match students with suitable tutors and trainers according to their academic requirements, learning preferences, and educational goals.",
+      points: [
+        "Class & Academic Level",
+        "Board & Curriculum",
+        "Subject Requirements",
+        "Learning Style & Comfort",
+        "Preferred Timings",
+        "Nearby Locality",
+        "Budget & Learning Goals",
+      ],
+    },
 
-  {
-    title: "Understanding Student Requirements",
-    image: "/assets/vision-mission/Championing Good Governance for a Sustainable Tech-Driven Future.webp",
-    description:
-      "Before starting the learning process, we evaluate the student's background, performance, strengths, challenges, and academic objectives.",
-    points: [
-      "Academic Background",
-      "Current Performance",
-      "Strengths & Weaknesses",
-      "Learning Challenges",
-      "Educational Goals",
-    ],
-  },
+    {
+      title: "Understanding Student Requirements",
+      image:
+        "/assets/vision-mission/Championing Good Governance for a Sustainable Tech-Driven Future.webp",
+      description:
+        "Before starting the learning process, we evaluate the student's background, performance, strengths, challenges, and academic objectives.",
+      points: [
+        "Academic Background",
+        "Current Performance",
+        "Strengths & Weaknesses",
+        "Learning Challenges",
+        "Educational Goals",
+      ],
+    },
 
-  {
-    title: "Customized Learning Planning",
-    image: "/assets/vision-mission/Championing Good Governance for a Sustainable Tech-Driven Future.webp",
-    description:
-      "Our educators create customized learning plans designed to improve subject understanding, exam preparation, and overall performance.",
-    points: [
-      "Subject-Wise Strategies",
-      "Concept-Based Learning",
-      "Revision Schedules",
-      "Practice Sessions",
-      "Exam Preparation Techniques",
-    ],
-  },
+    {
+      title: "Customized Learning Planning",
+      image:
+        "/assets/vision-mission/Championing Good Governance for a Sustainable Tech-Driven Future.webp",
+      description:
+        "Our educators create customized learning plans designed to improve subject understanding, exam preparation, and overall performance.",
+      points: [
+        "Subject-Wise Strategies",
+        "Concept-Based Learning",
+        "Revision Schedules",
+        "Practice Sessions",
+        "Exam Preparation Techniques",
+      ],
+    },
 
-  {
-    title: "One-to-One Interactive Learning",
-    image: "/assets/vision-mission/Championing Good Governance for a Sustainable Tech-Driven Future.webp",
-    description:
-      "We encourage active student participation through personalized sessions, doubt-solving discussions, and flexible teaching methods.",
-    points: [
-      "Active Student Participation",
-      "Doubt Solving Sessions",
-      "Practical Understanding",
-      "Communication & Interaction",
-      "Flexible Teaching Methods",
-    ],
-  },
+    {
+      title: "One-to-One Interactive Learning",
+      image:
+        "/assets/vision-mission/Championing Good Governance for a Sustainable Tech-Driven Future.webp",
+      description:
+        "We encourage active student participation through personalized sessions, doubt-solving discussions, and flexible teaching methods.",
+      points: [
+        "Active Student Participation",
+        "Doubt Solving Sessions",
+        "Practical Understanding",
+        "Communication & Interaction",
+        "Flexible Teaching Methods",
+      ],
+    },
 
-  {
-    title: "Performance Monitoring & Improvement",
-    image: "/assets/vision-mission/Championing Good Governance for a Sustainable Tech-Driven Future.webp",
-    description:
-      "Regular performance evaluation helps students identify improvement areas and stay motivated throughout their learning journey.",
-    points: [
-      "Regular Progress Tracking",
-      "Performance Analysis",
-      "Continuous Feedback",
-      "Improvement Planning",
-      "Motivation & Confidence Building",
-    ],
-  },
+    {
+      title: "Performance Monitoring & Improvement",
+      image:
+        "/assets/vision-mission/Championing Good Governance for a Sustainable Tech-Driven Future.webp",
+      description:
+        "Regular performance evaluation helps students identify improvement areas and stay motivated throughout their learning journey.",
+      points: [
+        "Regular Progress Tracking",
+        "Performance Analysis",
+        "Continuous Feedback",
+        "Improvement Planning",
+        "Motivation & Confidence Building",
+      ],
+    },
 
-  {
-    title: "Practical & Result-Oriented Teaching Methods",
-    image: "/assets/vision-mission/Championing Good Governance for a Sustainable Tech-Driven Future.webp",
-    description:
-      "Our methodology combines theory, practical application, and skill-building techniques to deliver measurable learning outcomes.",
-    points: [
-      "Theoretical Understanding",
-      "Practical Application",
-      "Activity-Based Learning",
-      "Skill Development Techniques",
-      "Exam-Oriented Preparation",
-      "Creative & Analytical Thinking",
-    ],
-  },
+    {
+      title: "Practical & Result-Oriented Teaching Methods",
+      image:
+        "/assets/vision-mission/Championing Good Governance for a Sustainable Tech-Driven Future.webp",
+      description:
+        "Our methodology combines theory, practical application, and skill-building techniques to deliver measurable learning outcomes.",
+      points: [
+        "Theoretical Understanding",
+        "Practical Application",
+        "Activity-Based Learning",
+        "Skill Development Techniques",
+        "Exam-Oriented Preparation",
+        "Creative & Analytical Thinking",
+      ],
+    },
 
-  {
-    title: "Flexible Learning Solutions",
-    image: "/assets/vision-mission/Championing Good Governance for a Sustainable Tech-Driven Future.webp",
-    description:
-      "We provide flexible learning options that allow students to learn according to their schedule, preferences, and educational needs.",
-    points: [
-      "Home Tuition Services",
-      "Online Learning Sessions",
-      "Flexible Timings",
-      "Customized Course Structures",
-      "Beginner to Advanced Learning Support",
-      "Individual & Group Learning Options",
-    ],
-  },
+    {
+      title: "Flexible Learning Solutions",
+      image:
+        "/assets/vision-mission/Championing Good Governance for a Sustainable Tech-Driven Future.webp",
+      description:
+        "We provide flexible learning options that allow students to learn according to their schedule, preferences, and educational needs.",
+      points: [
+        "Home TuitionServices",
+        "Online Learning Sessions",
+        "Flexible Timings",
+        "Customized Course Structures",
+        "Beginner to Advanced Learning Support",
+        "Individual & Group Learning Options",
+      ],
+    },
 
-  {
-    title: "Multi-Category Learning Expertise",
-    image: "/assets/vision-mission/Championing Good Governance for a Sustainable Tech-Driven Future.webp",
-    description:
-      "Our teaching approach supports a wide range of academic, professional, creative, and skill-based learning categories.",
-    points: [
-      "School & College Tuition",
-      "Competitive Exam Coaching",
-      "Language Learning",
-      "Computer & IT Training",
-      "Music, Dance & Creative Arts",
-      "Professional & Skill Development Courses",
-      "Special Education Support",
-    ],
-  },
+    {
+      title: "Multi-Category Learning Expertise",
+      image:
+        "/assets/vision-mission/Championing Good Governance for a Sustainable Tech-Driven Future.webp",
+      description:
+        "Our teaching approach supports a wide range of academic, professional, creative, and skill-based learning categories.",
+      points: [
+        "School & College Tuition",
+        "Competitive Exam Coaching",
+        "Language Learning",
+        "Computer & IT Training",
+        "Music, Dance & Creative Arts",
+        "Professional & Skill Development Courses",
+        "Special Education Support",
+      ],
+    },
 
-  {
-    title: "Our Commitment to Quality Learning",
-    image: "/assets/vision-mission/Championing Good Governance for a Sustainable Tech-Driven Future.webp",
-    description:
-      "We remain committed to delivering trusted educational support that encourages confidence, independent thinking, and lifelong learning.",
-    points: [
-      "Providing Trusted & Qualified Educators",
-      "Delivering Personalized Learning Experiences",
-      "Supporting Academic & Skill Development",
-      "Creating Positive Learning Environments",
-      "Encouraging Confidence & Independent Thinking",
-      "Promoting Consistent Growth & Success",
-    ],
-  },
+    {
+      title: "Our Commitment to Quality Learning",
+      image:
+        "/assets/vision-mission/Championing Good Governance for a Sustainable Tech-Driven Future.webp",
+      description:
+        "We remain committed to delivering trusted educational support that encourages confidence, independent thinking, and lifelong learning.",
+      points: [
+        "Providing Trusted & Qualified Educators",
+        "Delivering Personalized Learning Experiences",
+        "Supporting Academic & Skill Development",
+        "Creating Positive Learning Environments",
+        "Encouraging Confidence & Independent Thinking",
+        "Promoting Consistent Growth & Success",
+      ],
+    },
 
-  {
-    title: "Why Our Methodology Works?",
-    image: "/assets/vision-mission/Championing Good Governance for a Sustainable Tech-Driven Future.webp",
-    description:
-      "Our methodology is designed to provide personalized attention, continuous support, and practical learning experiences that help students achieve their goals.",
-    points: [
-      "Student-Focused Learning Approach",
-      "Personalized One-to-One Attention",
-      "Experienced & Supportive Educators",
-      "Flexible & Convenient Learning Options",
-      "Practical & Result-Oriented Teaching",
-      "Continuous Progress Monitoring",
-      "Strong Academic & Skill Development Focus",
-      "Trusted Educational Support Since 2017",
-    ],
-  },
-];
+    {
+      title: "Why Our Methodology Works?",
+      image:
+        "/assets/vision-mission/Championing Good Governance for a Sustainable Tech-Driven Future.webp",
+      description:
+        "Our methodology is designed to provide personalized attention, continuous support, and practical learning experiences that help students achieve their goals.",
+      points: [
+        "Student-Focused Learning Approach",
+        "Personalized One-to-One Attention",
+        "Experienced & Supportive Educators",
+        "Flexible & Convenient Learning Options",
+        "Practical & Result-Oriented Teaching",
+        "Continuous Progress Monitoring",
+        "Strong Academic & Skill Development Focus",
+        "Trusted Educational Support Since 2017",
+      ],
+    },
+  ];
 
   return (
     <main className="w-full  pt-[16%] sm:pt-[12%] xl:pt-[7%] pb-16">
@@ -396,8 +407,12 @@ const TalentDevelopment = () => {
               Personalized, Practical & Student-Centered Learning Since 2017
             </p>
             <p className="text-[1rem] text-black font-medium tracking-wide md:pr-10">
-              At Home Tuition Academy, our approach is focused on understanding every learner’s unique academic level, learning style, goals, strengths, and improvement areas. We believe that every student learns differently, which is why we provide personalized one-to-one learning solutions designed to create better understanding, confidence, performance, and long-term growth.
-
+              At Home TuitionAcademy, our approach is focused on understanding
+              every learner’s unique academic level, learning style, goals,
+              strengths, and improvement areas. We believe that every student
+              learns differently, which is why we provide personalized
+              one-to-one learning solutions designed to create better
+              understanding, confidence, performance, and long-term growth.
             </p>
 
             {/* <Link
@@ -434,7 +449,7 @@ const TalentDevelopment = () => {
             </div>
             <div className="flex items-center md:pl-5 md:border-l border-grayBorder">
               <p className="text-sm sm:text-base text-black text-center sm:text-start">
-                Since 2000, software solutions developed by Itsoftword have been
+                Since 2000, software solutions developed by home tuitionhave been
                 tested across diverse industries. Businesses ranging from
                 well-funded startups to SMBs, and enterprises trust us for
                 Innovation in Technology Development, acknowledging our
@@ -512,50 +527,50 @@ const TalentDevelopment = () => {
       </section>
 
       <section className="py-20 container px-5">
-  {learningMethodologySections.map((section, index) => (
-    <div
-      key={index}
-      className="grid md:grid-cols-2 gap-10 items-center mb-24"
-    >
-      {/* Image */}
-      <div
-        className={`relative w-full h-[300px] md:h-[450px] ${
-          index % 2 !== 0 ? "md:order-2" : ""
-        }`}
-      >
-        <Image
-          src={section.image}
-          alt={section.title}
-          fill
-          className="object-cover rounded-2xl shadow-lg"
-        />
-      </div>
-
-      {/* Content */}
-      <div className={index % 2 !== 0 ? "md:order-1" : ""}>
-        <h2 className="text-2xl md:text-4xl font-bold text-black mb-4">
-          {section.title}
-        </h2>
-
-        <p className="text-gray-600 leading-7 mb-6">
-          {section.description}
-        </p>
-
-        <div className="grid sm:grid-cols-2 gap-4">
-          {section.points.map((point, idx) => (
+        {learningMethodologySections.map((section, index) => (
+          <div
+            key={index}
+            className="grid md:grid-cols-2 gap-10 items-center mb-24"
+          >
+            {/* Image */}
             <div
-              key={idx}
-              className="flex items-center gap-3 bg-gray-50 border border-gray-200 rounded-lg p-3 hover:border-primary transition-all duration-300"
+              className={`relative w-full h-[300px] md:h-[450px] ${
+                index % 2 !== 0 ? "md:order-2" : ""
+              }`}
             >
-              <span className="text-primary font-bold text-lg">✓</span>
-              <span className="text-black font-medium">{point}</span>
+              <Image
+                src={section.image}
+                alt={section.title}
+                fill
+                className="object-cover rounded-2xl shadow-lg"
+              />
             </div>
-          ))}
-        </div>
-      </div>
-    </div>
-  ))}
-</section>
+
+            {/* Content */}
+            <div className={index % 2 !== 0 ? "md:order-1" : ""}>
+              <h2 className="text-2xl md:text-4xl font-bold text-black mb-4">
+                {section.title}
+              </h2>
+
+              <p className="text-gray-600 leading-7 mb-6">
+                {section.description}
+              </p>
+
+              <div className="grid sm:grid-cols-2 gap-4">
+                {section.points.map((point, idx) => (
+                  <div
+                    key={idx}
+                    className="flex items-center gap-3 bg-gray-50 border border-gray-200 rounded-lg p-3 hover:border-primary transition-all duration-300"
+                  >
+                    <span className="text-primary font-bold text-lg">✓</span>
+                    <span className="text-black font-medium">{point}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        ))}
+      </section>
 
       {/* fact area  */}
       {/* <section className="w-full  bg-black  py-7 sm:py-12 lg:py-16 my-10 xl:my-16">

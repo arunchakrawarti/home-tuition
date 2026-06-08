@@ -32,7 +32,7 @@ const DrawerMenu = ({
             <Link href="/">
               <Image
                 alt="header-logo"
-                src="/assets/header-logo.png"
+                src="/assets/hometuitionlogo.png"
                 height={120}
                 width={190}
                 className="w-[140px] sm:w-[180px] object-contain"

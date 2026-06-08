@@ -154,7 +154,7 @@ const AboutMain = () => {
   const facts = [
     {
       count: "9+",
-      text: "Years in home tuition ",
+      text: "Years in Home Tuition",
     },
     {
       count: "25000+",
@@ -363,7 +363,7 @@ const AboutMain = () => {
 
 From CBSE, ICSE, IB & IGCSE to competitive exam preparation including JEE, NEET, and advanced English Communication & Personality Development, we provide result-oriented learning experiences designed for excellence.
 
-Whether you prefer home tuition or online private sessions, our platform ensures flexible, convenient, and high-quality education tailored to every learner’s pace. With experienced educators, customized teaching methods, and one-on-one attention, we help students build confidence, improve performance, and achieve lasting academic success.
+Whether you prefer Home Tuitionor online private sessions, our platform ensures flexible, convenient, and high-quality education tailored to every learner’s pace. With experienced educators, customized teaching methods, and one-on-one attention, we help students build confidence, improve performance, and achieve lasting academic success.
               </p>
             </div>
           </div>
@@ -381,7 +381,7 @@ Whether you prefer home tuition or online private sessions, our platform ensures
             />
 
             <p className="font-semibold text-md xl:text-base first-letter:text-2xl first-letter:text-primary leading-normal">
-              Since 2017, Home Tuition Academy has been providing trusted, personalized, and result-oriented home tuition services across Mumbai, Navi Mumbai, Thane, and Ghodbunder Road. With decades of experience in the education industry, Home Tuition Academy focuses on helping students find the most suitable and qualified tutors according to their academic needs, learning style, board, class, and subject requirements.
+              Since 2017, Home TuitionAcademy has been providing trusted, personalized, and result-oriented Home Tuitionservices across Mumbai, Navi Mumbai, Thane, and Ghodbunder Road. With decades of experience in the education industry, Home TuitionAcademy focuses on helping students find the most suitable and qualified tutors according to their academic needs, learning style, board, class, and subject requirements.
 
             </p>
           </div>
@@ -393,11 +393,11 @@ Whether you prefer home tuition or online private sessions, our platform ensures
 
             <div className="flex flex-col gap-3">
               <p className="text-sm sm:text-base text-grayDark">
-                Home Tuition Academy offers home tutors for all major boards including CBSE, ICSE, IB, IGCSE, SSC, State Boards, and International Curriculums. We provide academic support from Pre-Primary to Post-Graduation for Science, Commerce, and Arts streams. Our services also include preparation for competitive exams, language training, spoken English programs, and skill-based learning support.
+                Home TuitionAcademy offers home tutors for all major boards including CBSE, ICSE, IB, IGCSE, SSC, State Boards, and International Curriculums. We provide academic support from Pre-Primary to Post-Graduation for Science, Commerce, and Arts streams. Our services also include preparation for competitive exams, language training, spoken English programs, and skill-based learning support.
 
 Our teacher selection process is designed to make finding a tutor quick, professional, and hassle-free. We help parents and students connect with experienced, verified, and result-oriented teachers from nearby localities for better convenience and flexibility. Every teacher match is made based on subject expertise, teaching experience, communication skills, student comfort, and academic goals.
 
-At Home Tuition Academy, we believe every student learns differently. That is why we focus on personalized learning solutions, individual attention, regular practice, concept clarity, exam preparation strategies, and confidence building. Our mission is to create a supportive learning environment where students can improve performance, strengthen fundamentals, and achieve academic success with the right guidance and mentorship.
+At Home TuitionAcademy, we believe every student learns differently. That is why we focus on personalized learning solutions, individual attention, regular practice, concept clarity, exam preparation strategies, and confidence building. Our mission is to create a supportive learning environment where students can improve performance, strengthen fundamentals, and achieve academic success with the right guidance and mentorship.
               </p>
 
               <Link

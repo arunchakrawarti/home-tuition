@@ -17,11 +17,11 @@ export const explore_links = [
   },
   {
     label: "Our Vision",
-    route: "/why-Itsoftword/our-vision",
+    route: "/why-sgwebapp/our-vision",
   },
   {
     label: "Our Approach & Methodology",
-    route: "/why-Itsoftword/our-approach",
+    route: "/why-sgwebapp/our-approach",
   },
   {
     label: "blog",

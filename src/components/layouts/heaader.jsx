@@ -155,7 +155,7 @@ export const Header = ({ currentTheme = "", toggleTheme }) => {
             <Link href="/">
               <Image
                 alt="header-logo"
-                src="/assets/header-logo.png"
+                src="/assets/hometuitionlogo.png"
                 height={120}
                 width={190}
                 className="w-[120px] sm:w-[170px]"
@@ -247,4 +247,3 @@ export const Header = ({ currentTheme = "", toggleTheme }) => {
     </>
   );
 };
-

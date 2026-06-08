@@ -15,11 +15,11 @@ import {
 } from "../../../../public/assets/innovation";
 import Link from "next/link";
 
-
 const learningInnovationSections = [
   {
     title: "Research-Driven Learning Approach",
-    image: "/assets/vision-mission/Championing Good Governance for a Sustainable Tech-Driven Future.webp",
+    image:
+      "/assets/vision-mission/Championing Good Governance for a Sustainable Tech-Driven Future.webp",
     description:
       "We believe education must continuously evolve according to changing academic patterns, modern learning methods, student psychology, technology integration, and career-oriented learning requirements.",
     points: [
@@ -35,7 +35,8 @@ const learningInnovationSections = [
 
   {
     title: "Continuous Educational Innovation",
-    image: "/assets/vision-mission/Championing Good Governance for a Sustainable Tech-Driven Future.webp",
+    image:
+      "/assets/vision-mission/Championing Good Governance for a Sustainable Tech-Driven Future.webp",
     description:
       "We continuously improve our educational services by developing innovative teaching methodologies and learning models that enhance student outcomes.",
     points: [
@@ -51,7 +52,8 @@ const learningInnovationSections = [
 
   {
     title: "Development of Modern Learning Solutions",
-    image: "/assets/vision-mission/Championing Good Governance for a Sustainable Tech-Driven Future.webp",
+    image:
+      "/assets/vision-mission/Championing Good Governance for a Sustainable Tech-Driven Future.webp",
     description:
       "Our research and development initiatives focus on improving educational accessibility, engagement, and learning effectiveness for students of all ages.",
     points: [
@@ -66,7 +68,8 @@ const learningInnovationSections = [
 
   {
     title: "Innovation Across Multiple Learning Categories",
-    image: "/assets/vision-mission/Championing Good Governance for a Sustainable Tech-Driven Future.webp",
+    image:
+      "/assets/vision-mission/Championing Good Governance for a Sustainable Tech-Driven Future.webp",
     description:
       "We continuously enhance learning solutions across diverse academic, professional, and skill-development categories.",
     points: [
@@ -83,7 +86,8 @@ const learningInnovationSections = [
 
   {
     title: "Technology & Learning Integration",
-    image: "/assets/vision-mission/Championing Good Governance for a Sustainable Tech-Driven Future.webp",
+    image:
+      "/assets/vision-mission/Championing Good Governance for a Sustainable Tech-Driven Future.webp",
     description:
       "We combine traditional teaching values with modern educational technologies to provide flexible, engaging, and effective learning experiences.",
     points: [
@@ -98,7 +102,8 @@ const learningInnovationSections = [
 
   {
     title: "Student-Focused Research & Improvement",
-    image: "/assets/vision-mission/Championing Good Governance for a Sustainable Tech-Driven Future.webp",
+    image:
+      "/assets/vision-mission/Championing Good Governance for a Sustainable Tech-Driven Future.webp",
     description:
       "Our innovation strategy is centered on understanding student needs and continuously improving learning outcomes and personal development.",
     points: [
@@ -113,9 +118,10 @@ const learningInnovationSections = [
 
   {
     title: "Our Commitment to Educational Growth",
-    image: "/assets/vision-mission/Championing Good Governance for a Sustainable Tech-Driven Future.webp",
+    image:
+      "/assets/vision-mission/Championing Good Governance for a Sustainable Tech-Driven Future.webp",
     description:
-      "At Home Tuition Academy, innovation is not only about technology—it is about continuously improving the way students learn and educators teach. We remain committed to developing effective, personalized, and future-focused learning solutions.",
+      "At Home TuitionAcademy, innovation is not only about technology—it is about continuously improving the way students learn and educators teach. We remain committed to developing effective, personalized, and future-focused learning solutions.",
     points: [
       "Effective Learning Solutions",
       "Personalized Educational Support",
@@ -128,7 +134,8 @@ const learningInnovationSections = [
 
   {
     title: "Why Choose Our Learning Approach?",
-    image: "/assets/vision-mission/Championing Good Governance for a Sustainable Tech-Driven Future.webp",
+    image:
+      "/assets/vision-mission/Championing Good Governance for a Sustainable Tech-Driven Future.webp",
     description:
       "Our learning approach combines research, innovation, flexibility, and student-centered teaching practices to deliver meaningful educational outcomes.",
     points: [
@@ -190,8 +197,12 @@ const Innovation = () => {
             Advancing Personalized Learning Through Innovation Since 2017
           </p>
           <p className="text-[1rem] text-black font-medium tracking-wide md:pr-10">
-            At Home Tuition Academy, we continuously focus on innovation, research, and development to improve the quality of personalized education and learning experiences. Our goal is to understand evolving educational trends, student learning patterns, teaching methodologies, and skill development requirements to provide modern, flexible, and result-oriented learning solutions.
-
+            At Home TuitionAcademy, we continuously focus on innovation,
+            research, and development to improve the quality of personalized
+            education and learning experiences. Our goal is to understand
+            evolving educational trends, student learning patterns, teaching
+            methodologies, and skill development requirements to provide modern,
+            flexible, and result-oriented learning solutions.
           </p>
 
           <Link
@@ -209,55 +220,52 @@ const Innovation = () => {
         </div>
       </section>
 
-
       <section className="py-20 container px-5">
-  {learningInnovationSections.map((section, index) => (
-    <div
-      key={index}
-      className="grid md:grid-cols-2 gap-10 items-center mb-24"
-    >
-      {/* Image Section */}
-      <div
-        className={`relative w-full h-[300px] md:h-[400px] ${
-          index % 2 !== 0 ? "md:order-2" : ""
-        }`}
-      >
-        <Image
-          src={section.image}
-          alt={section.title}
-          fill
-          className="object-cover rounded-xl"
-        />
-      </div>
-
-      {/* Content Section */}
-      <div className={index % 2 !== 0 ? "md:order-1" : ""}>
-        <h2 className="text-2xl md:text-4xl font-bold text-black mb-4">
-          {section.title}
-        </h2>
-
-        <p className="text-gray-600 leading-7 mb-6">
-          {section.description}
-        </p>
-
-        <div className="grid sm:grid-cols-2 gap-4">
-          {section.points.map((point, idx) => (
+        {learningInnovationSections.map((section, index) => (
+          <div
+            key={index}
+            className="grid md:grid-cols-2 gap-10 items-center mb-24"
+          >
+            {/* Image Section */}
             <div
-              key={idx}
-              className="flex items-center gap-3 bg-gray-50 border border-gray-200 rounded-lg p-3"
+              className={`relative w-full h-[300px] md:h-[400px] ${
+                index % 2 !== 0 ? "md:order-2" : ""
+              }`}
             >
-              <span className="text-primary font-bold text-lg">✓</span>
-
-              <span className="text-black font-medium">
-                {point}
-              </span>
+              <Image
+                src={section.image}
+                alt={section.title}
+                fill
+                className="object-cover rounded-xl"
+              />
             </div>
-          ))}
-        </div>
-      </div>
-    </div>
-  ))}
-</section>
+
+            {/* Content Section */}
+            <div className={index % 2 !== 0 ? "md:order-1" : ""}>
+              <h2 className="text-2xl md:text-4xl font-bold text-black mb-4">
+                {section.title}
+              </h2>
+
+              <p className="text-gray-600 leading-7 mb-6">
+                {section.description}
+              </p>
+
+              <div className="grid sm:grid-cols-2 gap-4">
+                {section.points.map((point, idx) => (
+                  <div
+                    key={idx}
+                    className="flex items-center gap-3 bg-gray-50 border border-gray-200 rounded-lg p-3"
+                  >
+                    <span className="text-primary font-bold text-lg">✓</span>
+
+                    <span className="text-black font-medium">{point}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        ))}
+      </section>
 
       {/* <section className=" bg-primary ">
         <div className="container  md:py-20 md:px-20 gap-7 px-5 py-10">
@@ -411,7 +419,6 @@ const Innovation = () => {
         </div>
       </section> */}
 
-      
       {/* <section className="container px-5 md:px-36 pb-10 md:pb-20">
         <h1 className="text-center font-bold text-black text-2xl md:text-3xl tracking-wide">
           Streamlining The Impact of Purpose-driven Innovation

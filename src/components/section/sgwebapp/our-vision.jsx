@@ -81,11 +81,11 @@ const coreValues = [
   },
 ];
 
-
 const talentNetworkSections = [
   {
     title: "Qualified & Experienced Professionals",
-    image: "/assets/vision-mission/Championing Good Governance for a Sustainable Tech-Driven Future.webp",
+    image:
+      "/assets/vision-mission/Championing Good Governance for a Sustainable Tech-Driven Future.webp",
     description:
       "Our talent network includes highly qualified and experienced professionals from diverse educational and training backgrounds.",
     points: [
@@ -107,7 +107,8 @@ const talentNetworkSections = [
 
   {
     title: "Expertise Across Multiple Learning Categories",
-    image: "/assets/vision-mission/Committing to A Tech-first Future for Businesses.webp",
+    image:
+      "/assets/vision-mission/Committing to A Tech-first Future for Businesses.webp",
     description:
       "We provide skilled educators and trainers across a wide range of academic, professional, and skill-based learning categories.",
     points: [
@@ -127,7 +128,8 @@ const talentNetworkSections = [
 
   {
     title: "Carefully Selected Teaching Professionals",
-    image: "/assets/vision-mission/Championing Good Governance for a Sustainable Tech-Driven Future.webp",
+    image:
+      "/assets/vision-mission/Championing Good Governance for a Sustainable Tech-Driven Future.webp",
     description:
       "Every educator and trainer in our network is carefully selected based on quality, expertise, and dedication to student success.",
     points: [
@@ -143,7 +145,8 @@ const talentNetworkSections = [
 
   {
     title: "Personalized Teacher & Trainer Matching",
-    image: "/assets/vision-mission/We strive to build tech-powered, high-efficiency, fair, and transparent bussiness processes.webp",
+    image:
+      "/assets/vision-mission/We strive to build tech-powered, high-efficiency, fair, and transparent bussiness processes.webp",
     description:
       "We focus on connecting learners with the most suitable educators according to their learning goals and preferences.",
     points: [
@@ -152,14 +155,15 @@ const talentNetworkSections = [
       "Flexible Learning Support",
       "Beginner to Advanced Level Training",
       "One-to-One Personalized Learning",
-      "Online & Home Tuition Options",
+      "Online & Home TuitionOptions",
       "Quick Teacher Availability",
     ],
   },
 
   {
     title: "Supporting Learning Beyond Academics",
-    image: "/assets/vision-mission/Committing to A Tech-first Future for Businesses.webp",
+    image:
+      "/assets/vision-mission/Committing to A Tech-first Future for Businesses.webp",
     description:
       "Our talent network helps students and learners develop essential life skills and career-oriented competencies beyond academics.",
     points: [
@@ -175,7 +179,8 @@ const talentNetworkSections = [
 
   {
     title: "Why Our Talent Network Stands Out?",
-    image: "/assets/vision-mission/Championing Good Governance for a Sustainable Tech-Driven Future.webp",
+    image:
+      "/assets/vision-mission/Championing Good Governance for a Sustainable Tech-Driven Future.webp",
     description:
       "We are committed to delivering quality educational support through experienced professionals, personalized guidance, and flexible learning solutions.",
     points: [
@@ -212,55 +217,61 @@ const OurVision = () => {
           />
         </div>
         <p className="text-sm md:text-lg text-black font-medium tracking-wide text-center md:px-44 py-5 leading-6">
-          Home Tuition Academy is powered by a strong network of talented, experienced, and dedicated educators, trainers, mentors, and industry professionals who are passionate about teaching and student development. Our talent network includes qualified teachers and experts from diverse academic, professional, creative, and technical backgrounds, helping learners receive the right guidance according to their individual goals and learning requirements.
+          Home TuitionAcademy is powered by a strong network of talented,
+          experienced, and dedicated educators, trainers, mentors, and industry
+          professionals who are passionate about teaching and student
+          development. Our talent network includes qualified teachers and
+          experts from diverse academic, professional, creative, and technical
+          backgrounds, helping learners receive the right guidance according to
+          their individual goals and learning requirements.
         </p>
       </section>
 
       <section className="py-20 container px-5">
-  {talentNetworkSections.map((section, index) => (
-    <div
-      key={index}
-      className="grid md:grid-cols-2 gap-10 items-center mb-24"
-    >
-      {/* Left / Right Image */}
-      <div
-        className={`relative w-full h-[300px] md:h-[400px] ${
-          index % 2 !== 0 ? "md:order-2" : ""
-        }`}
-      >
-        <Image
-  src={section.image}
-  alt={section.title}
-  fill
-  className="object-cover rounded-xl"
-/>
-      </div>
-
-      {/* Content */}
-      <div className={index % 2 !== 0 ? "md:order-1" : ""}>
-        <h2 className="text-2xl md:text-4xl font-bold text-black mb-4">
-          {section.title}
-        </h2>
-
-        <p className="text-gray-600 leading-7 mb-6">
-          {section.description}
-        </p>
-
-        <div className="grid sm:grid-cols-2 gap-4">
-          {section.points.map((point, idx) => (
+        {talentNetworkSections.map((section, index) => (
+          <div
+            key={index}
+            className="grid md:grid-cols-2 gap-10 items-center mb-24"
+          >
+            {/* Left / Right Image */}
             <div
-              key={idx}
-              className="flex items-center gap-3 bg-gray-50 border border-gray-200 rounded-lg p-3"
+              className={`relative w-full h-[300px] md:h-[400px] ${
+                index % 2 !== 0 ? "md:order-2" : ""
+              }`}
             >
-              <span className="text-primary font-bold text-lg">✓</span>
-              <span className="text-black font-medium">{point}</span>
+              <Image
+                src={section.image}
+                alt={section.title}
+                fill
+                className="object-cover rounded-xl"
+              />
             </div>
-          ))}
-        </div>
-      </div>
-    </div>
-  ))}
-</section>
+
+            {/* Content */}
+            <div className={index % 2 !== 0 ? "md:order-1" : ""}>
+              <h2 className="text-2xl md:text-4xl font-bold text-black mb-4">
+                {section.title}
+              </h2>
+
+              <p className="text-gray-600 leading-7 mb-6">
+                {section.description}
+              </p>
+
+              <div className="grid sm:grid-cols-2 gap-4">
+                {section.points.map((point, idx) => (
+                  <div
+                    key={idx}
+                    className="flex items-center gap-3 bg-gray-50 border border-gray-200 rounded-lg p-3"
+                  >
+                    <span className="text-primary font-bold text-lg">✓</span>
+                    <span className="text-black font-medium">{point}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        ))}
+      </section>
 
       {/* <section className=" bg-primary ">
         <div className="container md:grid grid-cols-2 md:py-24 md:px-20 gap-7 px-5 py-6">

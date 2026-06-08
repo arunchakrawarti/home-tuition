@@ -12,9 +12,9 @@ const GOOGLE_SITE_VERIFICATION = process.env.GOOGLE_SITE_VERIFICATION;
 const GTM_ID = process.env.GTM_ID;
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL;
 export const metadata = {
-  title: "Itsoftword Word",
+  title: "home tuitionWord",
   description:
-    "Itsoftword provides best web designing,  app development service, seo service, digital marketing, ios, android development service in Delhi. Call +91 7977757864",
+    "home tuitionprovides best web designing,  app development service, seo service, digital marketing, ios, android development service in Delhi. Call +91 7977757864",
   robots: {
     index: false,
     follow: false,
@@ -25,14 +25,14 @@ export const metadata = {
   alternates: {
     canonical: process.env.NEXT_PUBLIC_SITE_URL,
   },
-  authors: [{ name: "Itsoftword Techniques Pvt. Ltd." }],
+  authors: [{ name: "home tuitionTechniques Pvt. Ltd." }],
 
   openGraph: {
     type: "website",
     siteName: "Itsoftword",
     title: "Web and App Development, SEO and Digital marketing Service",
     description:
-      "Itsoftword provides best web designing,  app development service, seo service, digital marketing, ios, android development service in Delhi. Call +91 7977757864",
+      "home tuitionprovides best web designing,  app development service, seo service, digital marketing, ios, android development service in Delhi. Call +91 7977757864",
     url: "https://www.Itsoftword.com",
     images: [
       {

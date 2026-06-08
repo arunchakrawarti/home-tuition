@@ -13,7 +13,7 @@ const whyRadixItems = [
   },
   {
     title: "Our Mission",
-    desc: "At Home Tuition Academy, our mission is to provide personalized one-to-one learning solutions that help students and learners achieve academic excellence, skill development, confidence, creativity, and career growth through experienced and qualified educators.",
+    desc: "At Home TuitionAcademy, our mission is to provide personalized one-to-one learning solutions that help students and learners achieve academic excellence, skill development, confidence, creativity, and career growth through experienced and qualified educators.",
     href: "/why-sgwebapp/innovation",
     icon: "https://d2ms8rpfqc4h24.cloudfront.net/innovation_and_r_and_d_0b50dd7d5a.svg",
   },

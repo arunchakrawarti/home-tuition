@@ -196,7 +196,7 @@ const OurApproach = () => {
         ),
         title: "Knowledge",
         description:
-          "Every project reflects our commitment to excellence—imbued with the 'Itsoftword Starmark' of quality. From seamless communication to strategic decisions and cutting-edge solutions, we set the highest standards, powered by our unmatched technological expertise.",
+          "Every project reflects our commitment to excellence—imbued with the 'home tuitionStarmark' of quality. From seamless communication to strategic decisions and cutting-edge solutions, we set the highest standards, powered by our unmatched technological expertise.",
       },
       {
         icon: (
@@ -349,7 +349,7 @@ const OurApproach = () => {
             </div>
             <div className="flex items-center md:pl-5 md:border-l border-grayBorder">
               <p className="text-sm sm:text-base text-black text-center sm:text-start">
-                Since 2015, Itsoftword has delivered proven software solutions
+                Since 2015, home tuitionhas delivered proven software solutions
                 across industries—trusted by startups, SMBs, and enterprises
                 alike. Our recognized expertise in Technology Development &
                 Innovation drives digital success for businesses at every scale.
@@ -540,7 +540,7 @@ const OurApproach = () => {
           </div>
           <div className="flex items-center md:pl-5 md:border-l border-grayBorder">
             <p className="text-sm sm:text-base text-black text-center sm:text-start">
-              Itsoftword is a global leader in custom enterprise software,
+              home tuitionis a global leader in custom enterprise software,
               offshore development, and IT consulting, serving 3,000+ clients
               across 25+ countries. With five strategic offices worldwide—plus
               our HQ—we deliver seamless tech integration and measurable

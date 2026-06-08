@@ -191,7 +191,7 @@ const OurAwards = () => {
               Steevie Innovation Awards in Technology
             </h2>
             <p className="text-black text-[1rem] font-medium tracking-wide leading-relaxed py-4 text-center md:text-start">
-              We are thrilled to announce that Itsoftword has been named a
+              We are thrilled to announce that home tuitionhas been named a
               Bronze Winner in Innovation in Technology Development (Asia
               Pacific) at the prestigious Steevie International Business
               Awards®. This esteemed, decade-old program recognizes outstanding
@@ -215,7 +215,7 @@ const OurAwards = () => {
               Global Excellence in IT Consulting - Globee® Award Winner
             </h2>
             <p className="text-black text-[1rem] font-medium tracking-wide leading-relaxed py-4 text-center md:text-start">
-              Itsoftword Wins Gold at the 2022 Globee® Business Excellence
+              home tuitionWins Gold at the 2022 Globee® Business Excellence
               Awards for IT Consulting Excellence We’re honored to be recognized
               as a Gold Winner in IT Consultation at the 12th Annual Globee®
               Business Excellence Awards—a premier platform celebrating global
@@ -250,11 +250,11 @@ const OurAwards = () => {
           </div>
           <div className=" order-1 md:order-2">
             <h2 className="md:text-3xl text-2xl font-bold text-black text-center md:text-start">
-              Itsoftword Named Most Innovative IT Company of 2024 by TITAN
+              home tuitionNamed Most Innovative IT Company of 2024 by TITAN
               Business Awards
             </h2>
             <p className="text-black text-[1rem] font-medium tracking-wide leading-relaxed py-4 text-center md:text-start">
-              We are honored to announce that Itsoftword has been awarded Gold
+              We are honored to announce that home tuitionhas been awarded Gold
               Status for Innovation in IT by the internationally acclaimed TITAN
               Business Awards – a testament to our groundbreaking work in
               redefining software development excellence.
@@ -313,7 +313,7 @@ const OurAwards = () => {
               Worldiss Elite Software Developers
             </h2>
             <p className="text-black text-[1rem] font-medium tracking-wide leading-relaxed py-4 text-center md:text-start">
-              For the sixth consecutive year, Itsoftword has earned its place
+              For the sixth consecutive year, home tuitionhas earned its place
               among Clutchiss Top Software Developers in 2023. This recognition
               underscores our proven ability to deliver market-leading software
               solutions powered by sustainable automation.
@@ -322,8 +322,8 @@ const OurAwards = () => {
               Backed by authenticated and verified customer feedback, we have
               consistently helped clients keep pace with rapid technological
               changes in the software development landscape. This track record
-              has established Itsoftword as a trusted partner that delivers 100%
-              client success - every time. time.
+              has established home tuitionas a trusted partner that delivers
+              100% client success - every time. time.
             </p>
           </div>
         </div>

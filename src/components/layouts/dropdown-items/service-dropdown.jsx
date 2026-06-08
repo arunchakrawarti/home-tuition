@@ -10,98 +10,98 @@ const ServiceDrop = () => {
   const [activeIndex, setActiveIndex] = useState(0);
   const [services, setServices] = useState([
     {
-      title: "home tuition for School Tuition",
+      title: "Home Tuitionfor School Tuition",
       slug: "home-tuition-for-school-tuition",
       menu: [],
     },
     {
-      title: "home tuition for College",
+      title: "Home Tuitionfor College",
       slug: "home-tuition-for-college",
       menu: [],
     },
     {
-      title: "home tuition for Diploma",
+      title: "Home Tuitionfor Diploma",
       slug: "home-tuition-for-diploma",
       menu: [],
     },
     {
-      title: "home tuition for under Graduation",
+      title: "Home Tuitionfor under Graduation",
       slug: "home-tuition-for-under-graduation",
       menu: [],
     },
     {
-      title: "home tuition for post Graduation",
+      title: "Home Tuitionfor post Graduation",
       slug: "home-tuition-for-post-graduation",
       menu: [],
     },
     {
-      title: "home tuition for Competitive Exam",
+      title: "Home Tuitionfor Competitive Exam",
       slug: "home-tuition-for-competitive-exam",
       menu: [],
     },
     {
-      title: "home tuition for Language Studies",
+      title: "Home Tuitionfor Language Studies",
       slug: "home-tuition-for-language-studies",
       menu: [],
     },
     {
-      title: "home tuition for English Speaking",
+      title: "Home Tuitionfor English Speaking",
       slug: "home-tuition-for-english-speaking",
       menu: [],
     },
 
     {
-      title: "home tuition for  Foreign Language",
+      title: "Home Tuitionfor  Foreign Language",
       slug: "home-tuition-for-foreign-language",
       menu: [],
     },
     {
-      title: "home tuition for Religious Studies",
+      title: "Home Tuitionfor Religious Studies",
       slug: "home-tuition-for-religious-studies",
       menu: [],
     },
     {
-      title: "home tuition for Computer/IT",
+      title: "Home Tuitionfor Computer/IT",
       slug: "home-tuition-for-computer/it",
       menu: [],
     },
     {
-      title: "home tuition for Music",
+      title: "Home Tuitionfor Music",
       slug: "home-tuition-for-music",
       menu: [],
     },
     {
-      title: "home tuition for Dance",
+      title: "Home Tuitionfor Dance",
       slug: "home-tuition-for-dance",
       menu: [],
     },
     {
-      title: "home tuition for Photography/Film Making",
+      title: "Home Tuitionfor Photography/Film Making",
       slug: "home-tuition-for-photography/film-making",
       menu: [],
     },
     {
-      title: "home tuition for Threatre/acting",
+      title: "Home Tuitionfor Threatre/acting",
       slug: "home-tuition-for-threatre/acting",
       menu: [],
     },
     {
-      title: "home tuition for Industrial Training",
+      title: "Home Tuitionfor Industrial Training",
       slug: "home-tuition-for-industrial-training",
       menu: [],
     },
     {
-      title: "home tuition for Tailoring / Fashion design",
+      title: "Home Tuitionfor Tailoring / Fashion design",
       slug: "home-tuition-for-tailoring/fashion-design",
       menu: [],
     },
     {
-      title: " home tuition for  special education",
+      title: " Home Tuitionfor  special education",
       slug: "home-tuition-for-special-education",
       menu: [],
     },
     {
-      title: "home tuition for Art&craft",
+      title: "Home Tuitionfor Art&craft",
       slug: "home-tuition-for-art&craft",
       menu: [],
     },

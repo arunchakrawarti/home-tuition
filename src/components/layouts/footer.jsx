@@ -13,28 +13,28 @@ import { errorToast, successToast } from "~/utils/toastMessage";
 export const Footer = () => {
   const [formData, setFormData] = useState({ email: "", source: "website" });
   const [loading, setLoading] = useState(false);
-const services = [
-  "School Tuition",
-  "College",
-  "Diploma",
-  "Under Graduation",
-  "Post Graduation",
-  "Competitive Exam",
-  "Language Studies",
-  "English Speaking",
-  "Foreign Language",
-  "Religious Studies",
-  "Computer/IT",
-  "Music",
-  "Dance",
-  "Photography/Film Making",
-  "Theatre/Acting",
-  "Industrial Training",
-  "Tailoring / Fashion Design",
-  "Special Education",
-  "Art & Craft",
-  "Regional Language",
-];
+  const services = [
+    "School Tuition",
+    "College",
+    "Diploma",
+    "Under Graduation",
+    "Post Graduation",
+    "Competitive Exam",
+    "Language Studies",
+    "English Speaking",
+    "Foreign Language",
+    "Religious Studies",
+    "Computer/IT",
+    "Music",
+    "Dance",
+    "Photography/Film Making",
+    "Theatre/Acting",
+    "Industrial Training",
+    "Tailoring / Fashion Design",
+    "Special Education",
+    "Art & Craft",
+    "Regional Language",
+  ];
 
   const socialLinks = [
     {
@@ -180,7 +180,7 @@ const services = [
         <div className="col-span-2 sm:col-span-1  flex flex-col gap-5 sm:gap-7">
           <Image
             alt="header-logo"
-            src="/assets/header-logo.png"
+            src="/assets/hometuitionlogo.png"
             height={110}
             width={170}
             className="object-contain"
@@ -188,7 +188,9 @@ const services = [
 
           <div className="flex flex-col gap-4">
             <p className="text-md text-gray-500 ">
-              At Home Tuition Academy, we believe that every student deserves the right teacher. Our mission is to make personalized learning accessible, effective, and convenient for every learner.
+              At Home TuitionAcademy, we believe that every student deserves the
+              right teacher. Our mission is to make personalized learning
+              accessible, effective, and convenient for every learner.
             </p>
 
             <div className="flex flex-col gap-2">

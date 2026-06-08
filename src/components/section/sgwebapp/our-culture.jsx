@@ -75,11 +75,14 @@ const OurCulture = () => {
           </h1>
           <p className="text-2xl md:text-3xl text-black font-bold tracking-wide py-4 md:pr-16">
             Personalized, Practical & Student-Centered Learning Since 2017
-
           </p>
           <p className="text-[1rem] text-black font-medium tracking-wide md:pr-10">
-            At Home Tuition Academy, our approach is focused on understanding every learner’s unique academic level, learning style, goals, strengths, and improvement areas. We believe that every student learns differently, which is why we provide personalized one-to-one learning solutions designed to create better understanding, confidence, performance, and long-term growth.
-
+            At Home TuitionAcademy, our approach is focused on understanding
+            every learner’s unique academic level, learning style, goals,
+            strengths, and improvement areas. We believe that every student
+            learns differently, which is why we provide personalized one-to-one
+            learning solutions designed to create better understanding,
+            confidence, performance, and long-term growth.
           </p>
           <button className="bg-primary capitalize text-white rounded-sm text-[1rem] font-medium tracking-wide py-2.5 px-5 mt-6 flex justify-center items-center gap-2 hover:gap-4">
             Experience True Tech Integrity
@@ -375,11 +378,21 @@ const OurCulture = () => {
             return (
               <div key={index} className="border border-grays rounded-md ">
                 <div className="w-full ">
-                  <Image alt={img} width={1000} height={100} src={img}  className="rounded-t-md bg-cover"/>
+                  <Image
+                    alt={img}
+                    width={1000}
+                    height={100}
+                    src={img}
+                    className="rounded-t-md bg-cover"
+                  />
                 </div>
-               <div className="p-5">
-                <p className="text-black text-[1rem] font-bold tracking-wide">{title}</p>
-                <p className="pt-4 text-primary font-bold text-[1rem] tracking-wide cursor-pointer">{desc}</p>
+                <div className="p-5">
+                  <p className="text-black text-[1rem] font-bold tracking-wide">
+                    {title}
+                  </p>
+                  <p className="pt-4 text-primary font-bold text-[1rem] tracking-wide cursor-pointer">
+                    {desc}
+                  </p>
                 </div>
               </div>
             );

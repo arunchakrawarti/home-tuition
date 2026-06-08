@@ -92,7 +92,7 @@ const Partners = () => {
               Microsoft Solutions Partner
             </h2>
             <p className="text-black text-[1rem] font-medium tracking-wide leading-relaxed py-4 text-center md:text-start">
-              Itsoftword is a certified Microsoft Solutions Partner in Digital
+              home tuitionis a certified Microsoft Solutions Partner in Digital
               App & Innovation (Azure), after a rigorous assessment of our
               technical expertise in meeting ‘Microsoft Standards’ and solving
               complex challenges with Azure. This certification validates our

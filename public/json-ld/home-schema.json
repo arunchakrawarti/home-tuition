@@ -36,7 +36,7 @@
         "@type": "Person",
         "name": "Founder Name"
       },
-      "description": "Itsoftword delivers user-centric digital solutions, web and mobile applications, and custom software to help businesses grow.",
+      "description": "home tuitiondelivers user-centric digital solutions, web and mobile applications, and custom software to help businesses grow.",
       "knowsAbout": [
         "web development",
         "mobile apps",
@@ -62,7 +62,7 @@
       "@type": "WebPage",
       "@id": "https://Itsoftword.com/#homepage",
       "url": "https://Itsoftword.com",
-      "name": "Itsoftword — Home",
+      "name": "home tuition— Home",
       "isPartOf": {
         "@id": "https://Itsoftword.com/#website"
       },
@@ -70,7 +70,7 @@
         "@type": "ImageObject",
         "url": "https://Itsoftword.com/assets/images/hero-banner.jpg"
       },
-      "description": "Itsoftword provides innovative digital products, app development and development services to help businesses scale online."
+      "description": "home tuitionprovides innovative digital products, app development and development services to help businesses scale online."
     }
   ]
 }
