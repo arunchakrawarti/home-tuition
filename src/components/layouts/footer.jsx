@@ -188,7 +188,7 @@ export const Footer = () => {
 
           <div className="flex flex-col gap-4">
             <p className="text-md text-gray-500 ">
-              At Home TuitionAcademy, we believe that every student deserves the
+              At Home Tuition Academy, we believe that every student deserves the
               right teacher. Our mission is to make personalized learning
               accessible, effective, and convenient for every learner.
             </p>
