@@ -33,7 +33,7 @@ const TermPage = () => {
           Home TuitionAcademy services.
         </p>
 
-        <h3>2. About Home TuitionAcademy</h3>
+        <h3>2. About Home Tuition Academy</h3>
 
         <p>
           Home TuitionAcademy has been providing personalized home tuition

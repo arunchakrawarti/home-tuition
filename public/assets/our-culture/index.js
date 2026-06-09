@@ -7,7 +7,7 @@ export const Employee2 = "/assets/our-culture/employee2.png";
 export const FreshRoom = "/assets/our-culture/fresh-room.png";
 export const GreatPlace = "/assets/our-culture/great-place.png";
 export const HeroEmployee =
-  "/assets/tallent/Rewiring Your Approach towards Tech Innovation.webp";
+  "/assets/tallent/imagevision.png";
 export const Radixweb = "/assets/our-culture/radixweb.jpg";
 export const RadixHappy = "/assets/our-culture/radix-happy.png";
 export const Trengle = "/assets/our-culture/trengle.png";

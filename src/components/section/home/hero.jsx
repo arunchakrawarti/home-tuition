@@ -32,7 +32,7 @@ const Hero = () => {
             title="Itsoftword"
             height={400}
             width={400}
-            src="/assets/hero-technologies/itsofrword.png"
+            src="/assets/home/homeimg.png"
             className="mx-auto w-[95%] sm:w-[60%] xl:w-[80%]  bg-cover"
           />
         </div>

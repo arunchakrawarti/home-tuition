@@ -85,7 +85,7 @@ const talentNetworkSections = [
   {
     title: "Qualified & Experienced Professionals",
     image:
-      "/assets/vision-mission/Championing Good Governance for a Sustainable Tech-Driven Future.webp",
+      "/assets/vision-mission/image1.png",
     description:
       "Our talent network includes highly qualified and experienced professionals from diverse educational and training backgrounds.",
     points: [
@@ -108,7 +108,7 @@ const talentNetworkSections = [
   {
     title: "Expertise Across Multiple Learning Categories",
     image:
-      "/assets/vision-mission/Committing to A Tech-first Future for Businesses.webp",
+      "/assets/vision-mission/image2.png",
     description:
       "We provide skilled educators and trainers across a wide range of academic, professional, and skill-based learning categories.",
     points: [
@@ -129,7 +129,7 @@ const talentNetworkSections = [
   {
     title: "Carefully Selected Teaching Professionals",
     image:
-      "/assets/vision-mission/Championing Good Governance for a Sustainable Tech-Driven Future.webp",
+      "/assets/vision-mission/image4.png",
     description:
       "Every educator and trainer in our network is carefully selected based on quality, expertise, and dedication to student success.",
     points: [
@@ -146,7 +146,7 @@ const talentNetworkSections = [
   {
     title: "Personalized Teacher & Trainer Matching",
     image:
-      "/assets/vision-mission/We strive to build tech-powered, high-efficiency, fair, and transparent bussiness processes.webp",
+      "/assets/vision-mission/image3.png",
     description:
       "We focus on connecting learners with the most suitable educators according to their learning goals and preferences.",
     points: [
@@ -163,7 +163,7 @@ const talentNetworkSections = [
   {
     title: "Supporting Learning Beyond Academics",
     image:
-      "/assets/vision-mission/Committing to A Tech-first Future for Businesses.webp",
+      "/assets/vision-mission/image6.png",
     description:
       "Our talent network helps students and learners develop essential life skills and career-oriented competencies beyond academics.",
     points: [
@@ -180,7 +180,7 @@ const talentNetworkSections = [
   {
     title: "Why Our Talent Network Stands Out?",
     image:
-      "/assets/vision-mission/Championing Good Governance for a Sustainable Tech-Driven Future.webp",
+      "/assets/vision-mission/image7.png",
     description:
       "We are committed to delivering quality educational support through experienced professionals, personalized guidance, and flexible learning solutions.",
     points: [
@@ -210,7 +210,7 @@ const OurVision = () => {
         </div>
         <div className="relative w-full h-36 md:h-96 mt-10 ">
           <Image
-            src="/assets/vision-mission/Driven by purpose, defined by excellence. Enabling digital transformation for every industry.webp"
+            src="/assets/our-culture/imagefirst.png"
             alt="Vision Banner"
             fill
             className="object-contain"

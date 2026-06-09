@@ -337,7 +337,7 @@ const AboutMain = () => {
         </h1>
 
         <Image
-          src="/assets/about/Helping businesses stay relevant with best-fit emerging technology.webp"
+          src="/assets/about/imageabout.png"
           height={200}
           width={900}
           alt="about hero image"
@@ -372,7 +372,7 @@ Whether you prefer Home Tuitionor online private sessions, our platform ensures 
         <div className="w-full grid lg:grid-cols-2 gap-8 lg:gap-4">
           <div className="w-full flex flex-col sm:grid grid-cols-2 sm:gap-10 xl:flex xl:flex-col xl:gap-4 xl:pr-20">
             <Image
-              src="/assets/about/Tech Intelligence That Fosters Sustained Growth.webp"
+              src="/assets/about/imagehometuition.png"
               height={300}
               width={200}
               alt="about hero image"

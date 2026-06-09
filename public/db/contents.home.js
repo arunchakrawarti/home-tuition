@@ -861,7 +861,7 @@ Serving Mumbai, Navi Mumbai, Thane, and Ghodbunder Road
       </>
     ),
     heroImage:
-      "/assets/home/homeimage.webp",
+      "/assets/home/imageparent.png",
     action: {
       label: "Explore Current Openings",
       route: "/contact-us",
