@@ -218,8 +218,7 @@ const TalentDevelopment = () => {
   const learningMethodologySections = [
     {
       title: "Student-Centered Learning Approach",
-      image:
-        "/assets/vision-mission/image10.png",
+      image: "/assets/vision-mission/image10.png",
       description:
         "Our teaching methodology focuses on creating a personalized learning experience that helps students build strong concepts, confidence, and continuous academic growth.",
       points: [
@@ -235,8 +234,7 @@ const TalentDevelopment = () => {
 
     {
       title: "Personalized Teacher Matching Process",
-      image:
-        "/assets/vision-mission/image11.png",
+      image: "/assets/vision-mission/image11.png",
       description:
         "We carefully match students with suitable tutors and trainers according to their academic requirements, learning preferences, and educational goals.",
       points: [
@@ -252,8 +250,7 @@ const TalentDevelopment = () => {
 
     {
       title: "Understanding Student Requirements",
-      image:
-        "/assets/vision-mission/image12.png",
+      image: "/assets/vision-mission/image12.png",
       description:
         "Before starting the learning process, we evaluate the student's background, performance, strengths, challenges, and academic objectives.",
       points: [
@@ -267,8 +264,7 @@ const TalentDevelopment = () => {
 
     {
       title: "Customized Learning Planning",
-      image:
-        "/assets/vision-mission/image13.png",
+      image: "/assets/vision-mission/image13.png",
       description:
         "Our educators create customized learning plans designed to improve subject understanding, exam preparation, and overall performance.",
       points: [
@@ -282,8 +278,7 @@ const TalentDevelopment = () => {
 
     {
       title: "One-to-One Interactive Learning",
-      image:
-        "/assets/vision-mission/image14.png",
+      image: "/assets/vision-mission/image14.png",
       description:
         "We encourage active student participation through personalized sessions, doubt-solving discussions, and flexible teaching methods.",
       points: [
@@ -297,8 +292,7 @@ const TalentDevelopment = () => {
 
     {
       title: "Performance Monitoring & Improvement",
-      image:
-        "/assets/vision-mission/image15.png",
+      image: "/assets/vision-mission/image15.png",
       description:
         "Regular performance evaluation helps students identify improvement areas and stay motivated throughout their learning journey.",
       points: [
@@ -312,8 +306,7 @@ const TalentDevelopment = () => {
 
     {
       title: "Practical & Result-Oriented Teaching Methods",
-      image:
-        "/assets/vision-mission/image16.png",
+      image: "/assets/vision-mission/image16.png",
       description:
         "Our methodology combines theory, practical application, and skill-building techniques to deliver measurable learning outcomes.",
       points: [
@@ -328,8 +321,7 @@ const TalentDevelopment = () => {
 
     {
       title: "Flexible Learning Solutions",
-      image:
-        "/assets/vision-mission/image17.png",
+      image: "/assets/vision-mission/image17.png",
       description:
         "We provide flexible learning options that allow students to learn according to their schedule, preferences, and educational needs.",
       points: [
@@ -344,8 +336,7 @@ const TalentDevelopment = () => {
 
     {
       title: "Multi-Category Learning Expertise",
-      image:
-        "/assets/vision-mission/image18.png",
+      image: "/assets/vision-mission/image18.png",
       description:
         "Our teaching approach supports a wide range of academic, professional, creative, and skill-based learning categories.",
       points: [
@@ -361,8 +352,7 @@ const TalentDevelopment = () => {
 
     {
       title: "Our Commitment to Quality Learning",
-      image:
-        "/assets/vision-mission/image19.png",
+      image: "/assets/vision-mission/image19.png",
       description:
         "We remain committed to delivering trusted educational support that encourages confidence, independent thinking, and lifelong learning.",
       points: [
@@ -377,8 +367,7 @@ const TalentDevelopment = () => {
 
     {
       title: "Why Our Methodology Works?",
-      image:
-        "/assets/vision-mission/image20.png",
+      image: "/assets/vision-mission/image20.png",
       description:
         "Our methodology is designed to provide personalized attention, continuous support, and practical learning experiences that help students achieve their goals.",
       points: [
@@ -407,7 +396,7 @@ const TalentDevelopment = () => {
               Personalized, Practical & Student-Centered Learning Since 2017
             </p>
             <p className="text-[1rem] text-black font-medium tracking-wide md:pr-10">
-              At Home TuitionAcademy, our approach is focused on understanding
+              At Home Tuition Academy, our approach is focused on understanding
               every learner’s unique academic level, learning style, goals,
               strengths, and improvement areas. We believe that every student
               learns differently, which is why we provide personalized

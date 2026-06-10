@@ -8,7 +8,7 @@ const PrivacyPolicyPage = () => {
         className="container flex flex-col gap-5 sm:gap-10"
       >
         <h3 className="text-3xl font-bold">
-          Privacy Policy – Home TuitionAcademy
+          Privacy Policy – Home Tuition Academy
         </h3>
 
         <div>
@@ -17,7 +17,7 @@ const PrivacyPolicyPage = () => {
           </h3>
 
           <p>
-            Welcome to Home TuitionAcademy. We are committed to
+            Welcome to Home Tuition Academy. We are committed to
             protecting the privacy and confidentiality of students,
             parents, tutors, trainers, and visitors who use our
             services.
@@ -26,7 +26,7 @@ const PrivacyPolicyPage = () => {
           <p className="mt-3">
             This Privacy Policy explains how we collect, use,
             store, and protect your personal information when
-            you interact with Home TuitionAcademy through our
+            you interact with Home Tuition Academy through our
             website, mobile platforms, telephone calls,
             WhatsApp communications, online forms, or offline
             inquiries.
@@ -40,11 +40,11 @@ const PrivacyPolicyPage = () => {
 
         <div>
           <h3 className="text-2xl font-semibold mb-3">
-            About Home TuitionAcademy
+            About Home Tuition Academy
           </h3>
 
           <p>
-            Home TuitionAcademy has been providing
+            Home Tuition Academy has been providing
             personalized Home Tuitionservices since 1989
             across Mumbai, Navi Mumbai, Thane, and
             Ghodbunder Road.
@@ -131,7 +131,7 @@ const PrivacyPolicyPage = () => {
           </h3>
 
           <p className="mb-3">
-            Home TuitionAcademy may use collected
+            Home Tuition Academy may use collected
             information for:
           </p>
 
@@ -184,7 +184,7 @@ const PrivacyPolicyPage = () => {
           </h3>
 
           <p>
-            Home TuitionAcademy respects your privacy
+            Home Tuition Academy respects your privacy
             and does not sell personal information to
             third parties.
           </p>
@@ -201,7 +201,7 @@ const PrivacyPolicyPage = () => {
 
             <li>
               With authorized employees and
-              representatives of Home TuitionAcademy
+              representatives of Home Tuition Academy
             </li>
 
             <li>
@@ -211,7 +211,7 @@ const PrivacyPolicyPage = () => {
 
             <li>
               To protect the rights, safety, and
-              security of Home TuitionAcademy and
+              security of Home Tuition Academy and
               its users
             </li>
           </ul>
@@ -249,7 +249,7 @@ const PrivacyPolicyPage = () => {
           </h3>
 
           <p>
-            Home TuitionAcademy may conduct preliminary
+            Home Tuition Academy may conduct preliminary
             screening and verification of tutors.
           </p>
 
@@ -339,7 +339,7 @@ const PrivacyPolicyPage = () => {
           </h3>
 
           <p>
-            Home TuitionAcademy provides educational
+            Home Tuition Academy provides educational
             services to minors through their parents
             or legal guardians.
           </p>
@@ -362,7 +362,7 @@ const PrivacyPolicyPage = () => {
           </p>
 
           <p className="mt-3">
-            Home TuitionAcademy is not responsible
+            Home Tuition Academy is not responsible
             for the privacy practices, content,
             or policies of external websites.
           </p>
@@ -408,7 +408,7 @@ const PrivacyPolicyPage = () => {
           </h3>
 
           <p>
-            Home TuitionAcademy reserves the right
+            Home Tuition Academy reserves the right
             to modify or update this Privacy Policy
             at any time.
           </p>
@@ -426,7 +426,7 @@ const PrivacyPolicyPage = () => {
           </h3>
 
           <p>
-            Home TuitionAcademy
+            Home Tuition Academy
           </p>
 
           <p className="mt-2">
@@ -447,7 +447,7 @@ const PrivacyPolicyPage = () => {
           </p>
 
           <p className="mt-4 font-semibold">
-            Home TuitionAcademy – Committed to
+            Home Tuition Academy – Committed to
             Protecting Your Privacy While Delivering
             Quality Educational Solutions.
           </p>

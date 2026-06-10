@@ -18,8 +18,7 @@ import Link from "next/link";
 const learningInnovationSections = [
   {
     title: "Research-Driven Learning Approach",
-    image:
-      "/assets/vision-mission/image21.png",
+    image: "/assets/vision-mission/image21.png",
     description:
       "We believe education must continuously evolve according to changing academic patterns, modern learning methods, student psychology, technology integration, and career-oriented learning requirements.",
     points: [
@@ -35,8 +34,7 @@ const learningInnovationSections = [
 
   {
     title: "Continuous Educational Innovation",
-    image:
-      "/assets/vision-mission/image22.png",
+    image: "/assets/vision-mission/image22.png",
     description:
       "We continuously improve our educational services by developing innovative teaching methodologies and learning models that enhance student outcomes.",
     points: [
@@ -52,8 +50,7 @@ const learningInnovationSections = [
 
   {
     title: "Development of Modern Learning Solutions",
-    image:
-      "/assets/vision-mission/image23.png",
+    image: "/assets/vision-mission/image23.png",
     description:
       "Our research and development initiatives focus on improving educational accessibility, engagement, and learning effectiveness for students of all ages.",
     points: [
@@ -68,8 +65,7 @@ const learningInnovationSections = [
 
   {
     title: "Innovation Across Multiple Learning Categories",
-    image:
-      "/assets/vision-mission/image24.png",
+    image: "/assets/vision-mission/image24.png",
     description:
       "We continuously enhance learning solutions across diverse academic, professional, and skill-development categories.",
     points: [
@@ -86,8 +82,7 @@ const learningInnovationSections = [
 
   {
     title: "Technology & Learning Integration",
-    image:
-      "/assets/vision-mission/image25.png",
+    image: "/assets/vision-mission/image25.png",
     description:
       "We combine traditional teaching values with modern educational technologies to provide flexible, engaging, and effective learning experiences.",
     points: [
@@ -102,8 +97,7 @@ const learningInnovationSections = [
 
   {
     title: "Student-Focused Research & Improvement",
-    image:
-      "/assets/vision-mission/image26.png",
+    image: "/assets/vision-mission/image26.png",
     description:
       "Our innovation strategy is centered on understanding student needs and continuously improving learning outcomes and personal development.",
     points: [
@@ -118,10 +112,9 @@ const learningInnovationSections = [
 
   {
     title: "Our Commitment to Educational Growth",
-    image:
-      "/assets/vision-mission/image27.png",
+    image: "/assets/vision-mission/image27.png",
     description:
-      "At Home TuitionAcademy, innovation is not only about technology—it is about continuously improving the way students learn and educators teach. We remain committed to developing effective, personalized, and future-focused learning solutions.",
+      "At Home Tuition Academy, innovation is not only about technology—it is about continuously improving the way students learn and educators teach. We remain committed to developing effective, personalized, and future-focused learning solutions.",
     points: [
       "Effective Learning Solutions",
       "Personalized Educational Support",
@@ -134,8 +127,7 @@ const learningInnovationSections = [
 
   {
     title: "Why Choose Our Learning Approach?",
-    image:
-      "/assets/vision-mission/image28.png",
+    image: "/assets/vision-mission/image28.png",
     description:
       "Our learning approach combines research, innovation, flexibility, and student-centered teaching practices to deliver meaningful educational outcomes.",
     points: [
@@ -197,7 +189,7 @@ const Innovation = () => {
             Advancing Personalized Learning Through Innovation Since 2017
           </p>
           <p className="text-[1rem] text-black font-medium tracking-wide md:pr-10">
-            At Home TuitionAcademy, we continuously focus on innovation,
+            At Home Tuition Academy, we continuously focus on innovation,
             research, and development to improve the quality of personalized
             education and learning experiences. Our goal is to understand
             evolving educational trends, student learning patterns, teaching

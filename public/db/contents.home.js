@@ -767,12 +767,12 @@ Serving Mumbai, Navi Mumbai, Thane, and Ghodbunder Road
   ],
 
   whyChoose: {
-    heading: "Why Start Learning with Home TuitionAcademy?",
+    heading: "Why Start Learning with Home Tuition Academy?",
     description:
-      "Home TuitionAcademy, we simplify private education by connecting students with experienced educators and creating personalized, result-focused learning programs that enhance academic performance, build confidence, and support long-term success.",
+      "Home Tuition Academy, we simplify private education by connecting students with experienced educators and creating personalized, result-focused learning programs that enhance academic performance, build confidence, and support long-term success.",
     reasons: [
       {
-        title: "Home TuitionAcademy",
+        title: "Home Tuition Academy",
         description:
           "we make premium private education simple, accessible, and result-oriented. Our goal is to connect students with qualified educators who understand their academic needs, learning pace, and long-term goals. With personalized attention, structured teaching methods, and flexible learning options, we help students improve performance, confidence, and overall academic success.",
         // items: [
@@ -807,25 +807,25 @@ Serving Mumbai, Navi Mumbai, Thane, and Ghodbunder Road
   recommendation: {
     heading: "What Say Our Students",
     description:
-      "Finding a reliable tutor was difficult until I joined Home TuitionAcademy. The classes are flexible, comfortable, and personalized according to my learning speed. I highly recommend their services to students",
+      "At Home Tuition Academy, we are dedicated to helping students achieve their academic goals through personalized learning. Our experienced tutors provide one-on-one guidance, concept clarity, and exam-focused preparation tailored to each student's needs. With flexible schedules, dedicated support, and a student-first approach, we help learners build confidence, improve performance, and succeed in their educational journey",
     // features: ["A True Partner", "A Catalyst for Growth", "Scalable Solutions"],
     reviews: [
       {
         review:
-          "Since joining Home TuitionAcademy, my confidence in Science and Mathematics has grown tremendously. The tutor's clear explanations and practical teaching methods made learning enjoyable and effective",
+          "Since joining Home Tuition Academy, my confidence in Science and Mathematics has grown tremendously. The tutor's clear explanations and practical teaching methods made learning enjoyable and effective",
         name: "Ramesh",
         designation: "CEO , BuyDecor",
         avatar: null,
       },
       {
         review:
-          "Home TuitionAcademy helped me find the right tutor within just a few days. The service was affordable, and I could choose a tutor that matched both my academic needs and budget.",
+          "Home Tuition Academy helped me find the right tutor within just a few days. The service was affordable, and I could choose a tutor that matched both my academic needs and budget.",
         name: "Priya",
         designation: "Entrepreneur",
         avatar: null,
       },
       {
-        review: " Finding a reliable and experienced tutor at a reasonable cost was challenging until I discovered Home TuitionAcademy. Their quick tutor-matching process saved me time and provided excellent value for money",
+        review: " Finding a reliable and experienced tutor at a reasonable cost was challenging until I discovered Home Tuition Academy. Their quick tutor-matching process saved me time and provided excellent value for money",
         name: "Rajiv",
         designation: "Influencer",
         avatar: null,
@@ -845,7 +845,7 @@ Serving Mumbai, Navi Mumbai, Thane, and Ghodbunder Road
   },
 
   workplace: {
-    heading: "Why Parents & Students Choose Home TuitionAcademy ",
+    heading: "Why Parents & Students Choose Home Tuition Academy ",
     description:
       "Quick & Hassle-Free Teacher Search with Perfectly Matched, Qualified & Result-Oriented Tutors from Nearby Areas.",
     body: (
@@ -902,7 +902,7 @@ Serving Mumbai, Navi Mumbai, Thane, and Ghodbunder Road
 
   faqs: [
     {
-      question: "What is Home TuitionACADEMY?",
+      question: "What is Home Tuition Academy?",
       answer:
         "We help students and parents connect with suitable tutors for schools, competitive exams, languages, and skill-based learning.",
     },
@@ -948,7 +948,7 @@ Serving Mumbai, Navi Mumbai, Thane, and Ghodbunder Road
         "Yes, payment methods may include UPI, Bank Transfer, and other online payment options.",
     },
     {
-      question: "How can I contact Home TuitionAcademy?",
+      question: "How can I contact Home Tuition Academy?",
       answer:
         "You can contact us through Phone, WhatsApp, Email, or Website Inquiry Forms.",
     },

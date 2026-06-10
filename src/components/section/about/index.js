@@ -354,7 +354,7 @@ const AboutMain = () => {
           <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-5">
             <div className="text-center sm:text-start">
               <h2 className="heading-sm">
-                Consistently Adding Value to Diverse Industries
+                Consistently Delivering Quality Education to Students Across All Grades
               </h2>
             </div>
             <div className="flex items-center md:pl-5 md:border-l border-grayBorder">
@@ -381,7 +381,7 @@ Whether you prefer Home Tuitionor online private sessions, our platform ensures 
             />
 
             <p className="font-semibold text-md xl:text-base first-letter:text-2xl first-letter:text-primary leading-normal">
-              Since 2017, Home TuitionAcademy has been providing trusted, personalized, and result-oriented Home Tuitionservices across Mumbai, Navi Mumbai, Thane, and Ghodbunder Road. With decades of experience in the education industry, Home TuitionAcademy focuses on helping students find the most suitable and qualified tutors according to their academic needs, learning style, board, class, and subject requirements.
+              Since 2017, Home Tuition Academy has been providing trusted, personalized, and result-oriented Home Tuitionservices across Mumbai, Navi Mumbai, Thane, and Ghodbunder Road. With decades of experience in the education industry, Home Tuition Academy focuses on helping students find the most suitable and qualified tutors according to their academic needs, learning style, board, class, and subject requirements.
 
             </p>
           </div>
@@ -393,11 +393,11 @@ Whether you prefer Home Tuitionor online private sessions, our platform ensures 
 
             <div className="flex flex-col gap-3">
               <p className="text-sm sm:text-base text-grayDark">
-                Home TuitionAcademy offers home tutors for all major boards including CBSE, ICSE, IB, IGCSE, SSC, State Boards, and International Curriculums. We provide academic support from Pre-Primary to Post-Graduation for Science, Commerce, and Arts streams. Our services also include preparation for competitive exams, language training, spoken English programs, and skill-based learning support.
+                Home Tuition Academy offers home tutors for all major boards including CBSE, ICSE, IB, IGCSE, SSC, State Boards, and International Curriculums. We provide academic support from Pre-Primary to Post-Graduation for Science, Commerce, and Arts streams. Our services also include preparation for competitive exams, language training, spoken English programs, and skill-based learning support.
 
 Our teacher selection process is designed to make finding a tutor quick, professional, and hassle-free. We help parents and students connect with experienced, verified, and result-oriented teachers from nearby localities for better convenience and flexibility. Every teacher match is made based on subject expertise, teaching experience, communication skills, student comfort, and academic goals.
 
-At Home TuitionAcademy, we believe every student learns differently. That is why we focus on personalized learning solutions, individual attention, regular practice, concept clarity, exam preparation strategies, and confidence building. Our mission is to create a supportive learning environment where students can improve performance, strengthen fundamentals, and achieve academic success with the right guidance and mentorship.
+At Home Tuition Academy, we believe every student learns differently. That is why we focus on personalized learning solutions, individual attention, regular practice, concept clarity, exam preparation strategies, and confidence building. Our mission is to create a supportive learning environment where students can improve performance, strengthen fundamentals, and achieve academic success with the right guidance and mentorship.
               </p>
 
               <Link
@@ -424,22 +424,26 @@ At Home TuitionAcademy, we believe every student learns differently. That is why
         </div>
       </section>
       <section className="w-full py-7 sm:py-12 lg:py-16 my-10 xl:my-16">
-        <div className="small-container grid sm:grid-cols-4 gap-5 sm:gap-0">
-          {facts?.map((fact, index) => (
-            <div
-              key={index}
-              className={`${
-                index !== facts?.length - 1 && "sm:border-r border-black"
-              } w-full px-5 sm:px-7  flex-center flex-col text-center gap-1 sm:gap-3`}
-            >
-              <h3 className="font-extrabold text-[2.3rem] sm:text-[2.5rem] bg-gradient-to-r from-primary  to-danger inline-block text-transparent bg-clip-text">
-                {fact?.count}
-              </h3>
+        <div className="w-full max-w-4xl mx-auto grid grid-cols-1 sm:grid-cols-3 gap-7 px-4">
+  {facts?.map((fact, index) => (
+    <div
+      key={index}
+      className={`${
+        index !== facts?.length - 1
+          ? "sm:border-r border-gray-300"
+          : ""
+      } flex flex-col items-center justify-center text-center py-5`}
+    >
+      <h3 className="font-extrabold text-[2.3rem] sm:text-[2.5rem] bg-gradient-to-r from-primary to-danger inline-block text-transparent bg-clip-text">
+        {fact?.count}
+      </h3>
 
-              <p className="text-xl font-medium text-black">{fact?.text}</p>
-            </div>
-          ))}
-        </div>
+      <p className="text-lg sm:text-xl font-medium text-black">
+        {fact?.text}
+      </p>
+    </div>
+  ))}
+</div>
       </section>
 
       {/* <section className="small-container px-5 sm:px-2">

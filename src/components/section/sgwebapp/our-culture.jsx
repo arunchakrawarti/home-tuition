@@ -77,7 +77,7 @@ const OurCulture = () => {
             Personalized, Practical & Student-Centered Learning Since 2017
           </p>
           <p className="text-[1rem] text-black font-medium tracking-wide md:pr-10">
-            At Home TuitionAcademy, our approach is focused on understanding
+            At Home Tuition Academy, our approach is focused on understanding
             every learner’s unique academic level, learning style, goals,
             strengths, and improvement areas. We believe that every student
             learns differently, which is why we provide personalized one-to-one

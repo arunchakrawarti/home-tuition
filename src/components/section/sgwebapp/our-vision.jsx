@@ -84,8 +84,7 @@ const coreValues = [
 const talentNetworkSections = [
   {
     title: "Qualified & Experienced Professionals",
-    image:
-      "/assets/vision-mission/image1.png",
+    image: "/assets/vision-mission/image1.png",
     description:
       "Our talent network includes highly qualified and experienced professionals from diverse educational and training backgrounds.",
     points: [
@@ -107,8 +106,7 @@ const talentNetworkSections = [
 
   {
     title: "Expertise Across Multiple Learning Categories",
-    image:
-      "/assets/vision-mission/image2.png",
+    image: "/assets/vision-mission/image2.png",
     description:
       "We provide skilled educators and trainers across a wide range of academic, professional, and skill-based learning categories.",
     points: [
@@ -128,8 +126,7 @@ const talentNetworkSections = [
 
   {
     title: "Carefully Selected Teaching Professionals",
-    image:
-      "/assets/vision-mission/image4.png",
+    image: "/assets/vision-mission/image4.png",
     description:
       "Every educator and trainer in our network is carefully selected based on quality, expertise, and dedication to student success.",
     points: [
@@ -145,8 +142,7 @@ const talentNetworkSections = [
 
   {
     title: "Personalized Teacher & Trainer Matching",
-    image:
-      "/assets/vision-mission/image3.png",
+    image: "/assets/vision-mission/image3.png",
     description:
       "We focus on connecting learners with the most suitable educators according to their learning goals and preferences.",
     points: [
@@ -162,8 +158,7 @@ const talentNetworkSections = [
 
   {
     title: "Supporting Learning Beyond Academics",
-    image:
-      "/assets/vision-mission/image6.png",
+    image: "/assets/vision-mission/image6.png",
     description:
       "Our talent network helps students and learners develop essential life skills and career-oriented competencies beyond academics.",
     points: [
@@ -179,8 +174,7 @@ const talentNetworkSections = [
 
   {
     title: "Why Our Talent Network Stands Out?",
-    image:
-      "/assets/vision-mission/image7.png",
+    image: "/assets/vision-mission/image7.png",
     description:
       "We are committed to delivering quality educational support through experienced professionals, personalized guidance, and flexible learning solutions.",
     points: [
@@ -217,7 +211,7 @@ const OurVision = () => {
           />
         </div>
         <p className="text-sm md:text-lg text-black font-medium tracking-wide text-center md:px-44 py-5 leading-6">
-          Home TuitionAcademy is powered by a strong network of talented,
+          Home Tuition Academy is powered by a strong network of talented,
           experienced, and dedicated educators, trainers, mentors, and industry
           professionals who are passionate about teaching and student
           development. Our talent network includes qualified teachers and

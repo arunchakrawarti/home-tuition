@@ -11,17 +11,17 @@ const TermPage = () => {
           This Terms and Conditions was last updated on June 2026.
         </p>
 
-        <h3>Terms and Conditions – Home TuitionAcademy</h3>
+        <h3>Terms and Conditions – Home Tuition Academy</h3>
 
         <p>
-          Welcome to Home TuitionAcademy. These Terms and Conditions govern
+          Welcome to Home Tuition Academy. These Terms and Conditions govern
           the use of our services, website, mobile platforms, telephonic
           assistance, online consultations, tutor placement services, and all
           related educational support activities.
         </p>
 
         <p>
-          By engaging with Home TuitionAcademy, students, parents,
+          By engaging with Home Tuition Academy, students, parents,
           guardians, tutors, trainers, and users agree to comply with these
           Terms and Conditions.
         </p>
@@ -30,13 +30,13 @@ const TermPage = () => {
 
         <p>
           These Terms and Conditions apply to all users accessing or using
-          Home TuitionAcademy services.
+          Home Tuition Academy services.
         </p>
 
         <h3>2. About Home Tuition Academy</h3>
 
         <p>
-          Home TuitionAcademy has been providing personalized home tuition
+          Home Tuition Academy has been providing personalized home tuition
           services since 1989 across Mumbai, Navi Mumbai, Thane, and
           Ghodbunder Road.
         </p>
@@ -50,7 +50,7 @@ const TermPage = () => {
         <h3>3. Service Scope</h3>
 
         <p>
-          Home TuitionAcademy provides assistance for:
+          Home Tuition Academy provides assistance for:
         </p>
 
         <ul>
@@ -98,7 +98,7 @@ const TermPage = () => {
           </li>
 
           <li>
-            Inform Home TuitionAcademy of any concerns regarding assigned
+            Inform Home Tuition Academy of any concerns regarding assigned
             tutors.
           </li>
         </ul>
@@ -111,7 +111,7 @@ const TermPage = () => {
         <h3>5. Tutor Responsibilities</h3>
 
         <p>
-          Tutors associated with Home TuitionAcademy are expected to:
+          Tutors associated with Home Tuition Academy are expected to:
         </p>
 
         <ul>
@@ -138,14 +138,14 @@ const TermPage = () => {
         </ul>
 
         <p>
-          Home TuitionAcademy reserves the right to discontinue association
+          Home Tuition Academy reserves the right to discontinue association
           with tutors who violate professional standards.
         </p>
 
         <h3>6. Tutor Selection Process</h3>
 
         <p>
-          Home TuitionAcademy endeavors to provide suitable tutor
+          Home Tuition Academy endeavors to provide suitable tutor
           recommendations based on available information and requirements.
         </p>
 
@@ -199,7 +199,7 @@ const TermPage = () => {
 
         <p>
           Service fees, registration charges, tuition fees, or placement
-          fees must be paid as communicated by Home TuitionAcademy.
+          fees must be paid as communicated by Home Tuition Academy.
         </p>
 
         <ul>
@@ -212,7 +212,7 @@ const TermPage = () => {
           </li>
 
           <li>
-            Home TuitionAcademy reserves the right to revise fees without
+            Home Tuition Academy reserves the right to revise fees without
             prior notice for future engagements.
           </li>
         </ul>
@@ -256,7 +256,7 @@ const TermPage = () => {
         <h3>10. Replacement Policy</h3>
 
         <p>
-          Home TuitionAcademy may attempt to provide a replacement tutor
+          Home Tuition Academy may attempt to provide a replacement tutor
           under reasonable circumstances, including:
         </p>
 
@@ -275,7 +275,7 @@ const TermPage = () => {
         <h3>11. Academic Performance Disclaimer</h3>
 
         <p>
-          While Home TuitionAcademy strives to connect students with
+          While Home Tuition Academy strives to connect students with
           qualified educators:
         </p>
 
@@ -297,12 +297,12 @@ const TermPage = () => {
         <h3>12. Limitation of Liability</h3>
 
         <p>
-          Home TuitionAcademy acts primarily as a facilitator connecting
+          Home Tuition Academy acts primarily as a facilitator connecting
           students and tutors.
         </p>
 
         <p>
-          Home TuitionAcademy shall not be held liable for:
+          Home Tuition Academy shall not be held liable for:
         </p>
 
         <ul>
@@ -337,7 +337,7 @@ const TermPage = () => {
           </li>
 
           <li>
-            Defame Home TuitionAcademy, its staff, tutors, or associated
+            Defame Home Tuition Academy, its staff, tutors, or associated
             parties.
           </li>
 
@@ -359,7 +359,7 @@ const TermPage = () => {
         <p>
           All content, branding, logos, marketing materials, website
           content, and educational resources belonging to Home Tuition
-          Academy remain the exclusive property of Home TuitionAcademy.
+          Academy remain the exclusive property of Home Tuition Academy.
         </p>
 
         <p>
@@ -370,7 +370,7 @@ const TermPage = () => {
         <h3>15. Privacy</h3>
 
         <p>
-          Use of Home TuitionAcademy services is also governed by our
+          Use of Home Tuition Academy services is also governed by our
           Privacy Policy. Users are encouraged to review the Privacy Policy
           to understand how personal information is collected and managed.
         </p>
@@ -378,7 +378,7 @@ const TermPage = () => {
         <h3>16. Force Majeure</h3>
 
         <p>
-          Home TuitionAcademy shall not be responsible for delays or
+          Home Tuition Academy shall not be responsible for delays or
           failure in service resulting from events beyond reasonable control,
           including:
         </p>
@@ -395,7 +395,7 @@ const TermPage = () => {
         <h3>17. Modification of Terms</h3>
 
         <p>
-          Home TuitionAcademy reserves the right to update, amend, or
+          Home Tuition Academy reserves the right to update, amend, or
           modify these Terms and Conditions at any time.
         </p>
 
@@ -420,7 +420,7 @@ const TermPage = () => {
         <h3>19. Contact Information</h3>
 
         <p>
-          Home TuitionAcademy
+          Home Tuition Academy
           <br />
           Personalized Home TuitionServices Since 1989
           <br />
@@ -429,14 +429,14 @@ const TermPage = () => {
 
         <p>
           For questions regarding these Terms and Conditions, users may
-          contact Home TuitionAcademy through its official communication
+          contact Home Tuition Academy through its official communication
           channels.
         </p>
 
         <h3>Declaration</h3>
 
         <p>
-          By using the services of Home TuitionAcademy, the user
+          By using the services of Home Tuition Academy, the user
           acknowledges that they have read, understood, and agreed to abide
           by these Terms and Conditions in their entirety.
         </p>

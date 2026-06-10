@@ -10,7 +10,7 @@ const ContactForm = () => {
     email: "",
     mobile: "",
     message: "",
-    company: "",
+    // company: "",
     source: "website",
   });
   const [loading, setLoading] = useState(false);
@@ -30,7 +30,7 @@ const ContactForm = () => {
         email: "",
         mobile: "",
         message: "",
-        company: "",
+        // company: "",
         source: "website",
       });
       setLoading(false);
@@ -82,14 +82,14 @@ const ContactForm = () => {
                 className="px-2 py-3 bg-white w-full text-black text-sm border-b border-grayLight focus:border-primary outline-none"
               />
 
-              <input
+              {/* <input
                 name="company"
                 value={formData?.company}
                 onChange={handleChange}
                 type="company"
                 placeholder="Company name (optional)"
                 className="px-2 py-3 bg-white w-full text-black text-sm border-b border-grayLight focus:border-primary outline-none"
-              />
+              /> */}
 
               <textarea
                 name="message"
@@ -139,7 +139,7 @@ const ContactForm = () => {
                 />
               </svg>
               <a href="mailto:info@Itsoftword.com" className="text-sm ml-4">
-                <strong>info@Itsoftword.com</strong>
+                <strong>hometuitionsnearme@gmail.com</strong>
               </a>
             </li>
             <li className="flex items-center text-primary">
@@ -156,7 +156,7 @@ const ContactForm = () => {
                 ></path>
               </svg>
               <a href="tel:7977757864" className="text-sm ml-4">
-                <strong>+91 79777 57864</strong>
+                <strong>+91 7715889123</strong>
               </a>
             </li>
           </ul>

@@ -27,10 +27,10 @@ export const explore_links = [
     label: "blog",
     route: "/blog",
   },
-  {
-    label: "case studies",
-    route: "/case-studies",
-  },
+  // {
+  //   label: "case studies",
+  //   route: "/case-studies",
+  // },
 ];
 
 export const quick_links = [
