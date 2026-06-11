@@ -38,7 +38,7 @@ const BrandArea = () => {
 
   return (
     <section className="w-full flex flex-col text-center gap-3 sm:gap-5 pb-5 pt-2">
-      <h2 className="heading">Trusted by Clients</h2>
+      <h2 className="heading">Academic Boards, Courses & Exams We Support</h2>
 
       {/* Slider */}
       <div className="w-full py-2">
@@ -56,7 +56,7 @@ const BrandArea = () => {
                   width={320}
                   height={180}
                   src={`/assets/clients/${data?.logo}`}
-                  className="h-[120px] sm:h-[190px] w-auto object-contain"
+                  className="h-[120px] sm:h-[200px] w-auto object-contain"
                 />
               </div>
             </div>
