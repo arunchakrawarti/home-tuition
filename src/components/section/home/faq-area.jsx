@@ -49,7 +49,7 @@ const Accordion = ({
   );
 };
 
-const FaqArea = ({ faqsList = faqs, heading = "Home Tuition FAQs" }) => {
+const FaqArea = ({ faqsList = faqs, heading = "Home Tuition  FAQs" }) => {
   return (
     <section className="w-full  py-8 lg:py-10 xl:py-10 px-5 sm:px-2">
       <div className="container flex flex-col  gap-7 sm:gap-10 xl:gap-12">

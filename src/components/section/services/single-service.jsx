@@ -372,7 +372,7 @@ const SingleService = ({
         </div>
       </section>
 
-      {/* choose home tuitionworld */}
+      {/* choose Home Tuition world */}
       <div className="bg-grayLightest px-5 sm:px-2 py-12 lg:py-16">
         <div className="mx-auto w-full sm:w-[90%] lg:w-[85%] xl:w-[65%] flex flex-col gap-16">
           <div className="w-full grid grid-cols-1 sm:grid-cols-2 gap-5 xl:gap-7">

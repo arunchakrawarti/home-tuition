@@ -56,7 +56,8 @@ export const Footer = () => {
     },
     {
       name: "facebook",
-      route: "https://www.instagram.com/hometuitionnearme_25/?fbclid=IwY2xjawSWO0hleHRuA2FlbQIxMQBicmlkETFId3J5b0tnWEhZNGR4c1Zoc3J0YwZhcHBfaWQBMAABHiHtvEzp7uuYCBiAOxuMuJDPx5ho8TQAMGXrPQEJ8PtCppU2qh5M5i79PrxV_aem_jrvBmqIH5xrfiypAwaLsDQ",
+      route:
+        "https://www.instagram.com/hometuitionnearme_25/?fbclid=IwY2xjawSWO0hleHRuA2FlbQIxMQBicmlkETFId3J5b0tnWEhZNGR4c1Zoc3J0YwZhcHBfaWQBMAABHiHtvEzp7uuYCBiAOxuMuJDPx5ho8TQAMGXrPQEJ8PtCppU2qh5M5i79PrxV_aem_jrvBmqIH5xrfiypAwaLsDQ",
       icon: (
         <svg
           stroke="currentColor"
@@ -188,8 +189,8 @@ export const Footer = () => {
 
           <div className="flex flex-col gap-4">
             <p className="text-md text-gray-500 ">
-              At Home Tuition Academy, we believe that every student deserves the
-              right teacher. Our mission is to make personalized learning
+              At Home Tuition Academy, we believe that every student deserves
+              the right teacher. Our mission is to make personalized learning
               accessible, effective, and convenient for every learner.
             </p>
 
@@ -236,7 +237,7 @@ export const Footer = () => {
                   </svg>
                 </span>
                 <span className="text-[13px] text-gray-600">
-                  |  hometuitionsnearme@gmail.com
+                  | hometuitionsnearme@gmail.com
                 </span>
               </Link>
               <Link

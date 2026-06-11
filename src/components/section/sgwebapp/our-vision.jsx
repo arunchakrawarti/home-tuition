@@ -151,7 +151,7 @@ const talentNetworkSections = [
       "Flexible Learning Support",
       "Beginner to Advanced Level Training",
       "One-to-One Personalized Learning",
-      "Online & Home TuitionOptions",
+      "Online & Home Tuition Options",
       "Quick Teacher Availability",
     ],
   },

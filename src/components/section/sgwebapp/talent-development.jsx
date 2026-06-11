@@ -146,7 +146,7 @@ const TalentDevelopment = () => {
         ),
         title: "Knowledge",
         description:
-          "We believe in delivering the best with every project. We take pride in our  home tuitionStarmark’ in every solution we develop. From the quality of our communication, business decisions and services – we aim to deliver the highest standards empowered by our deep knowledge and understanding of technology.",
+          "We believe in delivering the best with every project. We take pride in our  Home Tuition Starmark’ in every solution we develop. From the quality of our communication, business decisions and services – we aim to deliver the highest standards empowered by our deep knowledge and understanding of technology.",
       },
       {
         icon: (
@@ -325,7 +325,7 @@ const TalentDevelopment = () => {
       description:
         "We provide flexible learning options that allow students to learn according to their schedule, preferences, and educational needs.",
       points: [
-        "Home TuitionServices",
+        "Home Tuition Services",
         "Online Learning Sessions",
         "Flexible Timings",
         "Customized Course Structures",
@@ -438,7 +438,7 @@ const TalentDevelopment = () => {
             </div>
             <div className="flex items-center md:pl-5 md:border-l border-grayBorder">
               <p className="text-sm sm:text-base text-black text-center sm:text-start">
-                Since 2000, software solutions developed by home tuitionhave been
+                Since 2000, software solutions developed by Home Tuition have been
                 tested across diverse industries. Businesses ranging from
                 well-funded startups to SMBs, and enterprises trust us for
                 Innovation in Technology Development, acknowledging our

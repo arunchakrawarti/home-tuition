@@ -54,7 +54,7 @@ export const Header = ({ currentTheme = "", toggleTheme }) => {
     // },
     {
       has_dropdown: true,
-      label: "Why Home Tuition",
+      label: "Why Home Tuition ",
       route: "#",
       dropdown: <WhySgweppDrop />,
     },

@@ -114,7 +114,7 @@ const learningInnovationSections = [
     title: "Our Commitment to Educational Growth",
     image: "/assets/vision-mission/image27.png",
     description:
-      "At Home Tuition Academy, innovation is not only about technology—it is about continuously improving the way students learn and educators teach. We remain committed to developing effective, personalized, and future-focused learning solutions.",
+      "At Home Tuition  Academy, innovation is not only about technology—it is about continuously improving the way students learn and educators teach. We remain committed to developing effective, personalized, and future-focused learning solutions.",
     points: [
       "Effective Learning Solutions",
       "Personalized Educational Support",
