@@ -8,7 +8,7 @@ import { homePageContent } from "../../../../public/db/contents.home";
 const { technologies } = homePageContent;
 
 const TechnologiesArea = ({
-  heading = "Expert tutors, personalized learning plans, and flexible schedules to support every learner's success",
+  heading = "Learn Grow Achieve",
 }) => {
   const [data, setData] = useState({
     current: "Home Tuition",
@@ -21,11 +21,14 @@ const TechnologiesArea = ({
     )?.items || [];
 
   return (
-    <section className="w-full flex flex-col gap-7 sm:gap-10 xl:gap-12 py-8 lg:py-10 px-4 sm:px-6">
+    <section className="w-full flex flex-col gap-7 sm:gap-10 xl:gap-8 py-8 lg:py-10 px-4 sm:px-6">
       {/* Heading */}
       <h2 className="heading text-center container mx-auto">
         {heading}
       </h2>
+      <p className="container mx-auto text-center text-2xl font-semibold">
+  Expert tutors, personalized learning plans, and flexible schedules to support every learner&#39;s success.
+</p>
 
       {/* Categories */}
       <div className="w-full overflow-x-auto no-scrollbar">
