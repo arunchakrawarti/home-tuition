@@ -713,43 +713,43 @@ technologies: [
     category: "Home Tuition",
     items: [
       {
-        route: "https://x.com/HTAMumbai",
+        route: "/contact-us",
         name: "Maths Tuition",
         icon: "js-itsoftworld.png",
       },
 
       {
-        route: "https://x.com/HTAMumbai",
+        route: "/contact-us",
         name: "Science Tuition",
         icon: "react-js-itsoftworld.png",
       },
 
       {
-        route: "https://x.com/HTAMumbai",
+        route: "/contact-us",
         name: "English Tuition",
         icon: "angular-js-itsoftworld.png",
       },
 
       {
-        route: "https://x.com/HTAMumbai",
+        route: "/contact-us",
         name: "Physics Tuition",
         icon: "next-js-itsoftworld.png",
       },
 
       {
-        route: "https://x.com/HTAMumbai",
+        route: "/contact-us",
         name: "Chemistry Tuition",
         icon: "vue-js-itsoftworld.png",
       },
 
       {
-        route: "https://x.com/HTAMumbai",
+        route: "/contact-us",
         name: "Biology Tuition",
         icon: "css-itsoftworld.webp",
       },
 
       {
-        route: "https://x.com/HTAMumbai",
+        route: "/contact-us",
         name: "Computer Tuition",
         icon: "html-itsoftworld.png",
       },
@@ -760,37 +760,37 @@ technologies: [
     category: "Online Tuition",
     items: [
       {
-        route: "https://x.com/HTAMumbai",
+        route: "/contact-us",
         name: "Live Online Classes",
         icon: "node-js-itsoftworld.png",
       },
 
       {
-        route: "https://x.com/HTAMumbai",
+        route: "/contact-us",
         name: "Zoom Classes",
         icon: "php-itsoftworld.png",
       },
 
       {
-        route: "https://x.com/HTAMumbai",
+        route: "/contact-us",
         name: "1-on-1 Tuition",
         icon: "python-itsoftworld.png",
       },
 
       {
-        route: "https://x.com/HTAMumbai",
+        route: "/contact-us",
         name: "Recorded Lectures",
         icon: "express-js-itsoftworld.png",
       },
 
       {
-        route: "https://x.com/HTAMumbai",
+        route: "/contact-us",
         name: "Doubt Solving",
         icon: "nest-js-itsoftworld.png",
       },
 
       {
-        route: "https://x.com/HTAMumbai",
+        route: "/contact-us",
         name: "Test Series",
         icon: "laravel-itsoftworld.png",
       },
@@ -801,25 +801,25 @@ technologies: [
     category: "School Programs",
     items: [
       {
-        route: "https://x.com/HTAMumbai",
+        route: "/contact-us",
         name: "CBSE Classes",
         icon: "swift-itsoftworld.png",
       },
 
       {
-        route: "https://x.com/HTAMumbai",
+        route: "/contact-us",
         name: "ICSE Classes",
         icon: "flutter-itsoftworld.png",
       },
 
       {
-        route: "https://x.com/HTAMumbai",
+        route: "/contact-us",
         name: "Primary Classes",
         icon: "react-js-itsoftworld.png",
       },
 
       {
-        route: "https://x.com/HTAMumbai",
+        route: "/contact-us",
         name: "Senior Secondary",
         icon: "kotlin-itsoftworld.png",
       },
@@ -830,31 +830,31 @@ technologies: [
     category: "College Programs",
     items: [
       {
-        route: "https://x.com/HTAMumbai",
+        route: "/contact-us",
         name: "BCA Tuition",
         icon: "sql-itsoftworld.png",
       },
 
       {
-        route: "https://x.com/HTAMumbai",
+        route: "/contact-us",
         name: "B.Tech Tuition",
         icon: "mysql-itsoftworld.png",
       },
 
       {
-        route: "https://x.com/HTAMumbai",
+        route: "/contact-us",
         name: "MBA Tuition",
         icon: "postgre-itsoftworld.png",
       },
 
       {
-        route: "https://x.com/HTAMumbai",
+        route: "/contact-us",
         name: "Commerce Subjects",
         icon: "mongo-db-itsoftworld.png",
       },
 
       {
-        route: "https://x.com/HTAMumbai",
+        route: "/contact-us",
         name: "Engineering Subjects",
         icon: "firebase-itsoftworld.png",
       },
@@ -865,31 +865,31 @@ technologies: [
     category: "Competitive Exams",
     items: [
       {
-        route: "https://x.com/HTAMumbai",
+        route: "/contact-us",
         name: "SSC Coaching",
         icon: "sql-itsoftworld.png",
       },
 
       {
-        route: "https://x.com/HTAMumbai",
+        route: "/contact-us",
         name: "Bank Exams",
         icon: "mysql-itsoftworld.png",
       },
 
       {
-        route: "https://x.com/HTAMumbai",
+        route: "/contact-us",
         name: "UPSC Coaching",
         icon: "postgre-itsoftworld.png",
       },
 
       {
-        route: "https://x.com/HTAMumbai",
+        route: "/contact-us",
         name: "NEET Preparation",
         icon: "mongo-db-itsoftworld.png",
       },
 
       {
-        route: "https://x.com/HTAMumbai",
+        route: "/contact-us",
         name: "JEE Preparation",
         icon: "firebase-itsoftworld.png",
       },
@@ -900,31 +900,31 @@ technologies: [
     category: "Language Courses",
     items: [
       {
-        route: "https://x.com/HTAMumbai",
+        route: "/contact-us",
         name: "English Speaking",
         icon: "sql-itsoftworld.png",
       },
 
       {
-        route: "https://x.com/HTAMumbai",
+        route: "/contact-us",
         name: "Hindi Language",
         icon: "mysql-itsoftworld.png",
       },
 
       {
-        route: "https://x.com/HTAMumbai",
+        route: "/contact-us",
         name: "French Language",
         icon: "postgre-itsoftworld.png",
       },
 
       {
-        route: "https://x.com/HTAMumbai",
+        route: "/contact-us",
         name: "German Language",
         icon: "mongo-db-itsoftworld.png",
       },
 
       {
-        route: "https://x.com/HTAMumbai",
+        route: "/contact-us",
         name: "IELTS Coaching",
         icon: "firebase-itsoftworld.png",
       },
