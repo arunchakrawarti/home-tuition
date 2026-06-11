@@ -794,7 +794,7 @@ Serving Mumbai, Navi Mumbai, Thane, and Ghodbunder Road
       {
         title: "Personalized Learning Programs",
         description:
-          "We believe every student learns differently. That’s why we create customized learning plans focused on individual strengths, weak areas, academic goals, and exam requirements — ensuring maximum improvement and better understanding.",
+          "We believe every student learns differently. That’s why we create customized learning plans focused on individual strengths, weak areas, academic goals, and exam requirements ensuring maximum improvement and better understanding.",
         // items: [
         //   "98% client retention rate",
         //   "500+ successful projects",
