@@ -708,63 +708,229 @@ Serving Mumbai, Navi Mumbai, Thane, and Ghodbunder Road
 
   // HOME: Technology
 
-  technologies: [
-    {
-      category: "Frontend",
-      items: [
-        { route: "#", name: "JavaScript", icon: "js-itsoftworld.png" },
+technologies: [
+  {
+    category: "Home Tuition",
+    items: [
+      {
+        route: "https://x.com/HTAMumbai",
+        name: "Maths Tuition",
+        icon: "js-itsoftworld.png",
+      },
 
-        {
-          route: "#",
-          name: "ReactJS",
-          icon: "react-js-itsoftworld.png",
-        },
-        { route: "#", name: "AngularJS", icon: "angular-js-itsoftworld.png" },
-        { route: "#", name: "NextJS", icon: "next-js-itsoftworld.png" },
-        { route: "#", name: "Vue.js", icon: "vue-js-itsoftworld.png" },
-        { route: "#", name: "CSS3", icon: "css-itsoftworld.webp" },
-        { route: "#", name: "HTML5", icon: "html-itsoftworld.png" },
-      ],
-    },
-    {
-      category: "Backend",
-      items: [
-        { route: "#", name: "Node.js", icon: "node-js-itsoftworld.png" },
-        { route: "#", name: "PHP", icon: "php-itsoftworld.png" },
-        { route: "#", name: "Python", icon: "python-itsoftworld.png" },
-        { route: "#", name: "Express", icon: "express-js-itsoftworld.png" },
-        { route: "#", name: "Nest.js", icon: "nest-js-itsoftworld.png" },
-        { route: "#", name: "laravel", icon: "laravel-itsoftworld.png" },
-      ],
-    },
-    {
-      category: "Mobile",
-      items: [
-        { route: "#", name: "Swift", icon: "swift-itsoftworld.png" },
-        { route: "#", name: "Flutter", icon: "flutter-itsoftworld.png" },
-        {
-          route: "#",
-          name: "React Native",
-          icon: "react-js-itsoftworld.png",
-        },
-        {
-          route: "#",
-          name: "kotlin",
-          icon: "kotlin-itsoftworld.png",
-        },
-      ],
-    },
-    {
-      category: "Database",
-      items: [
-        { route: "#", name: "SQL Server", icon: "sql-itsoftworld.png" },
-        { route: "#", name: "MySQL", icon: "mysql-itsoftworld.png" },
-        { route: "#", name: "PostgreSQL", icon: "postgre-itsoftworld.png" },
-        { route: "#", name: "MongoDB", icon: "mongo-db-itsoftworld.png" },
-        { route: "#", name: "Firebase", icon: "firebase-itsoftworld.png" },
-      ],
-    },
-  ],
+      {
+        route: "https://x.com/HTAMumbai",
+        name: "Science Tuition",
+        icon: "react-js-itsoftworld.png",
+      },
+
+      {
+        route: "https://x.com/HTAMumbai",
+        name: "English Tuition",
+        icon: "angular-js-itsoftworld.png",
+      },
+
+      {
+        route: "https://x.com/HTAMumbai",
+        name: "Physics Tuition",
+        icon: "next-js-itsoftworld.png",
+      },
+
+      {
+        route: "https://x.com/HTAMumbai",
+        name: "Chemistry Tuition",
+        icon: "vue-js-itsoftworld.png",
+      },
+
+      {
+        route: "https://x.com/HTAMumbai",
+        name: "Biology Tuition",
+        icon: "css-itsoftworld.webp",
+      },
+
+      {
+        route: "https://x.com/HTAMumbai",
+        name: "Computer Tuition",
+        icon: "html-itsoftworld.png",
+      },
+    ],
+  },
+
+  {
+    category: "Online Tuition",
+    items: [
+      {
+        route: "https://x.com/HTAMumbai",
+        name: "Live Online Classes",
+        icon: "node-js-itsoftworld.png",
+      },
+
+      {
+        route: "https://x.com/HTAMumbai",
+        name: "Zoom Classes",
+        icon: "php-itsoftworld.png",
+      },
+
+      {
+        route: "https://x.com/HTAMumbai",
+        name: "1-on-1 Tuition",
+        icon: "python-itsoftworld.png",
+      },
+
+      {
+        route: "https://x.com/HTAMumbai",
+        name: "Recorded Lectures",
+        icon: "express-js-itsoftworld.png",
+      },
+
+      {
+        route: "https://x.com/HTAMumbai",
+        name: "Doubt Solving",
+        icon: "nest-js-itsoftworld.png",
+      },
+
+      {
+        route: "https://x.com/HTAMumbai",
+        name: "Test Series",
+        icon: "laravel-itsoftworld.png",
+      },
+    ],
+  },
+
+  {
+    category: "School Programs",
+    items: [
+      {
+        route: "https://x.com/HTAMumbai",
+        name: "CBSE Classes",
+        icon: "swift-itsoftworld.png",
+      },
+
+      {
+        route: "https://x.com/HTAMumbai",
+        name: "ICSE Classes",
+        icon: "flutter-itsoftworld.png",
+      },
+
+      {
+        route: "https://x.com/HTAMumbai",
+        name: "Primary Classes",
+        icon: "react-js-itsoftworld.png",
+      },
+
+      {
+        route: "https://x.com/HTAMumbai",
+        name: "Senior Secondary",
+        icon: "kotlin-itsoftworld.png",
+      },
+    ],
+  },
+
+  {
+    category: "College Programs",
+    items: [
+      {
+        route: "https://x.com/HTAMumbai",
+        name: "BCA Tuition",
+        icon: "sql-itsoftworld.png",
+      },
+
+      {
+        route: "https://x.com/HTAMumbai",
+        name: "B.Tech Tuition",
+        icon: "mysql-itsoftworld.png",
+      },
+
+      {
+        route: "https://x.com/HTAMumbai",
+        name: "MBA Tuition",
+        icon: "postgre-itsoftworld.png",
+      },
+
+      {
+        route: "https://x.com/HTAMumbai",
+        name: "Commerce Subjects",
+        icon: "mongo-db-itsoftworld.png",
+      },
+
+      {
+        route: "https://x.com/HTAMumbai",
+        name: "Engineering Subjects",
+        icon: "firebase-itsoftworld.png",
+      },
+    ],
+  },
+
+  {
+    category: "Competitive Exams",
+    items: [
+      {
+        route: "https://x.com/HTAMumbai",
+        name: "SSC Coaching",
+        icon: "sql-itsoftworld.png",
+      },
+
+      {
+        route: "https://x.com/HTAMumbai",
+        name: "Bank Exams",
+        icon: "mysql-itsoftworld.png",
+      },
+
+      {
+        route: "https://x.com/HTAMumbai",
+        name: "UPSC Coaching",
+        icon: "postgre-itsoftworld.png",
+      },
+
+      {
+        route: "https://x.com/HTAMumbai",
+        name: "NEET Preparation",
+        icon: "mongo-db-itsoftworld.png",
+      },
+
+      {
+        route: "https://x.com/HTAMumbai",
+        name: "JEE Preparation",
+        icon: "firebase-itsoftworld.png",
+      },
+    ],
+  },
+
+  {
+    category: "Language Courses",
+    items: [
+      {
+        route: "https://x.com/HTAMumbai",
+        name: "English Speaking",
+        icon: "sql-itsoftworld.png",
+      },
+
+      {
+        route: "https://x.com/HTAMumbai",
+        name: "Hindi Language",
+        icon: "mysql-itsoftworld.png",
+      },
+
+      {
+        route: "https://x.com/HTAMumbai",
+        name: "French Language",
+        icon: "postgre-itsoftworld.png",
+      },
+
+      {
+        route: "https://x.com/HTAMumbai",
+        name: "German Language",
+        icon: "mongo-db-itsoftworld.png",
+      },
+
+      {
+        route: "https://x.com/HTAMumbai",
+        name: "IELTS Coaching",
+        icon: "firebase-itsoftworld.png",
+      },
+    ],
+  },
+],
 
   whyChoose: {
     heading: "Why Start Learning with Home Tuition  Academy?",
