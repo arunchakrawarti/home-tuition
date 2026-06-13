@@ -772,7 +772,7 @@ technologies: [
       },
       {
         route: "/contact-us",
-        name: "Recorded Lectures",
+        name: "Homework Support",
         icon: "Homework Support.png",
       },
 
