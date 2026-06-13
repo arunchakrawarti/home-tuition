@@ -715,43 +715,43 @@ technologies: [
       {
         route: "/contact-us",
         name: "Maths Tuition",
-        icon: "js-itsoftworld.png",
+        icon: "maths.png",
       },
 
       {
         route: "/contact-us",
         name: "Science Tuition",
-        icon: "react-js-itsoftworld.png",
+        icon: "science.png",
       },
 
       {
         route: "/contact-us",
         name: "English Tuition",
-        icon: "angular-js-itsoftworld.png",
+        icon: "english.png",
       },
 
       {
         route: "/contact-us",
         name: "Physics Tuition",
-        icon: "next-js-itsoftworld.png",
+        icon: "physics.png",
       },
 
       {
         route: "/contact-us",
         name: "Chemistry Tuition",
-        icon: "vue-js-itsoftworld.png",
+        icon: "chemistry.png",
       },
 
       {
         route: "/contact-us",
         name: "Biology Tuition",
-        icon: "css-itsoftworld.webp",
+        icon: "biology.png",
       },
 
       {
         route: "/contact-us",
         name: "Computer Tuition",
-        icon: "html-itsoftworld.png",
+        icon: "computer.png",
       },
     ],
   },
@@ -762,37 +762,24 @@ technologies: [
       {
         route: "/contact-us",
         name: "Live Online Classes",
-        icon: "node-js-itsoftworld.png",
+        icon: "Live Online Classes.png",
       },
 
       {
         route: "/contact-us",
         name: "Zoom Classes",
-        icon: "php-itsoftworld.png",
+        icon: "Exam Preparation.png",
       },
-
-      {
-        route: "/contact-us",
-        name: "1-on-1 Tuition",
-        icon: "python-itsoftworld.png",
-      },
-
       {
         route: "/contact-us",
         name: "Recorded Lectures",
-        icon: "express-js-itsoftworld.png",
+        icon: "Homework Support.png",
       },
 
       {
         route: "/contact-us",
         name: "Doubt Solving",
-        icon: "nest-js-itsoftworld.png",
-      },
-
-      {
-        route: "/contact-us",
-        name: "Test Series",
-        icon: "laravel-itsoftworld.png",
+        icon: "Doubt Solving.png",
       },
     ],
   },
@@ -803,25 +790,25 @@ technologies: [
       {
         route: "/contact-us",
         name: "CBSE Classes",
-        icon: "swift-itsoftworld.png",
+        icon: "cbse.png",
       },
 
       {
         route: "/contact-us",
         name: "ICSE Classes",
-        icon: "flutter-itsoftworld.png",
+        icon: "Higher secondary.png",
       },
 
       {
         route: "/contact-us",
         name: "Primary Classes",
-        icon: "react-js-itsoftworld.png",
+        icon: "icsce.png",
       },
 
       {
         route: "/contact-us",
         name: "Senior Secondary",
-        icon: "kotlin-itsoftworld.png",
+        icon: "primary icon.png",
       },
     ],
   },
@@ -832,31 +819,31 @@ technologies: [
       {
         route: "/contact-us",
         name: "BCA Tuition",
-        icon: "sql-itsoftworld.png",
+        icon: "BCA.png",
       },
 
       {
         route: "/contact-us",
         name: "B.Tech Tuition",
-        icon: "mysql-itsoftworld.png",
+        icon: "Engineering.png",
       },
 
       {
         route: "/contact-us",
         name: "MBA Tuition",
-        icon: "postgre-itsoftworld.png",
+        icon: "MBA.png",
       },
 
       {
         route: "/contact-us",
         name: "Commerce Subjects",
-        icon: "mongo-db-itsoftworld.png",
+        icon: "B.Com.png",
       },
 
       {
         route: "/contact-us",
         name: "Engineering Subjects",
-        icon: "firebase-itsoftworld.png",
+        icon: "B.Sc.png",
       },
     ],
   },

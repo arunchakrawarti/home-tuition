@@ -63,7 +63,7 @@ const TechnologiesArea = ({
           const { name, icon, route = "#" } = category;
 
           const logoUrl = icon
-            ? `/assets/technologies/${icon}`
+            ? `/assets/hero-technologies/${icon}`
             : "https://w7.pngwing.com/pngs/549/955/png-transparent-angularjs-javascript-jquery-directive-python-software-foundation-angle-triangle-logo.png";
 
           return (

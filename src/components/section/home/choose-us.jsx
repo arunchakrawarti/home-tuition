@@ -33,13 +33,8 @@ const ChooseUs = () => {
     </p>
   </div>
 
-  {/* Content */}
   <div className="container">
     
-    {/* 
-      lg = 3 cards
-      md/sm = 1 card
-    */}
     <div className="grid grid-cols-1 lg:grid-cols-3 gap-5">
       
       {reasons?.map((data, index) => (
