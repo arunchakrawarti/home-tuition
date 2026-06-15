@@ -78,7 +78,7 @@ const TechnologiesArea = ({
                 height={70}
                 width={70}
                 src={logoUrl}
-                className="h-[68px] w-[68px] object-contain mx-auto"
+                className="h-[68px] w-[79px] object-contain mx-auto"
               />
 
               <h3 className="text-md font-medium leading-5 text-gray-800">

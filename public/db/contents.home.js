@@ -768,7 +768,7 @@ technologies: [
       {
         route: "/contact-us",
         name: "Zoom Classes",
-        icon: "Exam Preparation.png",
+        icon: "online.png",
       },
       {
         route: "/contact-us",
@@ -796,19 +796,24 @@ technologies: [
       {
         route: "/contact-us",
         name: "ICSE Classes",
-        icon: "Higher secondary.png",
+        icon: "Higher Secondary1.png",
       },
 
       {
         route: "/contact-us",
         name: "Primary Classes",
-        icon: "icsce.png",
+        icon: "Pre primary.png",
       },
 
       {
         route: "/contact-us",
         name: "Senior Secondary",
-        icon: "primary icon.png",
+        icon: "Secondary.png",
+      },
+      {
+        route: "/contact-us",
+        name: "State Board",
+        icon: "State Board.png",
       },
     ],
   },
@@ -819,31 +824,31 @@ technologies: [
       {
         route: "/contact-us",
         name: "BCA Tuition",
-        icon: "BCA.png",
+        icon: "bca.png",
       },
 
       {
         route: "/contact-us",
         name: "B.Tech Tuition",
-        icon: "Engineering.png",
+        icon: "engineering.png",
       },
 
       {
         route: "/contact-us",
         name: "MBA Tuition",
-        icon: "MBA.png",
+        icon: "mba.png",
       },
 
       {
         route: "/contact-us",
         name: "Commerce Subjects",
-        icon: "B.Com.png",
+        icon: "bcom.png",
       },
 
       {
         route: "/contact-us",
         name: "Engineering Subjects",
-        icon: "B.Sc.png",
+        icon: "bsc.png",
       },
     ],
   },
