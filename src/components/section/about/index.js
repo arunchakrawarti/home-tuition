@@ -678,19 +678,18 @@ At Home Tuition  Academy, we believe every student learns differently. That is w
       {/* CTA : 02  */}
       <section className="w-full px-5 lg:px-0 mt-4">
         <div className="small-container rounded-2xl xl:rounded-3xl flex-center text-center flex-col gap-5  bg-primaryLightest border border-primaryLight py-12 px-7 sm:px-10 lg:px-16">
-          <h2 className="text-2xl font-semibold">Get in Touch</h2>
+          <h2 className="text-2xl font-semibold">Find the Right Tutor for Your Learning Goals</h2>
 
           <p className="text-sm sm:text-md">
-            Revitalize your business with a powerful digital product that
-            rapidly captures the market and delivers remarkable results.
+            Whether you&apos;re looking for home tuition, online classes, competitive exam coaching, language training, or academic support, our team is here to help you connect with the perfect tutor
           </p>
 
           <Link
-            href="/contact-us"
-            className="primary-btn-md w-fit mx-auto xl:mx-0 sm:mt-6"
-          >
-            Let&apos;s Discuss Your Idea →
-          </Link>
+  href="/contact-us"
+  className="primary-btn-md w-fit mx-auto xl:mx-0 sm:mt-6"
+>
+  Book a Free Demo Class →
+</Link>
         </div>
       </section>
     </main>

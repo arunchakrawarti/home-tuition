@@ -8,7 +8,7 @@ import { homePageContent } from "../../../../public/db/contents.home";
 const { technologies } = homePageContent;
 
 const TechnologiesArea = ({
-  heading = "Learn Grow Achieve",
+  heading = "Learn.Grow.Achieve",
 }) => {
   const [data, setData] = useState({
     current: "Home Tuition",

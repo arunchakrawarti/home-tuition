@@ -715,43 +715,43 @@ technologies: [
       {
         route: "/contact-us",
         name: "Maths Tuition",
-        icon: "maths.png",
+        icon: "Mathematics tuition.png",
       },
 
       {
         route: "/contact-us",
         name: "Science Tuition",
-        icon: "science.png",
+        icon: "Science tution.png",
       },
 
       {
         route: "/contact-us",
         name: "English Tuition",
-        icon: "english.png",
+        icon: "English tuition.png",
       },
 
       {
         route: "/contact-us",
         name: "Physics Tuition",
-        icon: "physics.png",
+        icon: "Physics tuition.png",
       },
 
       {
         route: "/contact-us",
         name: "Chemistry Tuition",
-        icon: "chemistry.png",
+        icon: "Chemistry tuition.png",
       },
 
       {
         route: "/contact-us",
         name: "Biology Tuition",
-        icon: "biology.png",
+        icon: "Biology tuition.png",
       },
 
       {
         route: "/contact-us",
         name: "Computer Tuition",
-        icon: "computer.png",
+        icon: "Computer science.png",
       },
     ],
   },
