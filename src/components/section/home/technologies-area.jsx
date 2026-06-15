@@ -71,14 +71,14 @@ const TechnologiesArea = ({
               href={route}
               key={index}
               target="_blank"
-              className="flex flex-col items-center gap-3 text-center bg-white  rounded-2xl p-4 w-[120px] sm:w-[140px]  hover:shadow-xl hover:-translate-y-1 transition-all duration-300"
+              className="flex flex-col items-center gap-3 text-center bg-white  rounded-2xl p-4 w-[125px] sm:w-[160px]  hover:shadow-xl hover:-translate-y-1 transition-all duration-300"
             >
               <Image
                 alt={name}
                 height={70}
                 width={70}
                 src={logoUrl}
-                className="h-[68px] w-[79px] object-contain mx-auto"
+                className="h-[85px] w-[95px] object-contain mx-auto"
               />
 
               <h3 className="text-md font-medium leading-5 text-gray-800">
