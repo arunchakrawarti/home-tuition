@@ -854,31 +854,31 @@ technologies: [
       {
         route: "/contact-us",
         name: "SSC Coaching",
-        icon: "sql-itsoftworld.png",
+        icon: "foundation.png",
       },
 
       {
         route: "/contact-us",
         name: "Bank Exams",
-        icon: "mysql-itsoftworld.png",
+        icon: "banking1.png",
       },
 
       {
         route: "/contact-us",
         name: "UPSC Coaching",
-        icon: "postgre-itsoftworld.png",
+        icon: "upsc.png",
       },
 
       {
         route: "/contact-us",
         name: "NEET Preparation",
-        icon: "mongo-db-itsoftworld.png",
+        icon: "NEET1.png",
       },
 
       {
         route: "/contact-us",
         name: "JEE Preparation",
-        icon: "firebase-itsoftworld.png",
+        icon: "JEE.png",
       },
     ],
   },
