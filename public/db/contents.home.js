@@ -889,31 +889,31 @@ technologies: [
       {
         route: "/contact-us",
         name: "English Speaking",
-        icon: "sql-itsoftworld.png",
+        icon: "Spoken English.png",
       },
 
       {
         route: "/contact-us",
         name: "Hindi Language",
-        icon: "mysql-itsoftworld.png",
+        icon: "Hindi.png",
       },
 
       {
         route: "/contact-us",
         name: "French Language",
-        icon: "postgre-itsoftworld.png",
+        icon: "French.png",
       },
 
       {
         route: "/contact-us",
         name: "German Language",
-        icon: "mongo-db-itsoftworld.png",
+        icon: "German.png",
       },
 
       {
         route: "/contact-us",
         name: "IELTS Coaching",
-        icon: "firebase-itsoftworld.png",
+        icon: "IELTS.png",
       },
     ],
   },
