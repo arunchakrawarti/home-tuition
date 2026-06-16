@@ -44,7 +44,7 @@ const whyRadixItems = [
   // {
   //   title: "Leadership & Culture",
   //   desc: "Visionary leadership, people-first culture",
-  //   href: "/why-IT Soft/our-culture",
+  //   href: "/why-Home Tuition/our-culture",
   //   icon: "https://d2ms8rpfqc4h24.cloudfront.net/leadership_and_culture_411bf3eda2.svg",
   // },
 ];
@@ -56,7 +56,7 @@ const WhySgweppDrop = () => {
     <div className="flex justify-end">
       <div className=" w-[700px] bg-white shadow-lg rounded-lg p-5  border-t border-whiteBlue">
         <p className="text-base font-medium px-4 py-2  flex  items-center gap-2">
-          Why IT Soft{" "}
+          Why Home Tuition{" "}
           <span className="text-primary text-xl">
             <LiaLongArrowAltRightSolid />
           </span>

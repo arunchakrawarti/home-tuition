@@ -767,7 +767,7 @@ technologies: [
 
       {
         route: "/contact-us",
-        name: "Zoom Classes",
+        name: "Online Learning",
         icon: "online.png",
       },
       {
@@ -795,19 +795,19 @@ technologies: [
 
       {
         route: "/contact-us",
-        name: "ICSE Classes",
+        name: "Higher Secondary",
         icon: "Higher Secondary1.png",
       },
 
       {
         route: "/contact-us",
-        name: "Primary Classes",
+        name: "Pre Primary Classes",
         icon: "Pre primary.png",
       },
 
       {
         route: "/contact-us",
-        name: "Senior Secondary",
+        name: "Secondary Classes",
         icon: "Secondary.png",
       },
       {
@@ -829,7 +829,7 @@ technologies: [
 
       {
         route: "/contact-us",
-        name: "B.Tech Tuition",
+        name: "Engineering Tuition",
         icon: "engineering.png",
       },
 
@@ -841,13 +841,13 @@ technologies: [
 
       {
         route: "/contact-us",
-        name: "Commerce Subjects",
+        name: "B.Com Tuition",
         icon: "bcom.png",
       },
 
       {
         route: "/contact-us",
-        name: "Engineering Subjects",
+        name: "B.Sc Tuition",
         icon: "bsc.png",
       },
     ],
@@ -858,7 +858,7 @@ technologies: [
     items: [
       {
         route: "/contact-us",
-        name: "SSC Coaching",
+        name: "CA Foundation",
         icon: "foundation.png",
       },
 
@@ -870,19 +870,19 @@ technologies: [
 
       {
         route: "/contact-us",
-        name: "UPSC Coaching",
+        name: "UPSC Tuition",
         icon: "upsc.png",
       },
 
       {
         route: "/contact-us",
-        name: "NEET Preparation",
+        name: "NEET Tuition",
         icon: "NEET1.png",
       },
 
       {
         route: "/contact-us",
-        name: "JEE Preparation",
+        name: "JEE Tuition",
         icon: "JEE.png",
       },
     ],
@@ -893,7 +893,7 @@ technologies: [
     items: [
       {
         route: "/contact-us",
-        name: "English Speaking",
+        name: "Spoken English",
         icon: "Spoken English.png",
       },
 
@@ -917,7 +917,7 @@ technologies: [
 
       {
         route: "/contact-us",
-        name: "IELTS Coaching",
+        name: "IELTS Language",
         icon: "IELTS.png",
       },
     ],
@@ -972,20 +972,20 @@ technologies: [
         review:
           "Since joining Home Tuition  Academy, my confidence in Science and Mathematics has grown tremendously. The tutor's clear explanations and practical teaching methods made learning enjoyable and effective",
         name: "Ramesh",
-        designation: "CEO , BuyDecor",
+        designation: "10+2",
         avatar: null,
       },
       {
         review:
           "Home Tuition  Academy helped me find the right tutor within just a few days. The service was affordable, and I could choose a tutor that matched both my academic needs and budget.",
         name: "Priya",
-        designation: "Entrepreneur",
+        designation: "Teacher",
         avatar: null,
       },
       {
         review: " Finding a reliable and experienced tutor at a reasonable cost was challenging until I discovered Home Tuition  Academy. Their quick tutor-matching process saved me time and provided excellent value for money",
         name: "Rajiv",
-        designation: "Influencer",
+        designation: "Parents",
         avatar: null,
       },
     ],

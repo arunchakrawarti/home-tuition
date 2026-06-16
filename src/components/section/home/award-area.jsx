@@ -25,111 +25,111 @@ const AwardArea = () => {
   };
   const sliderRef = useRef(null);
   const awards = [
-  {
-    logo: "image.png",
-    name: "School",
-    count: "10000+",
-  },
-  {
-    logo: "image1.png",
-    name: "College",
-    count: "6000+",
-  },
-  {
-    logo: "image2.png",
-    name: "Diploma",
-    count: "1500+",
-  },
-  {
-    logo: "image4.png",
-    name: "Under Graduation",
-    count: "1800+",
-  },
-  {
-    logo: "image5.png",
-    name: "Post Graduation",
-    count: "2500+",
-  },
-  {
-    logo: "image6.png",
-    name: "Competitive Exam",
-    count: "2000+",
-  },
-  {
-    logo: "image7.png",
-    name: "Language Studies",
-    count: "3000+",
-  },
-  {
-    logo: "image8.png",
-    name: "English Speaking",
-    count: "2000+",
-  },
-  {
-    logo: "image9.png",
-    name: "Foreign Language",
-    count: "600+",
-  },
-  {
-    logo: "image10.png",
-    name: "Religious Studies",
-    count: "150+",
-  },
-  {
-    logo: "image11.png",
-    name: "Computer / IT",
-    count: "800+",
-  },
-  {
-    logo: "image12.png",
-    name: "Music",
-    count: "600+",
-  },
-  {
-    logo: "image13.png",
-    name: "Dance",
-    count: "800+",
-  },
-  {
-    logo: "image14.png",
-    name: "Photography / Film Making",
-    count: "80+",
-  },
-  {
-    logo: "image15.png",
-    name: "Theatre / Acting",
-    count: "200+",
-  },
-  {
-    logo: "image16.png",
-    name: "Industrial Training",
-    count: "250+",
-  },
-  {
-    logo: "image17.png",
-    name: "Tailoring / Fashion Design",
-    count: "50+",
-  },
-  {
-    logo: "image18.png",
-    name: "Special Education",
-    count: "600+",
-  },
-  {
-    logo: "image19.png",
-    name: "Art & Craft",
-    count: "200+",
-  },
-  {
-    logo: "image20.png",
-    name: "Regional Language",
-    count: "250+",
-  },
-];
+    {
+      logo: "image.png",
+      name: "School",
+      count: "10000+",
+    },
+    {
+      logo: "image1.png",
+      name: "College",
+      count: "6000+",
+    },
+    {
+      logo: "image2.png",
+      name: "Diploma",
+      count: "1500+",
+    },
+    {
+      logo: "image4.png",
+      name: "Under Graduation",
+      count: "1800+",
+    },
+    {
+      logo: "image5.png",
+      name: "Post Graduation",
+      count: "2500+",
+    },
+    {
+      logo: "image6.png",
+      name: "Competitive Exam",
+      count: "2000+",
+    },
+    {
+      logo: "image7.png",
+      name: "Language Studies",
+      count: "3000+",
+    },
+    {
+      logo: "image8.png",
+      name: "English Speaking",
+      count: "2000+",
+    },
+    {
+      logo: "image9.png",
+      name: "Foreign Language",
+      count: "600+",
+    },
+    {
+      logo: "image10.png",
+      name: "Religious Studies",
+      count: "150+",
+    },
+    {
+      logo: "image11.png",
+      name: "Computer / IT",
+      count: "800+",
+    },
+    {
+      logo: "image12.png",
+      name: "Music",
+      count: "600+",
+    },
+    {
+      logo: "image13.png",
+      name: "Dance",
+      count: "800+",
+    },
+    {
+      logo: "image14.png",
+      name: "Photography / Film Making",
+      count: "80+",
+    },
+    {
+      logo: "image15.png",
+      name: "Theatre / Acting",
+      count: "200+",
+    },
+    {
+      logo: "image16.png",
+      name: "Industrial Training",
+      count: "250+",
+    },
+    {
+      logo: "image17.png",
+      name: "Tailoring / Fashion Design",
+      count: "50+",
+    },
+    {
+      logo: "image18.png",
+      name: "Special Education",
+      count: "600+",
+    },
+    {
+      logo: "image19.png",
+      name: "Art & Craft",
+      count: "200+",
+    },
+    {
+      logo: "image20.png",
+      name: "Regional Language",
+      count: "250+",
+    },
+  ];
   return (
     <section className="w-full flex flex-col  gap-10 xl:gap-12 py-8 lg:py-10 xl:py-20 bg-primaryLightest ">
       {/* <h2 className=" heading text-center">
-        IT Soft builds businesses & drives growth with results
+        Home Tuition builds businesses & drives growth with results
       </h2> */}
 
       {/* slider  */}
@@ -137,31 +137,29 @@ const AwardArea = () => {
       <div className="container ">
         <Slider ref={sliderRef} {...settings} className="outline-none ">
           {awards?.map((data, index) => (
-  <div
-    key={index}
-    className="outline-none w-full flex flex-col text-center"
-  >
-    <div className="w-fit mx-auto bg-white px-3 py-3 rounded-xl">
-      <Image
-        height={100}
-        width={100}
-        alt={data?.name}
-        src={`/assets/awards/${data?.logo}`}
-        className="w-[100px] mx-auto"
-      />
-    </div>
+            <div
+              key={index}
+              className="outline-none w-full flex flex-col text-center"
+            >
+              <div className="w-fit mx-auto bg-white px-3 py-3 rounded-xl">
+                <Image
+                  height={100}
+                  width={100}
+                  alt={data?.name}
+                  src={`/assets/awards/${data?.logo}`}
+                  className="w-[100px] mx-auto"
+                />
+              </div>
 
-    <div className="bg-primary h-1 rounded-xl w-[50px] mx-auto my-3" />
+              <div className="bg-primary h-1 rounded-xl w-[50px] mx-auto my-3" />
 
-    <h3 className="text-xl font-bold text-primary">
-      {data?.count}
-    </h3>
+              <h3 className="text-xl font-bold text-primary">{data?.count}</h3>
 
-    <span className="text-sm text-meteoriteDark font-medium">
-      {data?.name}
-    </span>
-  </div>
-))}
+              <span className="text-sm text-meteoriteDark font-medium">
+                {data?.name}
+              </span>
+            </div>
+          ))}
         </Slider>
       </div>
 

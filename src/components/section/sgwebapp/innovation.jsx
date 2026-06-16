@@ -402,7 +402,7 @@ const Innovation = () => {
               </strong>
               . This recognition came in for our contribution in developing the
               open-source, clean code architecture,{" "}
-              <strong className="text-primary">IT Soft</strong>. Conferring us
+              <strong className="text-primary">Home Tuition</strong>. Conferring us
               a ‘Gold’ status, Titan Business Awards acknowledged our commitment
               towards helping businesses achieve ethical growth for thriving in
               adverse market conditions.
