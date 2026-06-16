@@ -74,12 +74,12 @@ const TechnologiesArea = ({
               className="flex flex-col items-center gap-3 text-center bg-white  rounded-2xl p-4 w-[125px] sm:w-[170px]  hover:shadow-xl hover:-translate-y-1 transition-all duration-300"
             >
               <Image
-                alt={name}
-                height={70}
-                width={70}
-                src={logoUrl}
-                className="h-[100px] w-[110px] object-contain mx-auto"
-              />
+  alt={name}
+  height={120}
+  width={120}
+  src={logoUrl}
+  className="h-[120px] w-[120px] sm:h-[130px] sm:w-[130px] md:h-[140px] md:w-[140px] object-contain mx-auto"
+/>
 
               <h3 className="text-md font-medium leading-5 text-gray-800">
                 {name}
