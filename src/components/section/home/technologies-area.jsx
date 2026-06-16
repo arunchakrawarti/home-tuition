@@ -73,7 +73,7 @@ const TechnologiesArea = ({
               target="_blank"
               className="flex flex-col items-center gap-3 text-center bg-white  rounded-2xl p-4 w-[125px] sm:w-[170px]  hover:shadow-xl hover:-translate-y-1 transition-all duration-300"
             >
-              <Image
+              <img
                 alt={name}
                 height={70}
                 width={70}
