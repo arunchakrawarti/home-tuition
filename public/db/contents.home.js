@@ -824,19 +824,19 @@ technologies: [
       {
         route: "/contact-us",
         name: "BCA Tuition",
-        icon: "bca.png",
+        icon: "bcatuition.png",
       },
 
       {
         route: "/contact-us",
         name: "Engineering Tuition",
-        icon: "engineering.png",
+        icon: "engineeringtui.png",
       },
 
       {
         route: "/contact-us",
         name: "MBA Tuition",
-        icon: "mba.png",
+        icon: "mbaclass.png",
       },
 
       {
@@ -900,7 +900,7 @@ technologies: [
       {
         route: "/contact-us",
         name: "Hindi Language",
-        icon: "Hindi.png",
+        icon: "Hindischool.png",
       },
 
       {
