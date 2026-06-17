@@ -168,7 +168,6 @@ export const Header = ({ currentTheme = "", toggleTheme }) => {
                   const { label, route = "#", has_dropdown, dropdown } = nav;
                   const isActiveDropdown =
                     currentDropdown.index === index && currentDropdown.status;
-
                   return (
                     <li
                       key={index}

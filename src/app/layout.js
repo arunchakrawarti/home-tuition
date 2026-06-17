@@ -12,7 +12,7 @@ const GOOGLE_SITE_VERIFICATION = process.env.GOOGLE_SITE_VERIFICATION;
 const GTM_ID = process.env.GTM_ID;
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL;
 export const metadata = {
-  title: "Home Tuition Word",
+  title: "Home Tuition Academy",
   description:
     "Home Tuition provides best web designing,  app development service, seo service, digital marketing, ios, android development service in Delhi. Call +91 7977757864",
   robots: {
